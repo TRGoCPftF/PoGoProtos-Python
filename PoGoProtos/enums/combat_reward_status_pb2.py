@@ -21,7 +21,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='pogoprotos.enums',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n+pogoprotos/enums/combat_reward_status.proto\x12\x10pogoprotos.enums*q\n\x12\x43ombatRewardStatus\x12\x17\n\x13UNSET_REWARD_STATUS\x10\x00\x12\x13\n\x0fREWARDS_GRANTED\x10\x01\x12\x18\n\x14MAX_REWARDS_RECEIVED\x10\x02\x12\x13\n\x0fPLAYER_BAG_FULL\x10\x03\x62\x06proto3')
+  serialized_pb=_b('\n+pogoprotos/enums/combat_reward_status.proto\x12\x10pogoprotos.enums*\x81\x01\n\x12\x43ombatRewardStatus\x12\x17\n\x13UNSET_REWARD_STATUS\x10\x00\x12\x13\n\x0fREWARDS_GRANTED\x10\x01\x12\x18\n\x14MAX_REWARDS_RECEIVED\x10\x02\x12\x13\n\x0fPLAYER_BAG_FULL\x10\x03\x12\x0e\n\nNO_REWARDS\x10\x04\x62\x06proto3')
 )
 
 _COMBATREWARDSTATUS = _descriptor.EnumDescriptor(
@@ -46,11 +46,15 @@ _COMBATREWARDSTATUS = _descriptor.EnumDescriptor(
       name='PLAYER_BAG_FULL', index=3, number=3,
       serialized_options=None,
       type=None),
+    _descriptor.EnumValueDescriptor(
+      name='NO_REWARDS', index=4, number=4,
+      serialized_options=None,
+      type=None),
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=65,
-  serialized_end=178,
+  serialized_start=66,
+  serialized_end=195,
 )
 _sym_db.RegisterEnumDescriptor(_COMBATREWARDSTATUS)
 
@@ -59,6 +63,7 @@ UNSET_REWARD_STATUS = 0
 REWARDS_GRANTED = 1
 MAX_REWARDS_RECEIVED = 2
 PLAYER_BAG_FULL = 3
+NO_REWARDS = 4
 
 
 DESCRIPTOR.enum_types_by_name['CombatRewardStatus'] = _COMBATREWARDSTATUS

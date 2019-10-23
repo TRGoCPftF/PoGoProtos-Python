@@ -20,7 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='pogoprotos.data',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n\"pogoprotos/data/enum_wrapper.proto\x12\x0fpogoprotos.data\"\xdf\x0c\n\x0b\x45numWrapper\":\n\x11\x43haracterCategory\x12\t\n\x05UNSET\x10\x00\x12\x0f\n\x0bTEAM_LEADER\x10\x01\x12\t\n\x05GRUNT\x10\x02\"\xb1\n\n\x11InvasionCharacter\x12\x13\n\x0f\x43HARACTER_UNSET\x10\x00\x12\x15\n\x11\x43HARACTER_BLANCHE\x10\x01\x12\x15\n\x11\x43HARACTER_CANDELA\x10\x02\x12\x13\n\x0f\x43HARACTER_SPARK\x10\x03\x12\x18\n\x14\x43HARACTER_GRUNT_MALE\x10\x04\x12\x1a\n\x16\x43HARACTER_GRUNT_FEMALE\x10\x05\x12\x1e\n\x1a\x43HARACTER_BUG_GRUNT_FEMALE\x10\x06\x12\x1c\n\x18\x43HARACTER_BUG_GRUNT_MALE\x10\x07\x12#\n\x1f\x43HARACTER_DARKNESS_GRUNT_FEMALE\x10\x08\x12!\n\x1d\x43HARACTER_DARKNESS_GRUNT_MALE\x10\t\x12\x1f\n\x1b\x43HARACTER_DARK_GRUNT_FEMALE\x10\n\x12\x1d\n\x19\x43HARACTER_DARK_GRUNT_MALE\x10\x0b\x12!\n\x1d\x43HARACTER_DRAGON_GRUNT_FEMALE\x10\x0c\x12\x1f\n\x1b\x43HARACTER_DRAGON_GRUNT_MALE\x10\r\x12 \n\x1c\x43HARACTER_FAIRY_GRUNT_FEMALE\x10\x0e\x12\x1e\n\x1a\x43HARACTER_FAIRY_GRUNT_MALE\x10\x0f\x12#\n\x1f\x43HARACTER_FIGHTING_GRUNT_FEMALE\x10\x10\x12!\n\x1d\x43HARACTER_FIGHTING_GRUNT_MALE\x10\x11\x12\x1f\n\x1b\x43HARACTER_FIRE_GRUNT_FEMALE\x10\x12\x12\x1d\n\x19\x43HARACTER_FIRE_GRUNT_MALE\x10\x13\x12!\n\x1d\x43HARACTER_FLYING_GRUNT_FEMALE\x10\x14\x12\x1f\n\x1b\x43HARACTER_FLYING_GRUNT_MALE\x10\x15\x12 \n\x1c\x43HARACTER_GRASS_GRUNT_FEMALE\x10\x16\x12\x1e\n\x1a\x43HARACTER_GRASS_GRUNT_MALE\x10\x17\x12!\n\x1d\x43HARACTER_GROUND_GRUNT_FEMALE\x10\x18\x12\x1f\n\x1b\x43HARACTER_GROUND_GRUNT_MALE\x10\x19\x12\x1e\n\x1a\x43HARACTER_ICE_GRUNT_FEMALE\x10\x1a\x12\x1c\n\x18\x43HARACTER_ICE_GRUNT_MALE\x10\x1b\x12 \n\x1c\x43HARACTER_METAL_GRUNT_FEMALE\x10\x1c\x12\x1e\n\x1a\x43HARACTER_METAL_GRUNT_MALE\x10\x1d\x12!\n\x1d\x43HARACTER_NORMAL_GRUNT_FEMALE\x10\x1e\x12\x1f\n\x1b\x43HARACTER_NORMAL_GRUNT_MALE\x10\x1f\x12!\n\x1d\x43HARACTER_POISON_GRUNT_FEMALE\x10 \x12\x1f\n\x1b\x43HARACTER_POISON_GRUNT_MALE\x10!\x12\"\n\x1e\x43HARACTER_PSYCHIC_GRUNT_FEMALE\x10\"\x12 \n\x1c\x43HARACTER_PSYCHIC_GRUNT_MALE\x10#\x12\x1f\n\x1b\x43HARACTER_ROCK_GRUNT_FEMALE\x10$\x12\x1d\n\x19\x43HARACTER_ROCK_GRUNT_MALE\x10%\x12 \n\x1c\x43HARACTER_WATER_GRUNT_FEMALE\x10&\x12\x1e\n\x1a\x43HARACTER_WATER_GRUNT_MALE\x10\'\x12 \n\x1c\x43HARACTER_PLAYER_TEAM_LEADER\x10(\"\x7f\n\x1bInvasionCharacterExpression\x12\x14\n\x10\x45XPRESSION_UNSET\x10\x00\x12\x11\n\rPLACEHOLDER_1\x10\x01\x12\x11\n\rPLACEHOLDER_2\x10\x02\x12\x11\n\rPLACEHOLDER_3\x10\x03\x12\x11\n\rPLACEHOLDER_4\x10\x04\"_\n\rPokestopStyle\x12\x13\n\x0fPOKESTOP_NORMAL\x10\x00\x12\x1c\n\x18POKESTOP_ROCKET_INVASION\x10\x01\x12\x1b\n\x17POKESTOP_ROCKET_VICTORY\x10\x02\x62\x06proto3')
+  serialized_pb=_b('\n\"pogoprotos/data/enum_wrapper.proto\x12\x0fpogoprotos.data\"\xcf\x0f\n\x0b\x45numWrapper\"i\n\x11\x43haracterCategory\x12\t\n\x05UNSET\x10\x00\x12\x0f\n\x0bTEAM_LEADER\x10\x01\x12\t\n\x05GRUNT\x10\x02\x12\x08\n\x04\x41RLO\x10\x03\x12\t\n\x05\x43LIFF\x10\x04\x12\n\n\x06SIERRA\x10\x05\x12\x0c\n\x08GIOVANNI\x10\x06\"\xf2\x0c\n\x11InvasionCharacter\x12\x13\n\x0f\x43HARACTER_UNSET\x10\x00\x12\x15\n\x11\x43HARACTER_BLANCHE\x10\x01\x12\x15\n\x11\x43HARACTER_CANDELA\x10\x02\x12\x13\n\x0f\x43HARACTER_SPARK\x10\x03\x12\x18\n\x14\x43HARACTER_GRUNT_MALE\x10\x04\x12\x1a\n\x16\x43HARACTER_GRUNT_FEMALE\x10\x05\x12\x1e\n\x1a\x43HARACTER_BUG_GRUNT_FEMALE\x10\x06\x12\x1c\n\x18\x43HARACTER_BUG_GRUNT_MALE\x10\x07\x12#\n\x1f\x43HARACTER_DARKNESS_GRUNT_FEMALE\x10\x08\x12!\n\x1d\x43HARACTER_DARKNESS_GRUNT_MALE\x10\t\x12\x1f\n\x1b\x43HARACTER_DARK_GRUNT_FEMALE\x10\n\x12\x1d\n\x19\x43HARACTER_DARK_GRUNT_MALE\x10\x0b\x12!\n\x1d\x43HARACTER_DRAGON_GRUNT_FEMALE\x10\x0c\x12\x1f\n\x1b\x43HARACTER_DRAGON_GRUNT_MALE\x10\r\x12 \n\x1c\x43HARACTER_FAIRY_GRUNT_FEMALE\x10\x0e\x12\x1e\n\x1a\x43HARACTER_FAIRY_GRUNT_MALE\x10\x0f\x12#\n\x1f\x43HARACTER_FIGHTING_GRUNT_FEMALE\x10\x10\x12!\n\x1d\x43HARACTER_FIGHTING_GRUNT_MALE\x10\x11\x12\x1f\n\x1b\x43HARACTER_FIRE_GRUNT_FEMALE\x10\x12\x12\x1d\n\x19\x43HARACTER_FIRE_GRUNT_MALE\x10\x13\x12!\n\x1d\x43HARACTER_FLYING_GRUNT_FEMALE\x10\x14\x12\x1f\n\x1b\x43HARACTER_FLYING_GRUNT_MALE\x10\x15\x12 \n\x1c\x43HARACTER_GRASS_GRUNT_FEMALE\x10\x16\x12\x1e\n\x1a\x43HARACTER_GRASS_GRUNT_MALE\x10\x17\x12!\n\x1d\x43HARACTER_GROUND_GRUNT_FEMALE\x10\x18\x12\x1f\n\x1b\x43HARACTER_GROUND_GRUNT_MALE\x10\x19\x12\x1e\n\x1a\x43HARACTER_ICE_GRUNT_FEMALE\x10\x1a\x12\x1c\n\x18\x43HARACTER_ICE_GRUNT_MALE\x10\x1b\x12 \n\x1c\x43HARACTER_METAL_GRUNT_FEMALE\x10\x1c\x12\x1e\n\x1a\x43HARACTER_METAL_GRUNT_MALE\x10\x1d\x12!\n\x1d\x43HARACTER_NORMAL_GRUNT_FEMALE\x10\x1e\x12\x1f\n\x1b\x43HARACTER_NORMAL_GRUNT_MALE\x10\x1f\x12!\n\x1d\x43HARACTER_POISON_GRUNT_FEMALE\x10 \x12\x1f\n\x1b\x43HARACTER_POISON_GRUNT_MALE\x10!\x12\"\n\x1e\x43HARACTER_PSYCHIC_GRUNT_FEMALE\x10\"\x12 \n\x1c\x43HARACTER_PSYCHIC_GRUNT_MALE\x10#\x12\x1f\n\x1b\x43HARACTER_ROCK_GRUNT_FEMALE\x10$\x12\x1d\n\x19\x43HARACTER_ROCK_GRUNT_MALE\x10%\x12 \n\x1c\x43HARACTER_WATER_GRUNT_FEMALE\x10&\x12\x1e\n\x1a\x43HARACTER_WATER_GRUNT_MALE\x10\'\x12 \n\x1c\x43HARACTER_PLAYER_TEAM_LEADER\x10(\x12\x1d\n\x19\x43HARACTER_EXECUTIVE_CLIFF\x10)\x12\x1c\n\x18\x43HARACTER_EXECUTIVE_ARLO\x10*\x12\x1e\n\x1a\x43HARACTER_EXECUTIVE_SIERRA\x10+\x12\x16\n\x12\x43HARACTER_GIOVANNI\x10,\x12\x1e\n\x1a\x43HARACTER_DECOY_GRUNT_MALE\x10-\x12 \n\x1c\x43HARACTER_DECOY_GRUNT_FEMALE\x10.\x12 \n\x1c\x43HARACTER_GHOST_GRUNT_FEMALE\x10/\x12\x1e\n\x1a\x43HARACTER_GHOST_GRUNT_MALE\x10\x30\x12#\n\x1f\x43HARACTER_ELECTRIC_GRUNT_FEMALE\x10\x31\x12!\n\x1d\x43HARACTER_ELECTRIC_GRUNT_MALE\x10\x32\"\x7f\n\x1bInvasionCharacterExpression\x12\x14\n\x10\x45XPRESSION_UNSET\x10\x00\x12\x11\n\rPLACEHOLDER_1\x10\x01\x12\x11\n\rPLACEHOLDER_2\x10\x02\x12\x11\n\rPLACEHOLDER_3\x10\x03\x12\x11\n\rPLACEHOLDER_4\x10\x04\"_\n\rPokestopStyle\x12\x13\n\x0fPOKESTOP_NORMAL\x10\x00\x12\x1c\n\x18POKESTOP_ROCKET_INVASION\x10\x01\x12\x1b\n\x17POKESTOP_ROCKET_VICTORY\x10\x02\x62\x06proto3')
 )
 
 
@@ -43,11 +43,27 @@ _ENUMWRAPPER_CHARACTERCATEGORY = _descriptor.EnumDescriptor(
       name='GRUNT', index=2, number=2,
       serialized_options=None,
       type=None),
+    _descriptor.EnumValueDescriptor(
+      name='ARLO', index=3, number=3,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='CLIFF', index=4, number=4,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='SIERRA', index=5, number=5,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='GIOVANNI', index=6, number=6,
+      serialized_options=None,
+      type=None),
   ],
   containing_type=None,
   serialized_options=None,
   serialized_start=71,
-  serialized_end=129,
+  serialized_end=176,
 )
 _sym_db.RegisterEnumDescriptor(_ENUMWRAPPER_CHARACTERCATEGORY)
 
@@ -221,11 +237,51 @@ _ENUMWRAPPER_INVASIONCHARACTER = _descriptor.EnumDescriptor(
       name='CHARACTER_PLAYER_TEAM_LEADER', index=40, number=40,
       serialized_options=None,
       type=None),
+    _descriptor.EnumValueDescriptor(
+      name='CHARACTER_EXECUTIVE_CLIFF', index=41, number=41,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='CHARACTER_EXECUTIVE_ARLO', index=42, number=42,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='CHARACTER_EXECUTIVE_SIERRA', index=43, number=43,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='CHARACTER_GIOVANNI', index=44, number=44,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='CHARACTER_DECOY_GRUNT_MALE', index=45, number=45,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='CHARACTER_DECOY_GRUNT_FEMALE', index=46, number=46,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='CHARACTER_GHOST_GRUNT_FEMALE', index=47, number=47,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='CHARACTER_GHOST_GRUNT_MALE', index=48, number=48,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='CHARACTER_ELECTRIC_GRUNT_FEMALE', index=49, number=49,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='CHARACTER_ELECTRIC_GRUNT_MALE', index=50, number=50,
+      serialized_options=None,
+      type=None),
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=132,
-  serialized_end=1461,
+  serialized_start=179,
+  serialized_end=1829,
 )
 _sym_db.RegisterEnumDescriptor(_ENUMWRAPPER_INVASIONCHARACTER)
 
@@ -258,8 +314,8 @@ _ENUMWRAPPER_INVASIONCHARACTEREXPRESSION = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=1463,
-  serialized_end=1590,
+  serialized_start=1831,
+  serialized_end=1958,
 )
 _sym_db.RegisterEnumDescriptor(_ENUMWRAPPER_INVASIONCHARACTEREXPRESSION)
 
@@ -284,8 +340,8 @@ _ENUMWRAPPER_POKESTOPSTYLE = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=1592,
-  serialized_end=1687,
+  serialized_start=1960,
+  serialized_end=2055,
 )
 _sym_db.RegisterEnumDescriptor(_ENUMWRAPPER_POKESTOPSTYLE)
 
@@ -314,7 +370,7 @@ _ENUMWRAPPER = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=56,
-  serialized_end=1687,
+  serialized_end=2055,
 )
 
 _ENUMWRAPPER_CHARACTERCATEGORY.containing_type = _ENUMWRAPPER

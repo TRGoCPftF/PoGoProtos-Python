@@ -22,7 +22,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='pogoprotos.networking.responses',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\nEpogoprotos/networking/responses/invasion_battle_update_response.proto\x12\x1fpogoprotos.networking.responses\x1a%pogoprotos/data/invasion_status.proto\x1a\x1fpogoprotos/inventory/loot.proto\"\x83\x01\n\x1cInvasionBattleUpdateResponse\x12\x36\n\x06status\x18\x01 \x01(\x0e\x32&.pogoprotos.data.InvasionStatus.Status\x12+\n\x07rewards\x18\x02 \x01(\x0b\x32\x1a.pogoprotos.inventory.Lootb\x06proto3')
+  serialized_pb=_b('\nEpogoprotos/networking/responses/invasion_battle_update_response.proto\x12\x1fpogoprotos.networking.responses\x1a%pogoprotos/data/invasion_status.proto\x1a\x1fpogoprotos/inventory/loot.proto\"\xa2\x01\n\x1cInvasionBattleUpdateResponse\x12\x36\n\x06status\x18\x01 \x01(\x0e\x32&.pogoprotos.data.InvasionStatus.Status\x12+\n\x07rewards\x18\x02 \x01(\x0b\x32\x1a.pogoprotos.inventory.Loot\x12\x1d\n\x15map_fragment_upgraded\x18\x03 \x01(\x08\x62\x06proto3')
   ,
   dependencies=[pogoprotos_dot_data_dot_invasion__status__pb2.DESCRIPTOR,pogoprotos_dot_inventory_dot_loot__pb2.DESCRIPTOR,])
 
@@ -50,6 +50,13 @@ _INVASIONBATTLEUPDATERESPONSE = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='map_fragment_upgraded', full_name='pogoprotos.networking.responses.InvasionBattleUpdateResponse.map_fragment_upgraded', index=2,
+      number=3, type=8, cpp_type=7, label=1,
+      has_default_value=False, default_value=False,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
   ],
   extensions=[
   ],
@@ -63,7 +70,7 @@ _INVASIONBATTLEUPDATERESPONSE = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=179,
-  serialized_end=310,
+  serialized_end=341,
 )
 
 _INVASIONBATTLEUPDATERESPONSE.fields_by_name['status'].enum_type = pogoprotos_dot_data_dot_invasion__status__pb2._INVASIONSTATUS_STATUS

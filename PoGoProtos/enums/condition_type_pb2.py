@@ -21,7 +21,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='pogoprotos.enums',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n%pogoprotos/enums/condition_type.proto\x12\x10pogoprotos.enums*\x88\x01\n\rConditionType\x12\x13\n\x0fUNSET_CONDITION\x10\x00\x12\x19\n\x15WITH_POKEMON_CP_LIMIT\x10\x01\x12\x15\n\x11WITH_PLAYER_LEVEL\x10\x02\x12\x15\n\x11WITH_POKEMON_TYPE\x10\x03\x12\x19\n\x15WITH_POKEMON_CATEGORY\x10\x04\x62\x06proto3')
+  serialized_pb=_b('\n%pogoprotos/enums/condition_type.proto\x12\x10pogoprotos.enums*\xa1\x01\n\rConditionType\x12\x13\n\x0fUNSET_CONDITION\x10\x00\x12\x19\n\x15WITH_POKEMON_CP_LIMIT\x10\x01\x12\x15\n\x11WITH_PLAYER_LEVEL\x10\x02\x12\x15\n\x11WITH_POKEMON_TYPE\x10\x03\x12\x19\n\x15WITH_POKEMON_CATEGORY\x10\x04\x12\x17\n\x13WITH_UNIQUE_POKEMON\x10\x05\x62\x06proto3')
 )
 
 _CONDITIONTYPE = _descriptor.EnumDescriptor(
@@ -50,11 +50,15 @@ _CONDITIONTYPE = _descriptor.EnumDescriptor(
       name='WITH_POKEMON_CATEGORY', index=4, number=4,
       serialized_options=None,
       type=None),
+    _descriptor.EnumValueDescriptor(
+      name='WITH_UNIQUE_POKEMON', index=5, number=5,
+      serialized_options=None,
+      type=None),
   ],
   containing_type=None,
   serialized_options=None,
   serialized_start=60,
-  serialized_end=196,
+  serialized_end=221,
 )
 _sym_db.RegisterEnumDescriptor(_CONDITIONTYPE)
 
@@ -64,6 +68,7 @@ WITH_POKEMON_CP_LIMIT = 1
 WITH_PLAYER_LEVEL = 2
 WITH_POKEMON_TYPE = 3
 WITH_POKEMON_CATEGORY = 4
+WITH_UNIQUE_POKEMON = 5
 
 
 DESCRIPTOR.enum_types_by_name['ConditionType'] = _CONDITIONTYPE

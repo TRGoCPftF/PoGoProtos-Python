@@ -22,7 +22,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='pogoprotos.data.telemetry',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n2pogoprotos/data/telemetry/invasion_telemetry.proto\x12\x19pogoprotos.data.telemetry\x1a\"pogoprotos/data/enum_wrapper.proto\x1a$pogoprotos/enums/telemetry_ids.proto\"\xe5\x02\n\x11InvasionTelemetry\x12\x45\n\x15invasion_telemetry_id\x18\x01 \x01(\x0e\x32&.pogoprotos.enums.InvasionTelemetryIds\x12>\n\x06npc_id\x18\x02 \x01(\x0e\x32..pogoprotos.data.EnumWrapper.InvasionCharacter\x12\x16\n\x0e\x62\x61ttle_success\x18\x03 \x01(\x08\x12&\n\x1epost_battle_friendly_remaining\x18\x04 \x01(\x05\x12#\n\x1bpost_battle_enemy_remaining\x18\x05 \x01(\x05\x12\x19\n\x11\x65ncounter_pokemon\x18\x06 \x01(\x05\x12\x19\n\x11\x65ncounter_success\x18\x07 \x01(\x08\x12\x13\n\x0binvasion_id\x18\x08 \x01(\t\x12\x19\n\x11player_tapped_npc\x18\t \x01(\x08\x62\x06proto3')
+  serialized_pb=_b('\n2pogoprotos/data/telemetry/invasion_telemetry.proto\x12\x19pogoprotos.data.telemetry\x1a\"pogoprotos/data/enum_wrapper.proto\x1a$pogoprotos/enums/telemetry_ids.proto\"\xa8\x03\n\x11InvasionTelemetry\x12\x45\n\x15invasion_telemetry_id\x18\x01 \x01(\x0e\x32&.pogoprotos.enums.InvasionTelemetryIds\x12>\n\x06npc_id\x18\x02 \x01(\x0e\x32..pogoprotos.data.EnumWrapper.InvasionCharacter\x12\x16\n\x0e\x62\x61ttle_success\x18\x03 \x01(\x08\x12&\n\x1epost_battle_friendly_remaining\x18\x04 \x01(\x05\x12#\n\x1bpost_battle_enemy_remaining\x18\x05 \x01(\x05\x12\x19\n\x11\x65ncounter_pokemon\x18\x06 \x01(\x05\x12\x19\n\x11\x65ncounter_success\x18\x07 \x01(\x08\x12\x13\n\x0binvasion_id\x18\x08 \x01(\t\x12\x19\n\x11player_tapped_npc\x18\t \x01(\x08\x12\r\n\x05radar\x18\n \x01(\t\x12\x0e\n\x06\x63urfew\x18\x0b \x01(\x08\x12\x10\n\x08\x64uration\x18\x0c \x01(\x02\x12\x10\n\x08\x64istance\x18\r \x01(\x02\x62\x06proto3')
   ,
   dependencies=[pogoprotos_dot_data_dot_enum__wrapper__pb2.DESCRIPTOR,pogoprotos_dot_enums_dot_telemetry__ids__pb2.DESCRIPTOR,])
 
@@ -99,6 +99,34 @@ _INVASIONTELEMETRY = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='radar', full_name='pogoprotos.data.telemetry.InvasionTelemetry.radar', index=9,
+      number=10, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='curfew', full_name='pogoprotos.data.telemetry.InvasionTelemetry.curfew', index=10,
+      number=11, type=8, cpp_type=7, label=1,
+      has_default_value=False, default_value=False,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='duration', full_name='pogoprotos.data.telemetry.InvasionTelemetry.duration', index=11,
+      number=12, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='distance', full_name='pogoprotos.data.telemetry.InvasionTelemetry.distance', index=12,
+      number=13, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
   ],
   extensions=[
   ],
@@ -112,7 +140,7 @@ _INVASIONTELEMETRY = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=156,
-  serialized_end=513,
+  serialized_end=580,
 )
 
 _INVASIONTELEMETRY.fields_by_name['invasion_telemetry_id'].enum_type = pogoprotos_dot_enums_dot_telemetry__ids__pb2._INVASIONTELEMETRYIDS

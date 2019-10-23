@@ -21,7 +21,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='pogoprotos.enums',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n$pogoprotos/enums/telemetry_ids.proto\x12\x10pogoprotos.enums*\x84\x02\n\x14InvasionTelemetryIds\x12\x1c\n\x18UNDEFINED_INVASION_EVENT\x10\x00\x12\x14\n\x10INVASION_NPC_TAP\x10\x01\x12\x1b\n\x17INVASION_BATTLE_STARTED\x10\x02\x12\x1c\n\x18INVASION_BATTLE_FINISHED\x10\x03\x12\x1e\n\x1aINVASION_ENCOUNTER_STARTED\x10\x04\x12\x1f\n\x1bINVASION_ENCOUNTER_FINISHED\x10\x05\x12\x1d\n\x19INVASION_POKEMON_PURIFIED\x10\x06\x12\x1d\n\x19INVASION_AFTER_POI_EXITED\x10\x07*\x94\x01\n\x19\x44\x65viceServiceTelemetryIds\x12\x1c\n\x18UNDEFINED_DEVICE_SERVICE\x10\x00\x12\x0b\n\x07\x46ITNESS\x10\x01\x12\x0f\n\x0bSMART_WATCH\x10\x02\x12\x18\n\x14SFIDA_DEVICE_SERVICE\x10\x03\x12\r\n\tAWARENESS\x10\x04\x12\x12\n\x0e\x41\x44VENTURE_SYNC\x10\x05*\xe7\x01\n\x1dPermissionContextTelemetryIds\x12 \n\x1cUNDEFINED_PERMISSION_CONTEXT\x10\x00\x12\r\n\tEGG_HATCH\x10\x01\x12\x15\n\x11\x42UDDY_CANDY_FOUND\x10\x02\x12\x1a\n\x16PLAYER_PROFILE_CLICKED\x10\x03\x12\x19\n\x15SMART_WATCH_INSTALLED\x10\x04\x12\x19\n\x15SFIDA_SESSION_STARTED\x10\x05\x12\x13\n\x0fSETTINGS_TOGGLE\x10\x06\x12\x17\n\x13NEARBY_PANEL_OPENED\x10\x07*\xa3\x01\n\x1ePermissionFlowStepTelemetryIds\x12\"\n\x1eUNDEFINED_PERMISSION_FLOW_STEP\x10\x00\x12\x12\n\x0eINITIAL_PROMPT\x10\x01\x12\x16\n\x12\x46ITNESS_PERMISSION\x10\x02\x12\x17\n\x13LOCATION_PERMISSION\x10\x03\x12\x18\n\x14\x41\x43TIVITY_PERMISSIONS\x10\x04*\xa0\x01\n\x11\x41ssetTelemetryIds\x12\x19\n\x15UNDEFINED_ASSET_EVENT\x10\x00\x12\x12\n\x0e\x44OWNLOAD_START\x10\x01\x12\x15\n\x11\x44OWNLOAD_FINISHED\x10\x02\x12\x13\n\x0f\x44OWNLOAD_FAILED\x10\x03\x12\x1e\n\x1a\x41SSET_RETRIEVED_FROM_CACHE\x10\x04\x12\x10\n\x0c\x43\x41\x43HE_THRASH\x10\x05*\xd5\x07\n\x12\x43lientTelemetryIds\x12\r\n\tUNDEFINED\x10\x00\x12\r\n\tBOOT_TIME\x10\x01\x12\x0e\n\nFRAME_RATE\x10\x02\x12\x11\n\rGENERIC_CLICK\x10\x03\x12\r\n\tMAP_EVENT\x10\x04\x12\x11\n\rSPIN_POKESTOP\x10\x05\x12\x10\n\x0cPROFILE_PAGE\x10\x06\x12\x11\n\rSHOPPING_PAGE\x10\x07\x12\x15\n\x11\x45NCOUNTER_POKEMON\x10\x08\x12\x11\n\rCATCH_POKEMON\x10\t\x12\x12\n\x0e\x44\x45PLOY_POKEMON\x10\n\x12\x10\n\x0c\x46\x45\x45\x44_POKEMON\x10\x0b\x12\x12\n\x0e\x45VOLVE_POKEMON\x10\x0c\x12\x13\n\x0fRELEASE_POKEMON\x10\r\x12\x14\n\x10NICKNAME_POKEMON\x10\x0e\x12\r\n\tNEWS_PAGE\x10\x0f\x12\x08\n\x04ITEM\x10\x10\x12\x10\n\x0c\x42\x41TTLE_PARTY\x10\x11\x12\x13\n\x0fPASSCODE_REDEEM\x10\x12\x12\x0e\n\nLINK_LOGIN\x10\x13\x12\x08\n\x04RAID\x10\x14\x12\x15\n\x11PUSH_NOTIFICATION\x10\x15\x12\x18\n\x14\x41VATAR_CUSTOMIZATION\x10\x16\x12&\n\"READ_POINT_OF_INTEREST_DESCRIPTION\x10\x17\x12\x07\n\x03WEB\x10\x18\x12\r\n\tCHANGE_AR\x10\x19\x12\x18\n\x14WEATHER_DETAIL_CLICK\x10\x1a\x12\x1d\n\x19USER_ISSUE_WEATHER_REPORT\x10\x1b\x12\x15\n\x11POKEMON_INVENTORY\x10\x1c\x12\n\n\x06SOCIAL\x10\x1d\x12\x1d\n\x19\x43HECK_ENCOUNTER_TRAY_INFO\x10\x1e\x12\x13\n\x0fPOKEMON_GO_PLUS\x10\x1f\x12\x0e\n\nRPC_TIMING\x10 \x12\x15\n\x11SOCIAL_GIFT_COUNT\x10!\x12\x19\n\x15\x41SSET_BUNDLE_DOWNLOAD\x10\"\x12\x16\n\x12\x41SSET_POI_DOWNLOAD\x10#\x12\x19\n\x15\x41SSET_STREAM_DOWNLOAD\x10$\x12\x1d\n\x19\x41SSET_STREAM_CACHE_CULLED\x10%\x12\x15\n\x11RPC_SOCKET_TIMING\x10&\x12\x14\n\x10PERMISSIONS_FLOW\x10\'\x12\x19\n\x15\x44\x45VICE_SERVICE_TOGGLE\x10(\x12\x12\n\x0e\x42OOT_TELEMETRY\x10)\x12\x1e\n\x1a\x41R_PHOTO_SESSION_TELEMETRY\x10*\x12\x1b\n\x17LEAVE_POINT_OF_INTEREST\x10+\x12 \n\x1cVIEW_POINT_OF_INTEREST_IMAGE\x10,*\xee\x01\n\x1f\x41vatarCustomizationTelemetryIds\x12\"\n\x1eUNDEFINED_AVATAR_CUSTOMIZATION\x10\x00\x12\x0e\n\nEQUIP_ITEM\x10\x01\x12\x11\n\rOPEN_FEATURES\x10\x02\x12\x0e\n\nOPEN_STORE\x10\x03\x12\x11\n\rPURCHASE_ITEM\x10\x04\x12\x12\n\x0ePURCHASE_ERROR\x10\x05\x12\x15\n\x11SELECT_ITEM_GROUP\x10\x06\x12\x0f\n\x0bSELECT_SLOT\x10\x07\x12\x10\n\x0cSELECT_COLOR\x10\x08\x12\x13\n\x0fSHOW_QUICK_SHOP\x10\t*\x8d\x01\n\x17\x42\x61ttlePartyTelemetryIds\x12 \n\x1cUNDEFINED_BATTLE_PARTY_EVENT\x10\x00\x12\x07\n\x03\x41\x44\x44\x10\x01\x12\n\n\x06REMOVE\x10\x02\x12\x0e\n\nGYM_BATTLE\x10\x03\x12\x0f\n\x0bRAID_BATTLE\x10\x04\x12\x1a\n\x16\x42\x41TTLE_POKEMON_CHANGED\x10\x05*l\n\x18GenericClickTelemetryIds\x12\x1b\n\x17UNDEFINED_GENERIC_EVENT\x10\x00\x12\x16\n\x12SPEED_WARNING_SHOW\x10\x01\x12\x1b\n\x17SPEED_WARNING_PASSENGER\x10\x02*O\n\x13ItemUseTelemetryIds\x12\x18\n\x14UNDEFINED_ITEM_EVENT\x10\x00\x12\x0c\n\x08USE_ITEM\x10\x01\x12\x10\n\x0cRECYCLE_ITEM\x10\x02*\x90\x05\n\x17LoginActionTelemetryIds\x12\x1a\n\x16UNDEFINED_LOGIN_ACTION\x10\x00\x12\x12\n\x0e\x43LICK_AGE_GATE\x10\x01\x12\x14\n\x10\x43LICK_NEW_PLAYER\x10\x02\x12\x19\n\x15\x43LICK_EXISTING_PLAYER\x10\x03\x12\x10\n\x0c\x43LICK_GOOGLE\x10\x04\x12\x13\n\x0f\x43OMPLETE_GOOGLE\x10\x05\x12\x11\n\rCANCEL_GOOGLE\x10\x06\x12\x12\n\x0e\x43LICK_FACEBOOK\x10\x07\x12\x15\n\x11\x43OMPLETE_FACEBOOK\x10\x08\x12\x13\n\x0f\x43\x41NCEL_FACEBOOK\x10\t\x12\r\n\tCLICK_PTC\x10\n\x12\x0c\n\x08\x45XIT_PTC\x10\x0b\x12\x16\n\x12\x43LICK_PTC_REGISTER\x10\x0c\x12\x15\n\x11\x43LICK_PTC_SIGN_IN\x10\r\x12\x16\n\x12\x43\x41NCEL_PTC_SIGN_IN\x10\x0e\x12\x18\n\x14\x43OMPLETE_PTC_SIGN_IN\x10\x0f\x12\x16\n\x12\x43LICK_SUPERAWESOME\x10\x10\x12\x15\n\x11\x45XIT_SUPERAWESOME\x10\x11\x12\x1f\n\x1b\x43LICK_SUPERAWESOME_REGISTER\x10\x12\x12&\n\"CLICK_SUPERAWESOME_FORGOT_PASSWORD\x10\x13\x12\x1e\n\x1a\x43LICK_SUPERAWESOME_SIGN_IN\x10\x14\x12\x1f\n\x1b\x43\x41NCEL_SUPERAWESOME_SIGN_IN\x10\x15\x12!\n\x1d\x43OMPLETE_SUPERAWESOME_SIGN_IN\x10\x16\x12\x13\n\x0f\x45XIT_NEW_PLAYER\x10\x17\x12\x18\n\x14\x45XIT_EXISTING_PLAYER\x10\x18\x12\x11\n\rLOGIN_STARTED\x10\x19*\xc6\x01\n\x15MapEventsTelemetryIds\x12\x17\n\x13UNDEFINED_MAP_EVENT\x10\x00\x12\x0c\n\x08ITEM_BAG\x10\x01\x12\r\n\tMAIN_MENU\x10\x02\x12\x0b\n\x07POKEDEX\x10\x03\x12\x0b\n\x07PROFILE\x10\x04\x12\x0c\n\x08SETTINGS\x10\x05\x12\x11\n\rSHOP_FROM_MAP\x10\x06\x12\x07\n\x03GYM\x10\x07\x12\x0c\n\x08POKESTOP\x10\x08\x12\x0c\n\x08RESEARCH\x10\t\x12\x0b\n\x07\x43OMPASS\x10\n\x12\n\n\x06NEARBY\x10\x0b*\x82\x01\n\x14NewsPageTelemetryIds\x12\x18\n\x14UNDEFINED_NEWS_EVENT\x10\x00\x12\x0f\n\x0bNEWS_VIEWED\x10\x01\x12\x12\n\x0eNEWS_DISMISSED\x10\x02\x12\x15\n\x11NEWS_LINK_CLICKED\x10\x03\x12\x14\n\x10NEWS_UPDATED_APP\x10\x04*o\n\x1cPokemonInventoryTelemetryIds\x12%\n!UNDEFINED_POKEMON_INVENTORY_EVENT\x10\x00\x12\x08\n\x04OPEN\x10\x01\x12\x12\n\x0eSORTING_CHANGE\x10\x02\x12\n\n\x06\x46ILTER\x10\x03*z\n\x17ProfilePageTelemetryIds\x12\x1a\n\x16UNDEFINED_PROFILE_PAGE\x10\x00\x12\x15\n\x11SHOP_FROM_PROFILE\x10\x01\x12\x07\n\x03LOG\x10\x02\x12\r\n\tSET_BUDDY\x10\x03\x12\x14\n\x10\x43USTOMIZE_AVATAR\x10\x04*S\n\x1cPushNotificationTelemetryIds\x12%\n!UNDEFINED_PUSH_NOTIFICATION_EVENT\x10\x00\x12\x0c\n\x08OPEN_APP\x10\x01*\xf8\x02\n\x10RaidTelemetryIds\x12\x18\n\x14UNDEFINED_RAID_EVENT\x10\x00\x12\x12\n\x0e\x41PPROACH_ENTER\x10\x01\x12\x1a\n\x16\x41PPROACH_CLICK_SPINNER\x10\x02\x12\x11\n\rAPPROACH_JOIN\x10\x03\x12 \n\x1c\x41PPROACH_TICKET_CONFIRMATION\x10\x04\x12\x1b\n\x17\x41PPROACH_CLICK_TUTORIAL\x10\x05\x12\x17\n\x13\x41PPROACH_CLICK_SHOP\x10\x06\x12\x1a\n\x16\x41PPROACH_CLICK_INSPECT\x10\x07\x12\x0f\n\x0bLOBBY_ENTER\x10\x08\x12\x19\n\x15LOBBY_CLICK_INVENTORY\x10\t\x12\x14\n\x10LOBBY_CLICK_EXIT\x10\n\x12\x14\n\x10LOBBY_TAP_AVATAR\x10\x0b\x12\x1d\n\x19LOBBY_CLICK_REJOIN_BATTLE\x10\x0c\x12\x1c\n\x18LOBBY_CLICK_LOBBY_PUBLIC\x10\r*\xd3\x03\n\x18ShoppingPageTelemetryIds\x12!\n\x1dUNDEFINED_SHOPPING_PAGE_EVENT\x10\x00\x12\x1a\n\x16\x43LICK_CUSTOMIZE_AVATAR\x10\x01\x12\x13\n\x0fQUICK_SHOP_MORE\x10\x02\x12\x17\n\x13QUICK_SHOP_EXCHANGE\x10\x03\x12\x0e\n\nCLICK_SHOP\x10\x04\x12\r\n\tQUIT_SHOP\x10\x05\x12\r\n\tCLICK_SKU\x10\x06\x12\x0c\n\x08QUIT_SKU\x10\x07\x12\x16\n\x12\x43LICK_SKU_EXCHANGE\x10\x08\x12\x15\n\x11\x43LICK_SHOP_AVATAR\x10\t\x12\x14\n\x10QUIT_SHOP_AVATAR\x10\n\x12\x15\n\x11\x43LICK_AVATAR_TYPE\x10\x0b\x12\x14\n\x10QUIT_AVATAR_TYPE\x10\x0c\x12\x15\n\x11\x43LICK_AVATAR_ITEM\x10\r\x12\x14\n\x10QUIT_AVATAR_ITEM\x10\x0e\x12\x17\n\x13\x43ONFIRM_AVATAR_ITEM\x10\x0f\x12\x1b\n\x17\x43LICK_AVATAR_ITEM_COLOR\x10\x10\x12\x1a\n\x16QUIT_AVATAR_ITEM_COLOR\x10\x11\x12\x1d\n\x19\x43ONFIRM_AVATAR_ITEM_COLOR\x10\x12*\xdf\x01\n\x12SocialTelemetryIds\x12\x14\n\x10UNDEFINED_SOCIAL\x10\x00\x12\x0e\n\nFRIEND_TAB\x10\x01\x12\x14\n\x10NOTIFICATION_TAB\x10\x02\x12\x12\n\x0e\x46RIEND_PROFILE\x10\x03\x12!\n\x1dOPEN_FRIEND_SHIP_LEVEL_DETAIL\x10\x04\x12 \n\x1c\x43LOSE_OPEN_GIFT_CONFIRMATION\x10\x05\x12\x1c\n\x18\x46RIEND_LIST_SORT_CHANGED\x10\x06\x12\x16\n\x12\x46RIEND_LIST_CLOSED\x10\x07*W\n\x0fWebTelemetryIds\x12\x17\n\x13UNDEFINED_WEB_EVENT\x10\x00\x12+\n\'POINT_OF_INTEREST_DESCRIPTION_WEB_CLICK\x10\x01\x62\x06proto3')
+  serialized_pb=_b('\n$pogoprotos/enums/telemetry_ids.proto\x12\x10pogoprotos.enums*\x9a\x03\n\x14InvasionTelemetryIds\x12\x1c\n\x18UNDEFINED_INVASION_EVENT\x10\x00\x12\x14\n\x10INVASION_NPC_TAP\x10\x01\x12\x1b\n\x17INVASION_BATTLE_STARTED\x10\x02\x12\x1c\n\x18INVASION_BATTLE_FINISHED\x10\x03\x12\x1e\n\x1aINVASION_ENCOUNTER_STARTED\x10\x04\x12\x1f\n\x1bINVASION_ENCOUNTER_FINISHED\x10\x05\x12\x1d\n\x19INVASION_POKEMON_PURIFIED\x10\x06\x12\x1d\n\x19INVASION_AFTER_POI_EXITED\x10\x07\x12\x1e\n\x1aINVASION_RADAR_VIEW_OPENED\x10\x08\x12\x1e\n\x1aINVASION_RADAR_VIEW_CLOSED\x10\t\x12\x1d\n\x19INVASION_RADAR_VIEW_EMPTY\x10\n\x12\x18\n\x14INVASION_DECOY_FOUND\x10\x0b\x12\x1b\n\x17INVASION_GIOVANNI_FOUND\x10\x0c*\x94\x01\n\x19\x44\x65viceServiceTelemetryIds\x12\x1c\n\x18UNDEFINED_DEVICE_SERVICE\x10\x00\x12\x0b\n\x07\x46ITNESS\x10\x01\x12\x0f\n\x0bSMART_WATCH\x10\x02\x12\x18\n\x14SFIDA_DEVICE_SERVICE\x10\x03\x12\r\n\tAWARENESS\x10\x04\x12\x12\n\x0e\x41\x44VENTURE_SYNC\x10\x05*\xe7\x01\n\x1dPermissionContextTelemetryIds\x12 \n\x1cUNDEFINED_PERMISSION_CONTEXT\x10\x00\x12\r\n\tEGG_HATCH\x10\x01\x12\x15\n\x11\x42UDDY_CANDY_FOUND\x10\x02\x12\x1a\n\x16PLAYER_PROFILE_CLICKED\x10\x03\x12\x19\n\x15SMART_WATCH_INSTALLED\x10\x04\x12\x19\n\x15SFIDA_SESSION_STARTED\x10\x05\x12\x13\n\x0fSETTINGS_TOGGLE\x10\x06\x12\x17\n\x13NEARBY_PANEL_OPENED\x10\x07*\xa3\x01\n\x1ePermissionFlowStepTelemetryIds\x12\"\n\x1eUNDEFINED_PERMISSION_FLOW_STEP\x10\x00\x12\x12\n\x0eINITIAL_PROMPT\x10\x01\x12\x16\n\x12\x46ITNESS_PERMISSION\x10\x02\x12\x17\n\x13LOCATION_PERMISSION\x10\x03\x12\x18\n\x14\x41\x43TIVITY_PERMISSIONS\x10\x04*\xa0\x01\n\x11\x41ssetTelemetryIds\x12\x19\n\x15UNDEFINED_ASSET_EVENT\x10\x00\x12\x12\n\x0e\x44OWNLOAD_START\x10\x01\x12\x15\n\x11\x44OWNLOAD_FINISHED\x10\x02\x12\x13\n\x0f\x44OWNLOAD_FAILED\x10\x03\x12\x1e\n\x1a\x41SSET_RETRIEVED_FROM_CACHE\x10\x04\x12\x10\n\x0c\x43\x41\x43HE_THRASH\x10\x05*\xd5\x07\n\x12\x43lientTelemetryIds\x12\r\n\tUNDEFINED\x10\x00\x12\r\n\tBOOT_TIME\x10\x01\x12\x0e\n\nFRAME_RATE\x10\x02\x12\x11\n\rGENERIC_CLICK\x10\x03\x12\r\n\tMAP_EVENT\x10\x04\x12\x11\n\rSPIN_POKESTOP\x10\x05\x12\x10\n\x0cPROFILE_PAGE\x10\x06\x12\x11\n\rSHOPPING_PAGE\x10\x07\x12\x15\n\x11\x45NCOUNTER_POKEMON\x10\x08\x12\x11\n\rCATCH_POKEMON\x10\t\x12\x12\n\x0e\x44\x45PLOY_POKEMON\x10\n\x12\x10\n\x0c\x46\x45\x45\x44_POKEMON\x10\x0b\x12\x12\n\x0e\x45VOLVE_POKEMON\x10\x0c\x12\x13\n\x0fRELEASE_POKEMON\x10\r\x12\x14\n\x10NICKNAME_POKEMON\x10\x0e\x12\r\n\tNEWS_PAGE\x10\x0f\x12\x08\n\x04ITEM\x10\x10\x12\x10\n\x0c\x42\x41TTLE_PARTY\x10\x11\x12\x13\n\x0fPASSCODE_REDEEM\x10\x12\x12\x0e\n\nLINK_LOGIN\x10\x13\x12\x08\n\x04RAID\x10\x14\x12\x15\n\x11PUSH_NOTIFICATION\x10\x15\x12\x18\n\x14\x41VATAR_CUSTOMIZATION\x10\x16\x12&\n\"READ_POINT_OF_INTEREST_DESCRIPTION\x10\x17\x12\x07\n\x03WEB\x10\x18\x12\r\n\tCHANGE_AR\x10\x19\x12\x18\n\x14WEATHER_DETAIL_CLICK\x10\x1a\x12\x1d\n\x19USER_ISSUE_WEATHER_REPORT\x10\x1b\x12\x15\n\x11POKEMON_INVENTORY\x10\x1c\x12\n\n\x06SOCIAL\x10\x1d\x12\x1d\n\x19\x43HECK_ENCOUNTER_TRAY_INFO\x10\x1e\x12\x13\n\x0fPOKEMON_GO_PLUS\x10\x1f\x12\x0e\n\nRPC_TIMING\x10 \x12\x15\n\x11SOCIAL_GIFT_COUNT\x10!\x12\x19\n\x15\x41SSET_BUNDLE_DOWNLOAD\x10\"\x12\x16\n\x12\x41SSET_POI_DOWNLOAD\x10#\x12\x19\n\x15\x41SSET_STREAM_DOWNLOAD\x10$\x12\x1d\n\x19\x41SSET_STREAM_CACHE_CULLED\x10%\x12\x15\n\x11RPC_SOCKET_TIMING\x10&\x12\x14\n\x10PERMISSIONS_FLOW\x10\'\x12\x19\n\x15\x44\x45VICE_SERVICE_TOGGLE\x10(\x12\x12\n\x0e\x42OOT_TELEMETRY\x10)\x12\x1e\n\x1a\x41R_PHOTO_SESSION_TELEMETRY\x10*\x12\x1b\n\x17LEAVE_POINT_OF_INTEREST\x10+\x12 \n\x1cVIEW_POINT_OF_INTEREST_IMAGE\x10,*\xee\x01\n\x1f\x41vatarCustomizationTelemetryIds\x12\"\n\x1eUNDEFINED_AVATAR_CUSTOMIZATION\x10\x00\x12\x0e\n\nEQUIP_ITEM\x10\x01\x12\x11\n\rOPEN_FEATURES\x10\x02\x12\x0e\n\nOPEN_STORE\x10\x03\x12\x11\n\rPURCHASE_ITEM\x10\x04\x12\x12\n\x0ePURCHASE_ERROR\x10\x05\x12\x15\n\x11SELECT_ITEM_GROUP\x10\x06\x12\x0f\n\x0bSELECT_SLOT\x10\x07\x12\x10\n\x0cSELECT_COLOR\x10\x08\x12\x13\n\x0fSHOW_QUICK_SHOP\x10\t*\x8d\x01\n\x17\x42\x61ttlePartyTelemetryIds\x12 \n\x1cUNDEFINED_BATTLE_PARTY_EVENT\x10\x00\x12\x07\n\x03\x41\x44\x44\x10\x01\x12\n\n\x06REMOVE\x10\x02\x12\x0e\n\nGYM_BATTLE\x10\x03\x12\x0f\n\x0bRAID_BATTLE\x10\x04\x12\x1a\n\x16\x42\x41TTLE_POKEMON_CHANGED\x10\x05*l\n\x18GenericClickTelemetryIds\x12\x1b\n\x17UNDEFINED_GENERIC_EVENT\x10\x00\x12\x16\n\x12SPEED_WARNING_SHOW\x10\x01\x12\x1b\n\x17SPEED_WARNING_PASSENGER\x10\x02*i\n\x13ItemUseTelemetryIds\x12\x18\n\x14UNDEFINED_ITEM_EVENT\x10\x00\x12\x0c\n\x08USE_ITEM\x10\x01\x12\x10\n\x0cRECYCLE_ITEM\x10\x02\x12\x18\n\x14UPDATE_ITEM_EQUIPPED\x10\x03*\x90\x05\n\x17LoginActionTelemetryIds\x12\x1a\n\x16UNDEFINED_LOGIN_ACTION\x10\x00\x12\x12\n\x0e\x43LICK_AGE_GATE\x10\x01\x12\x14\n\x10\x43LICK_NEW_PLAYER\x10\x02\x12\x19\n\x15\x43LICK_EXISTING_PLAYER\x10\x03\x12\x10\n\x0c\x43LICK_GOOGLE\x10\x04\x12\x13\n\x0f\x43OMPLETE_GOOGLE\x10\x05\x12\x11\n\rCANCEL_GOOGLE\x10\x06\x12\x12\n\x0e\x43LICK_FACEBOOK\x10\x07\x12\x15\n\x11\x43OMPLETE_FACEBOOK\x10\x08\x12\x13\n\x0f\x43\x41NCEL_FACEBOOK\x10\t\x12\r\n\tCLICK_PTC\x10\n\x12\x0c\n\x08\x45XIT_PTC\x10\x0b\x12\x16\n\x12\x43LICK_PTC_REGISTER\x10\x0c\x12\x15\n\x11\x43LICK_PTC_SIGN_IN\x10\r\x12\x16\n\x12\x43\x41NCEL_PTC_SIGN_IN\x10\x0e\x12\x18\n\x14\x43OMPLETE_PTC_SIGN_IN\x10\x0f\x12\x16\n\x12\x43LICK_SUPERAWESOME\x10\x10\x12\x15\n\x11\x45XIT_SUPERAWESOME\x10\x11\x12\x1f\n\x1b\x43LICK_SUPERAWESOME_REGISTER\x10\x12\x12&\n\"CLICK_SUPERAWESOME_FORGOT_PASSWORD\x10\x13\x12\x1e\n\x1a\x43LICK_SUPERAWESOME_SIGN_IN\x10\x14\x12\x1f\n\x1b\x43\x41NCEL_SUPERAWESOME_SIGN_IN\x10\x15\x12!\n\x1d\x43OMPLETE_SUPERAWESOME_SIGN_IN\x10\x16\x12\x13\n\x0f\x45XIT_NEW_PLAYER\x10\x17\x12\x18\n\x14\x45XIT_EXISTING_PLAYER\x10\x18\x12\x11\n\rLOGIN_STARTED\x10\x19*\xc6\x01\n\x15MapEventsTelemetryIds\x12\x17\n\x13UNDEFINED_MAP_EVENT\x10\x00\x12\x0c\n\x08ITEM_BAG\x10\x01\x12\r\n\tMAIN_MENU\x10\x02\x12\x0b\n\x07POKEDEX\x10\x03\x12\x0b\n\x07PROFILE\x10\x04\x12\x0c\n\x08SETTINGS\x10\x05\x12\x11\n\rSHOP_FROM_MAP\x10\x06\x12\x07\n\x03GYM\x10\x07\x12\x0c\n\x08POKESTOP\x10\x08\x12\x0c\n\x08RESEARCH\x10\t\x12\x0b\n\x07\x43OMPASS\x10\n\x12\n\n\x06NEARBY\x10\x0b*\x82\x01\n\x14NewsPageTelemetryIds\x12\x18\n\x14UNDEFINED_NEWS_EVENT\x10\x00\x12\x0f\n\x0bNEWS_VIEWED\x10\x01\x12\x12\n\x0eNEWS_DISMISSED\x10\x02\x12\x15\n\x11NEWS_LINK_CLICKED\x10\x03\x12\x14\n\x10NEWS_UPDATED_APP\x10\x04*o\n\x1cPokemonInventoryTelemetryIds\x12%\n!UNDEFINED_POKEMON_INVENTORY_EVENT\x10\x00\x12\x08\n\x04OPEN\x10\x01\x12\x12\n\x0eSORTING_CHANGE\x10\x02\x12\n\n\x06\x46ILTER\x10\x03*z\n\x17ProfilePageTelemetryIds\x12\x1a\n\x16UNDEFINED_PROFILE_PAGE\x10\x00\x12\x15\n\x11SHOP_FROM_PROFILE\x10\x01\x12\x07\n\x03LOG\x10\x02\x12\r\n\tSET_BUDDY\x10\x03\x12\x14\n\x10\x43USTOMIZE_AVATAR\x10\x04*S\n\x1cPushNotificationTelemetryIds\x12%\n!UNDEFINED_PUSH_NOTIFICATION_EVENT\x10\x00\x12\x0c\n\x08OPEN_APP\x10\x01*\xf8\x02\n\x10RaidTelemetryIds\x12\x18\n\x14UNDEFINED_RAID_EVENT\x10\x00\x12\x12\n\x0e\x41PPROACH_ENTER\x10\x01\x12\x1a\n\x16\x41PPROACH_CLICK_SPINNER\x10\x02\x12\x11\n\rAPPROACH_JOIN\x10\x03\x12 \n\x1c\x41PPROACH_TICKET_CONFIRMATION\x10\x04\x12\x1b\n\x17\x41PPROACH_CLICK_TUTORIAL\x10\x05\x12\x17\n\x13\x41PPROACH_CLICK_SHOP\x10\x06\x12\x1a\n\x16\x41PPROACH_CLICK_INSPECT\x10\x07\x12\x0f\n\x0bLOBBY_ENTER\x10\x08\x12\x19\n\x15LOBBY_CLICK_INVENTORY\x10\t\x12\x14\n\x10LOBBY_CLICK_EXIT\x10\n\x12\x14\n\x10LOBBY_TAP_AVATAR\x10\x0b\x12\x1d\n\x19LOBBY_CLICK_REJOIN_BATTLE\x10\x0c\x12\x1c\n\x18LOBBY_CLICK_LOBBY_PUBLIC\x10\r*\xd3\x03\n\x18ShoppingPageTelemetryIds\x12!\n\x1dUNDEFINED_SHOPPING_PAGE_EVENT\x10\x00\x12\x1a\n\x16\x43LICK_CUSTOMIZE_AVATAR\x10\x01\x12\x13\n\x0fQUICK_SHOP_MORE\x10\x02\x12\x17\n\x13QUICK_SHOP_EXCHANGE\x10\x03\x12\x0e\n\nCLICK_SHOP\x10\x04\x12\r\n\tQUIT_SHOP\x10\x05\x12\r\n\tCLICK_SKU\x10\x06\x12\x0c\n\x08QUIT_SKU\x10\x07\x12\x16\n\x12\x43LICK_SKU_EXCHANGE\x10\x08\x12\x15\n\x11\x43LICK_SHOP_AVATAR\x10\t\x12\x14\n\x10QUIT_SHOP_AVATAR\x10\n\x12\x15\n\x11\x43LICK_AVATAR_TYPE\x10\x0b\x12\x14\n\x10QUIT_AVATAR_TYPE\x10\x0c\x12\x15\n\x11\x43LICK_AVATAR_ITEM\x10\r\x12\x14\n\x10QUIT_AVATAR_ITEM\x10\x0e\x12\x17\n\x13\x43ONFIRM_AVATAR_ITEM\x10\x0f\x12\x1b\n\x17\x43LICK_AVATAR_ITEM_COLOR\x10\x10\x12\x1a\n\x16QUIT_AVATAR_ITEM_COLOR\x10\x11\x12\x1d\n\x19\x43ONFIRM_AVATAR_ITEM_COLOR\x10\x12*\xdf\x01\n\x12SocialTelemetryIds\x12\x14\n\x10UNDEFINED_SOCIAL\x10\x00\x12\x0e\n\nFRIEND_TAB\x10\x01\x12\x14\n\x10NOTIFICATION_TAB\x10\x02\x12\x12\n\x0e\x46RIEND_PROFILE\x10\x03\x12!\n\x1dOPEN_FRIEND_SHIP_LEVEL_DETAIL\x10\x04\x12 \n\x1c\x43LOSE_OPEN_GIFT_CONFIRMATION\x10\x05\x12\x1c\n\x18\x46RIEND_LIST_SORT_CHANGED\x10\x06\x12\x16\n\x12\x46RIEND_LIST_CLOSED\x10\x07*W\n\x0fWebTelemetryIds\x12\x17\n\x13UNDEFINED_WEB_EVENT\x10\x00\x12+\n\'POINT_OF_INTEREST_DESCRIPTION_WEB_CLICK\x10\x01\x62\x06proto3')
 )
 
 _INVASIONTELEMETRYIDS = _descriptor.EnumDescriptor(
@@ -62,11 +62,31 @@ _INVASIONTELEMETRYIDS = _descriptor.EnumDescriptor(
       name='INVASION_AFTER_POI_EXITED', index=7, number=7,
       serialized_options=None,
       type=None),
+    _descriptor.EnumValueDescriptor(
+      name='INVASION_RADAR_VIEW_OPENED', index=8, number=8,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='INVASION_RADAR_VIEW_CLOSED', index=9, number=9,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='INVASION_RADAR_VIEW_EMPTY', index=10, number=10,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='INVASION_DECOY_FOUND', index=11, number=11,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='INVASION_GIOVANNI_FOUND', index=12, number=12,
+      serialized_options=None,
+      type=None),
   ],
   containing_type=None,
   serialized_options=None,
   serialized_start=59,
-  serialized_end=319,
+  serialized_end=469,
 )
 _sym_db.RegisterEnumDescriptor(_INVASIONTELEMETRYIDS)
 
@@ -104,8 +124,8 @@ _DEVICESERVICETELEMETRYIDS = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=322,
-  serialized_end=470,
+  serialized_start=472,
+  serialized_end=620,
 )
 _sym_db.RegisterEnumDescriptor(_DEVICESERVICETELEMETRYIDS)
 
@@ -151,8 +171,8 @@ _PERMISSIONCONTEXTTELEMETRYIDS = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=473,
-  serialized_end=704,
+  serialized_start=623,
+  serialized_end=854,
 )
 _sym_db.RegisterEnumDescriptor(_PERMISSIONCONTEXTTELEMETRYIDS)
 
@@ -186,8 +206,8 @@ _PERMISSIONFLOWSTEPTELEMETRYIDS = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=707,
-  serialized_end=870,
+  serialized_start=857,
+  serialized_end=1020,
 )
 _sym_db.RegisterEnumDescriptor(_PERMISSIONFLOWSTEPTELEMETRYIDS)
 
@@ -225,8 +245,8 @@ _ASSETTELEMETRYIDS = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=873,
-  serialized_end=1033,
+  serialized_start=1023,
+  serialized_end=1183,
 )
 _sym_db.RegisterEnumDescriptor(_ASSETTELEMETRYIDS)
 
@@ -420,8 +440,8 @@ _CLIENTTELEMETRYIDS = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=1036,
-  serialized_end=2017,
+  serialized_start=1186,
+  serialized_end=2167,
 )
 _sym_db.RegisterEnumDescriptor(_CLIENTTELEMETRYIDS)
 
@@ -475,8 +495,8 @@ _AVATARCUSTOMIZATIONTELEMETRYIDS = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=2020,
-  serialized_end=2258,
+  serialized_start=2170,
+  serialized_end=2408,
 )
 _sym_db.RegisterEnumDescriptor(_AVATARCUSTOMIZATIONTELEMETRYIDS)
 
@@ -514,8 +534,8 @@ _BATTLEPARTYTELEMETRYIDS = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=2261,
-  serialized_end=2402,
+  serialized_start=2411,
+  serialized_end=2552,
 )
 _sym_db.RegisterEnumDescriptor(_BATTLEPARTYTELEMETRYIDS)
 
@@ -541,8 +561,8 @@ _GENERICCLICKTELEMETRYIDS = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=2404,
-  serialized_end=2512,
+  serialized_start=2554,
+  serialized_end=2662,
 )
 _sym_db.RegisterEnumDescriptor(_GENERICCLICKTELEMETRYIDS)
 
@@ -565,11 +585,15 @@ _ITEMUSETELEMETRYIDS = _descriptor.EnumDescriptor(
       name='RECYCLE_ITEM', index=2, number=2,
       serialized_options=None,
       type=None),
+    _descriptor.EnumValueDescriptor(
+      name='UPDATE_ITEM_EQUIPPED', index=3, number=3,
+      serialized_options=None,
+      type=None),
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=2514,
-  serialized_end=2593,
+  serialized_start=2664,
+  serialized_end=2769,
 )
 _sym_db.RegisterEnumDescriptor(_ITEMUSETELEMETRYIDS)
 
@@ -687,8 +711,8 @@ _LOGINACTIONTELEMETRYIDS = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=2596,
-  serialized_end=3252,
+  serialized_start=2772,
+  serialized_end=3428,
 )
 _sym_db.RegisterEnumDescriptor(_LOGINACTIONTELEMETRYIDS)
 
@@ -750,8 +774,8 @@ _MAPEVENTSTELEMETRYIDS = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=3255,
-  serialized_end=3453,
+  serialized_start=3431,
+  serialized_end=3629,
 )
 _sym_db.RegisterEnumDescriptor(_MAPEVENTSTELEMETRYIDS)
 
@@ -785,8 +809,8 @@ _NEWSPAGETELEMETRYIDS = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=3456,
-  serialized_end=3586,
+  serialized_start=3632,
+  serialized_end=3762,
 )
 _sym_db.RegisterEnumDescriptor(_NEWSPAGETELEMETRYIDS)
 
@@ -816,8 +840,8 @@ _POKEMONINVENTORYTELEMETRYIDS = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=3588,
-  serialized_end=3699,
+  serialized_start=3764,
+  serialized_end=3875,
 )
 _sym_db.RegisterEnumDescriptor(_POKEMONINVENTORYTELEMETRYIDS)
 
@@ -851,8 +875,8 @@ _PROFILEPAGETELEMETRYIDS = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=3701,
-  serialized_end=3823,
+  serialized_start=3877,
+  serialized_end=3999,
 )
 _sym_db.RegisterEnumDescriptor(_PROFILEPAGETELEMETRYIDS)
 
@@ -874,8 +898,8 @@ _PUSHNOTIFICATIONTELEMETRYIDS = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=3825,
-  serialized_end=3908,
+  serialized_start=4001,
+  serialized_end=4084,
 )
 _sym_db.RegisterEnumDescriptor(_PUSHNOTIFICATIONTELEMETRYIDS)
 
@@ -945,8 +969,8 @@ _RAIDTELEMETRYIDS = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=3911,
-  serialized_end=4287,
+  serialized_start=4087,
+  serialized_end=4463,
 )
 _sym_db.RegisterEnumDescriptor(_RAIDTELEMETRYIDS)
 
@@ -1036,8 +1060,8 @@ _SHOPPINGPAGETELEMETRYIDS = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=4290,
-  serialized_end=4757,
+  serialized_start=4466,
+  serialized_end=4933,
 )
 _sym_db.RegisterEnumDescriptor(_SHOPPINGPAGETELEMETRYIDS)
 
@@ -1083,8 +1107,8 @@ _SOCIALTELEMETRYIDS = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=4760,
-  serialized_end=4983,
+  serialized_start=4936,
+  serialized_end=5159,
 )
 _sym_db.RegisterEnumDescriptor(_SOCIALTELEMETRYIDS)
 
@@ -1106,8 +1130,8 @@ _WEBTELEMETRYIDS = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=4985,
-  serialized_end=5072,
+  serialized_start=5161,
+  serialized_end=5248,
 )
 _sym_db.RegisterEnumDescriptor(_WEBTELEMETRYIDS)
 
@@ -1120,6 +1144,11 @@ INVASION_ENCOUNTER_STARTED = 4
 INVASION_ENCOUNTER_FINISHED = 5
 INVASION_POKEMON_PURIFIED = 6
 INVASION_AFTER_POI_EXITED = 7
+INVASION_RADAR_VIEW_OPENED = 8
+INVASION_RADAR_VIEW_CLOSED = 9
+INVASION_RADAR_VIEW_EMPTY = 10
+INVASION_DECOY_FOUND = 11
+INVASION_GIOVANNI_FOUND = 12
 UNDEFINED_DEVICE_SERVICE = 0
 FITNESS = 1
 SMART_WATCH = 2
@@ -1212,6 +1241,7 @@ SPEED_WARNING_PASSENGER = 2
 UNDEFINED_ITEM_EVENT = 0
 USE_ITEM = 1
 RECYCLE_ITEM = 2
+UPDATE_ITEM_EQUIPPED = 3
 UNDEFINED_LOGIN_ACTION = 0
 CLICK_AGE_GATE = 1
 CLICK_NEW_PLAYER = 2

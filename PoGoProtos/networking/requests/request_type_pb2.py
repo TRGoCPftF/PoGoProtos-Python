@@ -21,7 +21,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='pogoprotos.networking.requests',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n1pogoprotos/networking/requests/request_type.proto\x12\x1epogoprotos.networking.requests*\xa8&\n\x0bRequestType\x12\x10\n\x0cMETHOD_UNSET\x10\x00\x12\x0e\n\nGET_PLAYER\x10\x02\x12\x16\n\x12GET_HOLO_INVENTORY\x10\x04\x12\x15\n\x11\x44OWNLOAD_SETTINGS\x10\x05\x12\x1b\n\x17\x44OWNLOAD_ITEM_TEMPLATES\x10\x06\x12\"\n\x1e\x44OWNLOAD_REMOTE_CONFIG_VERSION\x10\x07\x12\x1e\n\x1aREGISTER_BACKGROUND_DEVICE\x10\x08\x12\x12\n\x0eGET_PLAYER_DAY\x10\t\x12\x1a\n\x16\x41\x43KNOWLEDGE_PUNISHMENT\x10\n\x12\x13\n\x0fGET_SERVER_TIME\x10\x0b\x12\x0f\n\x0b\x46ORT_SEARCH\x10\x65\x12\r\n\tENCOUNTER\x10\x66\x12\x11\n\rCATCH_POKEMON\x10g\x12\x10\n\x0c\x46ORT_DETAILS\x10h\x12\x13\n\x0fGET_MAP_OBJECTS\x10j\x12\x17\n\x13\x46ORT_DEPLOY_POKEMON\x10n\x12\x17\n\x13\x46ORT_RECALL_POKEMON\x10o\x12\x13\n\x0fRELEASE_POKEMON\x10p\x12\x13\n\x0fUSE_ITEM_POTION\x10q\x12\x14\n\x10USE_ITEM_CAPTURE\x10r\x12\x11\n\rUSE_ITEM_FLEE\x10s\x12\x13\n\x0fUSE_ITEM_REVIVE\x10t\x12\x16\n\x12GET_PLAYER_PROFILE\x10y\x12\x12\n\x0e\x45VOLVE_POKEMON\x10}\x12\x14\n\x10GET_HATCHED_EGGS\x10~\x12\x1f\n\x1b\x45NCOUNTER_TUTORIAL_COMPLETE\x10\x7f\x12\x15\n\x10LEVEL_UP_REWARDS\x10\x80\x01\x12\x19\n\x14\x43HECK_AWARDED_BADGES\x10\x81\x01\x12\x11\n\x0cUSE_ITEM_GYM\x10\x85\x01\x12\x14\n\x0fGET_GYM_DETAILS\x10\x86\x01\x12\x15\n\x10START_GYM_BATTLE\x10\x87\x01\x12\x0f\n\nATTACK_GYM\x10\x88\x01\x12\x1b\n\x16RECYCLE_INVENTORY_ITEM\x10\x89\x01\x12\x18\n\x13\x43OLLECT_DAILY_BONUS\x10\x8a\x01\x12\x16\n\x11USE_ITEM_XP_BOOST\x10\x8b\x01\x12\x1b\n\x16USE_ITEM_EGG_INCUBATOR\x10\x8c\x01\x12\x10\n\x0bUSE_INCENSE\x10\x8d\x01\x12\x18\n\x13GET_INCENSE_POKEMON\x10\x8e\x01\x12\x16\n\x11INCENSE_ENCOUNTER\x10\x8f\x01\x12\x16\n\x11\x41\x44\x44_FORT_MODIFIER\x10\x90\x01\x12\x13\n\x0e\x44ISK_ENCOUNTER\x10\x91\x01\x12!\n\x1c\x43OLLECT_DAILY_DEFENDER_BONUS\x10\x92\x01\x12\x14\n\x0fUPGRADE_POKEMON\x10\x93\x01\x12\x19\n\x14SET_FAVORITE_POKEMON\x10\x94\x01\x12\x15\n\x10NICKNAME_POKEMON\x10\x95\x01\x12\x10\n\x0b\x45QUIP_BADGE\x10\x96\x01\x12\x19\n\x14SET_CONTACT_SETTINGS\x10\x97\x01\x12\x16\n\x11SET_BUDDY_POKEMON\x10\x98\x01\x12\x15\n\x10GET_BUDDY_WALKED\x10\x99\x01\x12\x17\n\x12USE_ITEM_ENCOUNTER\x10\x9a\x01\x12\x0f\n\nGYM_DEPLOY\x10\x9b\x01\x12\x11\n\x0cGYM_GET_INFO\x10\x9c\x01\x12\x16\n\x11GYM_START_SESSION\x10\x9d\x01\x12\x16\n\x11GYM_BATTLE_ATTACK\x10\x9e\x01\x12\x0f\n\nJOIN_LOBBY\x10\x9f\x01\x12\x10\n\x0bLEAVE_LOBBY\x10\xa0\x01\x12\x19\n\x14SET_LOBBY_VISIBILITY\x10\xa1\x01\x12\x16\n\x11SET_LOBBY_POKEMON\x10\xa2\x01\x12\x15\n\x10GET_RAID_DETAILS\x10\xa3\x01\x12\x15\n\x10GYM_FEED_POKEMON\x10\xa4\x01\x12\x16\n\x11START_RAID_BATTLE\x10\xa5\x01\x12\x10\n\x0b\x41TTACK_RAID\x10\xa6\x01\x12\x13\n\x0e\x41WARD_POKECOIN\x10\xa7\x01\x12\x1c\n\x17USE_ITEM_STARDUST_BOOST\x10\xa8\x01\x12\x14\n\x0fREASSIGN_PLAYER\x10\xa9\x01\x12\x15\n\x10GET_ASSET_DIGEST\x10\xac\x02\x12\x16\n\x11GET_DOWNLOAD_URLS\x10\xad\x02\x12\x13\n\x0e\x43LAIM_CODENAME\x10\x93\x03\x12\x0f\n\nSET_AVATAR\x10\x94\x03\x12\x14\n\x0fSET_PLAYER_TEAM\x10\x95\x03\x12\x1b\n\x16MARK_TUTORIAL_COMPLETE\x10\x96\x03\x12\x1f\n\x1aUPDATE_PERFORMANCE_METRICS\x10\x97\x03\x12\x14\n\x0f\x43HECK_CHALLENGE\x10\xd8\x04\x12\x15\n\x10VERIFY_CHALLENGE\x10\xd9\x04\x12\t\n\x04\x45\x43HO\x10\x9a\x05\x12\x17\n\x12SFIDA_REGISTRATION\x10\xa0\x06\x12\x15\n\x10SFIDA_ACTION_LOG\x10\xa1\x06\x12\x18\n\x13SFIDA_CERTIFICATION\x10\xa2\x06\x12\x11\n\x0cSFIDA_UPDATE\x10\xa3\x06\x12\x11\n\x0cSFIDA_ACTION\x10\xa4\x06\x12\x11\n\x0cSFIDA_DOWSER\x10\xa5\x06\x12\x12\n\rSFIDA_CAPTURE\x10\xa6\x06\x12\x1f\n\x1aLIST_AVATAR_CUSTOMIZATIONS\x10\xa7\x06\x12\x1e\n\x19SET_AVATAR_ITEM_AS_VIEWED\x10\xa8\x06\x12\x0e\n\tGET_INBOX\x10\xa9\x06\x12\x14\n\x0fLIST_GYM_BADGES\x10\xab\x06\x12\x1a\n\x15GET_GYM_BADGE_DETAILS\x10\xac\x06\x12\x19\n\x14USE_ITEM_MOVE_REROLL\x10\xad\x06\x12\x18\n\x13USE_ITEM_RARE_CANDY\x10\xae\x06\x12\x1b\n\x16\x41WARD_FREE_RAID_TICKET\x10\xaf\x06\x12\x13\n\x0e\x46\x45TCH_ALL_NEWS\x10\xb0\x06\x12\x1b\n\x16MARK_READ_NEWS_ARTICLE\x10\xb1\x06\x12\x1c\n\x17GET_PLAYER_DISPLAY_INFO\x10\xb2\x06\x12\x1d\n\x18\x42\x45LUGA_TRANSACTION_START\x10\xb3\x06\x12 \n\x1b\x42\x45LUGA_TRANSACTION_COMPLETE\x10\xb4\x06\x12\x13\n\x0eGET_NEW_QUESTS\x10\x84\x07\x12\x16\n\x11GET_QUEST_DETAILS\x10\x85\x07\x12\x13\n\x0e\x43OMPLETE_QUEST\x10\x86\x07\x12\x11\n\x0cREMOVE_QUEST\x10\x87\x07\x12\x14\n\x0fQUEST_ENCOUNTER\x10\x88\x07\x12\x1e\n\x19\x43OMPLETE_QUEST_STAMP_CARD\x10\x89\x07\x12\x0e\n\tSEND_GIFT\x10\xb6\x07\x12\x0e\n\tOPEN_GIFT\x10\xb7\x07\x12\x11\n\x0cGIFT_DETAILS\x10\xb8\x07\x12\x10\n\x0b\x44\x45LETE_GIFT\x10\xb9\x07\x12\x19\n\x14SAVE_PLAYER_SNAPSHOT\x10\xba\x07\x12%\n GET_FRIENDSHIP_MILESTONE_REWARDS\x10\xbb\x07\x12\x14\n\x0f\x43HECK_SEND_GIFT\x10\xbc\x07\x12\x18\n\x13SET_FRIEND_NICKNAME\x10\xbd\x07\x12\x1f\n\x1a\x44\x45LETE_GIFT_FROM_INVENTORY\x10\xbe\x07\x12 \n\x1bSAVE_SOCIAL_PLAYER_SETTINGS\x10\xbf\x07\x12\x17\n\x12SHARE_EX_RAID_PASS\x10\xc0\x07\x12\x1d\n\x18\x43HECK_SHARE_EX_RAID_PASS\x10\xc1\x07\x12 \n\x1b\x44\x45\x43LINE_SHARED_EX_RAID_PASS\x10\xc2\x07\x12\x11\n\x0cOPEN_TRADING\x10\xca\x07\x12\x13\n\x0eUPDATE_TRADING\x10\xcb\x07\x12\x14\n\x0f\x43ONFIRM_TRADING\x10\xcc\x07\x12\x13\n\x0e\x43\x41NCEL_TRADING\x10\xcd\x07\x12\x10\n\x0bGET_TRADING\x10\xce\x07\x12\x18\n\x13GET_FITNESS_REWARDS\x10\xd4\x07\x12\x1e\n\x19GET_COMBAT_PLAYER_PROFILE\x10\xde\x07\x12!\n\x1cGENERATE_COMBAT_CHALLENGE_ID\x10\xdf\x07\x12\x1c\n\x17\x43REATE_COMBAT_CHALLENGE\x10\xe0\x07\x12\x1a\n\x15OPEN_COMBAT_CHALLENGE\x10\xe1\x07\x12\x19\n\x14GET_COMBAT_CHALLENGE\x10\xe2\x07\x12\x1c\n\x17\x41\x43\x43\x45PT_COMBAT_CHALLENGE\x10\xe3\x07\x12\x1d\n\x18\x44\x45\x43LINE_COMBAT_CHALLENGE\x10\xe4\x07\x12\x1c\n\x17\x43\x41NCEL_COMBAT_CHALLENGE\x10\xe5\x07\x12%\n SUBMIT_COMBAT_CHALLENGE_POKEMONS\x10\xe6\x07\x12#\n\x1eSAVE_COMBAT_PLAYER_PREFERENCES\x10\xe7\x07\x12\x18\n\x13OPEN_COMBAT_SESSION\x10\xe8\x07\x12\x12\n\rUPDATE_COMBAT\x10\xe9\x07\x12\x10\n\x0bQUIT_COMBAT\x10\xea\x07\x12\x17\n\x12GET_COMBAT_RESULTS\x10\xeb\x07\x12\x18\n\x13UNLOCK_SPECIAL_MOVE\x10\xec\x07\x12\x1b\n\x16GET_NPC_COMBAT_REWARDS\x10\xed\x07\x12\x1a\n\x15\x43OMBAT_FRIEND_REQUEST\x10\xee\x07\x12\x1c\n\x17OPEN_NPC_COMBAT_SESSION\x10\xef\x07\x12\x1a\n\x15START_TUTORIAL_ACTION\x10\xf0\x07\x12\x1c\n\x17GET_TUTORIAL_EGG_ACTION\x10\xf1\x07\x12\x0f\n\nSEND_PROBE\x10\xfc\x07\x12\x0f\n\nPROBE_DATA\x10\xfd\x07\x12\x10\n\x0b\x43OMBAT_DATA\x10\xfe\x07\x12\x1a\n\x15\x43OMBAT_CHALLENGE_DATA\x10\xff\x07\x12\x14\n\x0f\x43HECK_PHOTOBOMB\x10\xcd\x08\x12\x16\n\x11\x43ONFIRM_PHOTOBOMB\x10\xce\x08\x12\x12\n\rGET_PHOTOBOMB\x10\xcf\x08\x12\x18\n\x13\x45NCOUNTER_PHOTOBOMB\x10\xd0\x08\x12#\n\x1eGET_SIGNED_GMAP_URL_DEPRECATED\x10\xd1\x08\x12\x10\n\x0b\x43HANGE_TEAM\x10\xd2\x08\x12\x12\n\rGET_WEB_TOKEN\x10\xd3\x08\x12\x1e\n\x19\x43OMPLETE_SNAPSHOT_SESSION\x10\xd6\x08\x12\x13\n\x0eSTART_INCIDENT\x10\xb0\t\x12\x1f\n\x1aINVASION_COMPLETE_DIALOGUE\x10\xb1\t\x12!\n\x1cINVASION_OPEN_COMBAT_SESSION\x10\xb2\t\x12\x1b\n\x16INVASION_BATTLE_UPDATE\x10\xb3\t\x12\x17\n\x12INVASION_ENCOUNTER\x10\xb4\t\x12\x13\n\x0ePURIFY_POKEMON\x10\xb5\t\x12\x1f\n\x1aREGISTER_PUSH_NOTIFICATION\x10\x88\'\x12!\n\x1cUNREGISTER_PUSH_NOTIFICATION\x10\x89\'\x12\x1f\n\x1aUPDATE_NOTIFICATION_STATUS\x10\x8a\'\x12\'\n\"OPT_OUT_PUSH_NOTIFICATION_CATEGORY\x10\x8b\'\x12#\n\x1e\x44OWNLOAD_GAME_MASTER_TEMPLATES\x10\x8c\'\x12\x12\n\rGET_INVENTORY\x10\x8d\'\x12\x14\n\x0fREDEEM_PASSCODE\x10\x8e\'\x12\t\n\x04PING\x10\x8f\'\x12\x15\n\x10\x41\x44\x44_LOGIN_ACTION\x10\x90\'\x12\x18\n\x13REMOVE_LOGIN_ACTION\x10\x91\'\x12\x16\n\x11LIST_LOGIN_ACTION\x10\x92\'\x12\x10\n\x0b\x41\x44\x44_NEW_POI\x10\x93\'\x12\x18\n\x13PROXY_SOCIAL_ACTION\x10\x94\'\x12\x15\n\x10\x43LIENT_TELEMETRY\x10\x95\'\x12\x1e\n\x19GET_AVAILABLE_SUBMISSIONS\x10\x96\'\x12$\n\x1fGET_SIGNED_URL_FOR_PHOTO_UPLOAD\x10\x97\'\x12\x19\n\x14REPLACE_LOGIN_ACTION\x10\x98\'\x12%\n PROXY_SOCIAL_SIDE_CHANNEL_ACTION\x10\x99\'\x12\x1d\n\x18\x43OLLECT_CLIENT_TELEMETRY\x10\x9a\'\x12\x11\n\x0cPURCHASE_SKU\x10\x9b\'\x12$\n\x1fGET_AVAILABLE_SKUS_AND_BALANCES\x10\x9c\'\x12\x1a\n\x15REDEEM_GOOGLE_RECEIPT\x10\x9d\'\x12\x19\n\x14REDEEM_APPLE_RECEIPT\x10\x9e\'\x12\x1b\n\x16REDEEM_DESKTOP_RECEIPT\x10\x9f\'\x12\x1b\n\x16UPDATE_FITNESS_METRICS\x10\xa0\'\x12\x17\n\x12GET_FITNESS_REPORT\x10\xa1\'\x12\"\n\x1dGET_CLIENT_TELEMETRY_SETTINGS\x10\xa2\'\x12 \n\x1bREGISTER_BACKGROUND_SERVICE\x10\xa4\'\x12\x1f\n\x1aGET_CLIENT_BGMODE_SETTINGS\x10\xa5\'\x12\x0f\n\nPING_ASYNC\x10\xa3\'\x12\x14\n\x0fPING_DOWNSTREAM\x10\xa6\'\x12\'\n\"SET_IN_GAME_CURRENCY_EXCHANGE_RATE\x10\xa8\'\x12\x1d\n\x18REQUEST_GEOFENCE_UPDATES\x10\xa9\'\x12\x1b\n\x16UPDATE_PLAYER_LOCATION\x10\xaa\'\x12\x1d\n\x18GENERATE_GMAP_SIGNED_URL\x10\xab\'\x12\x16\n\x11GET_GMAP_SETTINGS\x10\xac\'b\x06proto3')
+  serialized_pb=_b('\n1pogoprotos/networking/requests/request_type.proto\x12\x1epogoprotos.networking.requests*\xda&\n\x0bRequestType\x12\x10\n\x0cMETHOD_UNSET\x10\x00\x12\x0e\n\nGET_PLAYER\x10\x02\x12\x16\n\x12GET_HOLO_INVENTORY\x10\x04\x12\x15\n\x11\x44OWNLOAD_SETTINGS\x10\x05\x12\x1b\n\x17\x44OWNLOAD_ITEM_TEMPLATES\x10\x06\x12\"\n\x1e\x44OWNLOAD_REMOTE_CONFIG_VERSION\x10\x07\x12\x1e\n\x1aREGISTER_BACKGROUND_DEVICE\x10\x08\x12\x12\n\x0eGET_PLAYER_DAY\x10\t\x12\x1a\n\x16\x41\x43KNOWLEDGE_PUNISHMENT\x10\n\x12\x13\n\x0fGET_SERVER_TIME\x10\x0b\x12\x0f\n\x0b\x46ORT_SEARCH\x10\x65\x12\r\n\tENCOUNTER\x10\x66\x12\x11\n\rCATCH_POKEMON\x10g\x12\x10\n\x0c\x46ORT_DETAILS\x10h\x12\x13\n\x0fGET_MAP_OBJECTS\x10j\x12\x17\n\x13\x46ORT_DEPLOY_POKEMON\x10n\x12\x17\n\x13\x46ORT_RECALL_POKEMON\x10o\x12\x13\n\x0fRELEASE_POKEMON\x10p\x12\x13\n\x0fUSE_ITEM_POTION\x10q\x12\x14\n\x10USE_ITEM_CAPTURE\x10r\x12\x11\n\rUSE_ITEM_FLEE\x10s\x12\x13\n\x0fUSE_ITEM_REVIVE\x10t\x12\x16\n\x12GET_PLAYER_PROFILE\x10y\x12\x12\n\x0e\x45VOLVE_POKEMON\x10}\x12\x14\n\x10GET_HATCHED_EGGS\x10~\x12\x1f\n\x1b\x45NCOUNTER_TUTORIAL_COMPLETE\x10\x7f\x12\x15\n\x10LEVEL_UP_REWARDS\x10\x80\x01\x12\x19\n\x14\x43HECK_AWARDED_BADGES\x10\x81\x01\x12\x11\n\x0cUSE_ITEM_GYM\x10\x85\x01\x12\x14\n\x0fGET_GYM_DETAILS\x10\x86\x01\x12\x15\n\x10START_GYM_BATTLE\x10\x87\x01\x12\x0f\n\nATTACK_GYM\x10\x88\x01\x12\x1b\n\x16RECYCLE_INVENTORY_ITEM\x10\x89\x01\x12\x18\n\x13\x43OLLECT_DAILY_BONUS\x10\x8a\x01\x12\x16\n\x11USE_ITEM_XP_BOOST\x10\x8b\x01\x12\x1b\n\x16USE_ITEM_EGG_INCUBATOR\x10\x8c\x01\x12\x10\n\x0bUSE_INCENSE\x10\x8d\x01\x12\x18\n\x13GET_INCENSE_POKEMON\x10\x8e\x01\x12\x16\n\x11INCENSE_ENCOUNTER\x10\x8f\x01\x12\x16\n\x11\x41\x44\x44_FORT_MODIFIER\x10\x90\x01\x12\x13\n\x0e\x44ISK_ENCOUNTER\x10\x91\x01\x12!\n\x1c\x43OLLECT_DAILY_DEFENDER_BONUS\x10\x92\x01\x12\x14\n\x0fUPGRADE_POKEMON\x10\x93\x01\x12\x19\n\x14SET_FAVORITE_POKEMON\x10\x94\x01\x12\x15\n\x10NICKNAME_POKEMON\x10\x95\x01\x12\x10\n\x0b\x45QUIP_BADGE\x10\x96\x01\x12\x19\n\x14SET_CONTACT_SETTINGS\x10\x97\x01\x12\x16\n\x11SET_BUDDY_POKEMON\x10\x98\x01\x12\x15\n\x10GET_BUDDY_WALKED\x10\x99\x01\x12\x17\n\x12USE_ITEM_ENCOUNTER\x10\x9a\x01\x12\x0f\n\nGYM_DEPLOY\x10\x9b\x01\x12\x11\n\x0cGYM_GET_INFO\x10\x9c\x01\x12\x16\n\x11GYM_START_SESSION\x10\x9d\x01\x12\x16\n\x11GYM_BATTLE_ATTACK\x10\x9e\x01\x12\x0f\n\nJOIN_LOBBY\x10\x9f\x01\x12\x10\n\x0bLEAVE_LOBBY\x10\xa0\x01\x12\x19\n\x14SET_LOBBY_VISIBILITY\x10\xa1\x01\x12\x16\n\x11SET_LOBBY_POKEMON\x10\xa2\x01\x12\x15\n\x10GET_RAID_DETAILS\x10\xa3\x01\x12\x15\n\x10GYM_FEED_POKEMON\x10\xa4\x01\x12\x16\n\x11START_RAID_BATTLE\x10\xa5\x01\x12\x10\n\x0b\x41TTACK_RAID\x10\xa6\x01\x12\x13\n\x0e\x41WARD_POKECOIN\x10\xa7\x01\x12\x1c\n\x17USE_ITEM_STARDUST_BOOST\x10\xa8\x01\x12\x14\n\x0fREASSIGN_PLAYER\x10\xa9\x01\x12\x18\n\x13REDEEM_POI_PASSCODE\x10\xaa\x01\x12\x15\n\x10GET_ASSET_DIGEST\x10\xac\x02\x12\x16\n\x11GET_DOWNLOAD_URLS\x10\xad\x02\x12\x16\n\x11GET_ASSET_VERSION\x10\xae\x02\x12\x13\n\x0e\x43LAIM_CODENAME\x10\x93\x03\x12\x0f\n\nSET_AVATAR\x10\x94\x03\x12\x14\n\x0fSET_PLAYER_TEAM\x10\x95\x03\x12\x1b\n\x16MARK_TUTORIAL_COMPLETE\x10\x96\x03\x12\x1f\n\x1aUPDATE_PERFORMANCE_METRICS\x10\x97\x03\x12\x14\n\x0f\x43HECK_CHALLENGE\x10\xd8\x04\x12\x15\n\x10VERIFY_CHALLENGE\x10\xd9\x04\x12\t\n\x04\x45\x43HO\x10\x9a\x05\x12\x17\n\x12SFIDA_REGISTRATION\x10\xa0\x06\x12\x15\n\x10SFIDA_ACTION_LOG\x10\xa1\x06\x12\x18\n\x13SFIDA_CERTIFICATION\x10\xa2\x06\x12\x11\n\x0cSFIDA_UPDATE\x10\xa3\x06\x12\x11\n\x0cSFIDA_ACTION\x10\xa4\x06\x12\x11\n\x0cSFIDA_DOWSER\x10\xa5\x06\x12\x12\n\rSFIDA_CAPTURE\x10\xa6\x06\x12\x1f\n\x1aLIST_AVATAR_CUSTOMIZATIONS\x10\xa7\x06\x12\x1e\n\x19SET_AVATAR_ITEM_AS_VIEWED\x10\xa8\x06\x12\x0e\n\tGET_INBOX\x10\xa9\x06\x12\x14\n\x0fLIST_GYM_BADGES\x10\xab\x06\x12\x1a\n\x15GET_GYM_BADGE_DETAILS\x10\xac\x06\x12\x19\n\x14USE_ITEM_MOVE_REROLL\x10\xad\x06\x12\x18\n\x13USE_ITEM_RARE_CANDY\x10\xae\x06\x12\x1b\n\x16\x41WARD_FREE_RAID_TICKET\x10\xaf\x06\x12\x13\n\x0e\x46\x45TCH_ALL_NEWS\x10\xb0\x06\x12\x1b\n\x16MARK_READ_NEWS_ARTICLE\x10\xb1\x06\x12\x1c\n\x17GET_PLAYER_DISPLAY_INFO\x10\xb2\x06\x12\x1d\n\x18\x42\x45LUGA_TRANSACTION_START\x10\xb3\x06\x12 \n\x1b\x42\x45LUGA_TRANSACTION_COMPLETE\x10\xb4\x06\x12\x13\n\x0eGET_NEW_QUESTS\x10\x84\x07\x12\x16\n\x11GET_QUEST_DETAILS\x10\x85\x07\x12\x13\n\x0e\x43OMPLETE_QUEST\x10\x86\x07\x12\x11\n\x0cREMOVE_QUEST\x10\x87\x07\x12\x14\n\x0fQUEST_ENCOUNTER\x10\x88\x07\x12\x1e\n\x19\x43OMPLETE_QUEST_STAMP_CARD\x10\x89\x07\x12\x0e\n\tSEND_GIFT\x10\xb6\x07\x12\x0e\n\tOPEN_GIFT\x10\xb7\x07\x12\x11\n\x0cGIFT_DETAILS\x10\xb8\x07\x12\x10\n\x0b\x44\x45LETE_GIFT\x10\xb9\x07\x12\x19\n\x14SAVE_PLAYER_SNAPSHOT\x10\xba\x07\x12%\n GET_FRIENDSHIP_MILESTONE_REWARDS\x10\xbb\x07\x12\x14\n\x0f\x43HECK_SEND_GIFT\x10\xbc\x07\x12\x18\n\x13SET_FRIEND_NICKNAME\x10\xbd\x07\x12\x1f\n\x1a\x44\x45LETE_GIFT_FROM_INVENTORY\x10\xbe\x07\x12 \n\x1bSAVE_SOCIAL_PLAYER_SETTINGS\x10\xbf\x07\x12\x17\n\x12SHARE_EX_RAID_PASS\x10\xc0\x07\x12\x1d\n\x18\x43HECK_SHARE_EX_RAID_PASS\x10\xc1\x07\x12 \n\x1b\x44\x45\x43LINE_SHARED_EX_RAID_PASS\x10\xc2\x07\x12\x11\n\x0cOPEN_TRADING\x10\xca\x07\x12\x13\n\x0eUPDATE_TRADING\x10\xcb\x07\x12\x14\n\x0f\x43ONFIRM_TRADING\x10\xcc\x07\x12\x13\n\x0e\x43\x41NCEL_TRADING\x10\xcd\x07\x12\x10\n\x0bGET_TRADING\x10\xce\x07\x12\x18\n\x13GET_FITNESS_REWARDS\x10\xd4\x07\x12\x1e\n\x19GET_COMBAT_PLAYER_PROFILE\x10\xde\x07\x12!\n\x1cGENERATE_COMBAT_CHALLENGE_ID\x10\xdf\x07\x12\x1c\n\x17\x43REATE_COMBAT_CHALLENGE\x10\xe0\x07\x12\x1a\n\x15OPEN_COMBAT_CHALLENGE\x10\xe1\x07\x12\x19\n\x14GET_COMBAT_CHALLENGE\x10\xe2\x07\x12\x1c\n\x17\x41\x43\x43\x45PT_COMBAT_CHALLENGE\x10\xe3\x07\x12\x1d\n\x18\x44\x45\x43LINE_COMBAT_CHALLENGE\x10\xe4\x07\x12\x1c\n\x17\x43\x41NCEL_COMBAT_CHALLENGE\x10\xe5\x07\x12%\n SUBMIT_COMBAT_CHALLENGE_POKEMONS\x10\xe6\x07\x12#\n\x1eSAVE_COMBAT_PLAYER_PREFERENCES\x10\xe7\x07\x12\x18\n\x13OPEN_COMBAT_SESSION\x10\xe8\x07\x12\x12\n\rUPDATE_COMBAT\x10\xe9\x07\x12\x10\n\x0bQUIT_COMBAT\x10\xea\x07\x12\x17\n\x12GET_COMBAT_RESULTS\x10\xeb\x07\x12\x18\n\x13UNLOCK_SPECIAL_MOVE\x10\xec\x07\x12\x1b\n\x16GET_NPC_COMBAT_REWARDS\x10\xed\x07\x12\x1a\n\x15\x43OMBAT_FRIEND_REQUEST\x10\xee\x07\x12\x1c\n\x17OPEN_NPC_COMBAT_SESSION\x10\xef\x07\x12\x1a\n\x15START_TUTORIAL_ACTION\x10\xf0\x07\x12\x1c\n\x17GET_TUTORIAL_EGG_ACTION\x10\xf1\x07\x12\x0f\n\nSEND_PROBE\x10\xfc\x07\x12\x0f\n\nPROBE_DATA\x10\xfd\x07\x12\x10\n\x0b\x43OMBAT_DATA\x10\xfe\x07\x12\x1a\n\x15\x43OMBAT_CHALLENGE_DATA\x10\xff\x07\x12\x14\n\x0f\x43HECK_PHOTOBOMB\x10\xcd\x08\x12\x16\n\x11\x43ONFIRM_PHOTOBOMB\x10\xce\x08\x12\x12\n\rGET_PHOTOBOMB\x10\xcf\x08\x12\x18\n\x13\x45NCOUNTER_PHOTOBOMB\x10\xd0\x08\x12#\n\x1eGET_SIGNED_GMAP_URL_DEPRECATED\x10\xd1\x08\x12\x10\n\x0b\x43HANGE_TEAM\x10\xd2\x08\x12\x12\n\rGET_WEB_TOKEN\x10\xd3\x08\x12\x1e\n\x19\x43OMPLETE_SNAPSHOT_SESSION\x10\xd6\x08\x12\x13\n\x0eSTART_INCIDENT\x10\xb0\t\x12\x1f\n\x1aINVASION_COMPLETE_DIALOGUE\x10\xb1\t\x12!\n\x1cINVASION_OPEN_COMBAT_SESSION\x10\xb2\t\x12\x1b\n\x16INVASION_BATTLE_UPDATE\x10\xb3\t\x12\x17\n\x12INVASION_ENCOUNTER\x10\xb4\t\x12\x13\n\x0ePURIFY_POKEMON\x10\xb5\t\x12\x1f\n\x1aREGISTER_PUSH_NOTIFICATION\x10\x88\'\x12!\n\x1cUNREGISTER_PUSH_NOTIFICATION\x10\x89\'\x12\x1f\n\x1aUPDATE_NOTIFICATION_STATUS\x10\x8a\'\x12\'\n\"OPT_OUT_PUSH_NOTIFICATION_CATEGORY\x10\x8b\'\x12#\n\x1e\x44OWNLOAD_GAME_MASTER_TEMPLATES\x10\x8c\'\x12\x12\n\rGET_INVENTORY\x10\x8d\'\x12\x14\n\x0fREDEEM_PASSCODE\x10\x8e\'\x12\t\n\x04PING\x10\x8f\'\x12\x15\n\x10\x41\x44\x44_LOGIN_ACTION\x10\x90\'\x12\x18\n\x13REMOVE_LOGIN_ACTION\x10\x91\'\x12\x16\n\x11LIST_LOGIN_ACTION\x10\x92\'\x12\x10\n\x0b\x41\x44\x44_NEW_POI\x10\x93\'\x12\x18\n\x13PROXY_SOCIAL_ACTION\x10\x94\'\x12\x15\n\x10\x43LIENT_TELEMETRY\x10\x95\'\x12\x1e\n\x19GET_AVAILABLE_SUBMISSIONS\x10\x96\'\x12$\n\x1fGET_SIGNED_URL_FOR_PHOTO_UPLOAD\x10\x97\'\x12\x19\n\x14REPLACE_LOGIN_ACTION\x10\x98\'\x12%\n PROXY_SOCIAL_SIDE_CHANNEL_ACTION\x10\x99\'\x12\x1d\n\x18\x43OLLECT_CLIENT_TELEMETRY\x10\x9a\'\x12\x11\n\x0cPURCHASE_SKU\x10\x9b\'\x12$\n\x1fGET_AVAILABLE_SKUS_AND_BALANCES\x10\x9c\'\x12\x1a\n\x15REDEEM_GOOGLE_RECEIPT\x10\x9d\'\x12\x19\n\x14REDEEM_APPLE_RECEIPT\x10\x9e\'\x12\x1b\n\x16REDEEM_DESKTOP_RECEIPT\x10\x9f\'\x12\x1b\n\x16UPDATE_FITNESS_METRICS\x10\xa0\'\x12\x17\n\x12GET_FITNESS_REPORT\x10\xa1\'\x12\"\n\x1dGET_CLIENT_TELEMETRY_SETTINGS\x10\xa2\'\x12 \n\x1bREGISTER_BACKGROUND_SERVICE\x10\xa4\'\x12\x1f\n\x1aGET_CLIENT_BGMODE_SETTINGS\x10\xa5\'\x12\x0f\n\nPING_ASYNC\x10\xa3\'\x12\x14\n\x0fPING_DOWNSTREAM\x10\xa6\'\x12\'\n\"SET_IN_GAME_CURRENCY_EXCHANGE_RATE\x10\xa8\'\x12\x1d\n\x18REQUEST_GEOFENCE_UPDATES\x10\xa9\'\x12\x1b\n\x16UPDATE_PLAYER_LOCATION\x10\xaa\'\x12\x1d\n\x18GENERATE_GMAP_SIGNED_URL\x10\xab\'\x12\x16\n\x11GET_GMAP_SETTINGS\x10\xac\'b\x06proto3')
 )
 
 _REQUESTTYPE = _descriptor.EnumDescriptor(
@@ -291,526 +291,534 @@ _REQUESTTYPE = _descriptor.EnumDescriptor(
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='GET_ASSET_DIGEST', index=65, number=300,
+      name='REDEEM_POI_PASSCODE', index=65, number=170,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='GET_DOWNLOAD_URLS', index=66, number=301,
+      name='GET_ASSET_DIGEST', index=66, number=300,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='CLAIM_CODENAME', index=67, number=403,
+      name='GET_DOWNLOAD_URLS', index=67, number=301,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='SET_AVATAR', index=68, number=404,
+      name='GET_ASSET_VERSION', index=68, number=302,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='SET_PLAYER_TEAM', index=69, number=405,
+      name='CLAIM_CODENAME', index=69, number=403,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='MARK_TUTORIAL_COMPLETE', index=70, number=406,
+      name='SET_AVATAR', index=70, number=404,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='UPDATE_PERFORMANCE_METRICS', index=71, number=407,
+      name='SET_PLAYER_TEAM', index=71, number=405,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='CHECK_CHALLENGE', index=72, number=600,
+      name='MARK_TUTORIAL_COMPLETE', index=72, number=406,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='VERIFY_CHALLENGE', index=73, number=601,
+      name='UPDATE_PERFORMANCE_METRICS', index=73, number=407,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='ECHO', index=74, number=666,
+      name='CHECK_CHALLENGE', index=74, number=600,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='SFIDA_REGISTRATION', index=75, number=800,
+      name='VERIFY_CHALLENGE', index=75, number=601,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='SFIDA_ACTION_LOG', index=76, number=801,
+      name='ECHO', index=76, number=666,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='SFIDA_CERTIFICATION', index=77, number=802,
+      name='SFIDA_REGISTRATION', index=77, number=800,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='SFIDA_UPDATE', index=78, number=803,
+      name='SFIDA_ACTION_LOG', index=78, number=801,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='SFIDA_ACTION', index=79, number=804,
+      name='SFIDA_CERTIFICATION', index=79, number=802,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='SFIDA_DOWSER', index=80, number=805,
+      name='SFIDA_UPDATE', index=80, number=803,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='SFIDA_CAPTURE', index=81, number=806,
+      name='SFIDA_ACTION', index=81, number=804,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='LIST_AVATAR_CUSTOMIZATIONS', index=82, number=807,
+      name='SFIDA_DOWSER', index=82, number=805,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='SET_AVATAR_ITEM_AS_VIEWED', index=83, number=808,
+      name='SFIDA_CAPTURE', index=83, number=806,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='GET_INBOX', index=84, number=809,
+      name='LIST_AVATAR_CUSTOMIZATIONS', index=84, number=807,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='LIST_GYM_BADGES', index=85, number=811,
+      name='SET_AVATAR_ITEM_AS_VIEWED', index=85, number=808,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='GET_GYM_BADGE_DETAILS', index=86, number=812,
+      name='GET_INBOX', index=86, number=809,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='USE_ITEM_MOVE_REROLL', index=87, number=813,
+      name='LIST_GYM_BADGES', index=87, number=811,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='USE_ITEM_RARE_CANDY', index=88, number=814,
+      name='GET_GYM_BADGE_DETAILS', index=88, number=812,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='AWARD_FREE_RAID_TICKET', index=89, number=815,
+      name='USE_ITEM_MOVE_REROLL', index=89, number=813,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='FETCH_ALL_NEWS', index=90, number=816,
+      name='USE_ITEM_RARE_CANDY', index=90, number=814,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='MARK_READ_NEWS_ARTICLE', index=91, number=817,
+      name='AWARD_FREE_RAID_TICKET', index=91, number=815,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='GET_PLAYER_DISPLAY_INFO', index=92, number=818,
+      name='FETCH_ALL_NEWS', index=92, number=816,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='BELUGA_TRANSACTION_START', index=93, number=819,
+      name='MARK_READ_NEWS_ARTICLE', index=93, number=817,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='BELUGA_TRANSACTION_COMPLETE', index=94, number=820,
+      name='GET_PLAYER_DISPLAY_INFO', index=94, number=818,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='GET_NEW_QUESTS', index=95, number=900,
+      name='BELUGA_TRANSACTION_START', index=95, number=819,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='GET_QUEST_DETAILS', index=96, number=901,
+      name='BELUGA_TRANSACTION_COMPLETE', index=96, number=820,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='COMPLETE_QUEST', index=97, number=902,
+      name='GET_NEW_QUESTS', index=97, number=900,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='REMOVE_QUEST', index=98, number=903,
+      name='GET_QUEST_DETAILS', index=98, number=901,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='QUEST_ENCOUNTER', index=99, number=904,
+      name='COMPLETE_QUEST', index=99, number=902,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='COMPLETE_QUEST_STAMP_CARD', index=100, number=905,
+      name='REMOVE_QUEST', index=100, number=903,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='SEND_GIFT', index=101, number=950,
+      name='QUEST_ENCOUNTER', index=101, number=904,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='OPEN_GIFT', index=102, number=951,
+      name='COMPLETE_QUEST_STAMP_CARD', index=102, number=905,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='GIFT_DETAILS', index=103, number=952,
+      name='SEND_GIFT', index=103, number=950,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='DELETE_GIFT', index=104, number=953,
+      name='OPEN_GIFT', index=104, number=951,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='SAVE_PLAYER_SNAPSHOT', index=105, number=954,
+      name='GIFT_DETAILS', index=105, number=952,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='GET_FRIENDSHIP_MILESTONE_REWARDS', index=106, number=955,
+      name='DELETE_GIFT', index=106, number=953,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='CHECK_SEND_GIFT', index=107, number=956,
+      name='SAVE_PLAYER_SNAPSHOT', index=107, number=954,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='SET_FRIEND_NICKNAME', index=108, number=957,
+      name='GET_FRIENDSHIP_MILESTONE_REWARDS', index=108, number=955,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='DELETE_GIFT_FROM_INVENTORY', index=109, number=958,
+      name='CHECK_SEND_GIFT', index=109, number=956,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='SAVE_SOCIAL_PLAYER_SETTINGS', index=110, number=959,
+      name='SET_FRIEND_NICKNAME', index=110, number=957,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='SHARE_EX_RAID_PASS', index=111, number=960,
+      name='DELETE_GIFT_FROM_INVENTORY', index=111, number=958,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='CHECK_SHARE_EX_RAID_PASS', index=112, number=961,
+      name='SAVE_SOCIAL_PLAYER_SETTINGS', index=112, number=959,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='DECLINE_SHARED_EX_RAID_PASS', index=113, number=962,
+      name='SHARE_EX_RAID_PASS', index=113, number=960,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='OPEN_TRADING', index=114, number=970,
+      name='CHECK_SHARE_EX_RAID_PASS', index=114, number=961,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='UPDATE_TRADING', index=115, number=971,
+      name='DECLINE_SHARED_EX_RAID_PASS', index=115, number=962,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='CONFIRM_TRADING', index=116, number=972,
+      name='OPEN_TRADING', index=116, number=970,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='CANCEL_TRADING', index=117, number=973,
+      name='UPDATE_TRADING', index=117, number=971,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='GET_TRADING', index=118, number=974,
+      name='CONFIRM_TRADING', index=118, number=972,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='GET_FITNESS_REWARDS', index=119, number=980,
+      name='CANCEL_TRADING', index=119, number=973,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='GET_COMBAT_PLAYER_PROFILE', index=120, number=990,
+      name='GET_TRADING', index=120, number=974,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='GENERATE_COMBAT_CHALLENGE_ID', index=121, number=991,
+      name='GET_FITNESS_REWARDS', index=121, number=980,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='CREATE_COMBAT_CHALLENGE', index=122, number=992,
+      name='GET_COMBAT_PLAYER_PROFILE', index=122, number=990,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='OPEN_COMBAT_CHALLENGE', index=123, number=993,
+      name='GENERATE_COMBAT_CHALLENGE_ID', index=123, number=991,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='GET_COMBAT_CHALLENGE', index=124, number=994,
+      name='CREATE_COMBAT_CHALLENGE', index=124, number=992,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='ACCEPT_COMBAT_CHALLENGE', index=125, number=995,
+      name='OPEN_COMBAT_CHALLENGE', index=125, number=993,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='DECLINE_COMBAT_CHALLENGE', index=126, number=996,
+      name='GET_COMBAT_CHALLENGE', index=126, number=994,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='CANCEL_COMBAT_CHALLENGE', index=127, number=997,
+      name='ACCEPT_COMBAT_CHALLENGE', index=127, number=995,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='SUBMIT_COMBAT_CHALLENGE_POKEMONS', index=128, number=998,
+      name='DECLINE_COMBAT_CHALLENGE', index=128, number=996,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='SAVE_COMBAT_PLAYER_PREFERENCES', index=129, number=999,
+      name='CANCEL_COMBAT_CHALLENGE', index=129, number=997,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='OPEN_COMBAT_SESSION', index=130, number=1000,
+      name='SUBMIT_COMBAT_CHALLENGE_POKEMONS', index=130, number=998,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='UPDATE_COMBAT', index=131, number=1001,
+      name='SAVE_COMBAT_PLAYER_PREFERENCES', index=131, number=999,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='QUIT_COMBAT', index=132, number=1002,
+      name='OPEN_COMBAT_SESSION', index=132, number=1000,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='GET_COMBAT_RESULTS', index=133, number=1003,
+      name='UPDATE_COMBAT', index=133, number=1001,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='UNLOCK_SPECIAL_MOVE', index=134, number=1004,
+      name='QUIT_COMBAT', index=134, number=1002,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='GET_NPC_COMBAT_REWARDS', index=135, number=1005,
+      name='GET_COMBAT_RESULTS', index=135, number=1003,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='COMBAT_FRIEND_REQUEST', index=136, number=1006,
+      name='UNLOCK_SPECIAL_MOVE', index=136, number=1004,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='OPEN_NPC_COMBAT_SESSION', index=137, number=1007,
+      name='GET_NPC_COMBAT_REWARDS', index=137, number=1005,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='START_TUTORIAL_ACTION', index=138, number=1008,
+      name='COMBAT_FRIEND_REQUEST', index=138, number=1006,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='GET_TUTORIAL_EGG_ACTION', index=139, number=1009,
+      name='OPEN_NPC_COMBAT_SESSION', index=139, number=1007,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='SEND_PROBE', index=140, number=1020,
+      name='START_TUTORIAL_ACTION', index=140, number=1008,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='PROBE_DATA', index=141, number=1021,
+      name='GET_TUTORIAL_EGG_ACTION', index=141, number=1009,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='COMBAT_DATA', index=142, number=1022,
+      name='SEND_PROBE', index=142, number=1020,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='COMBAT_CHALLENGE_DATA', index=143, number=1023,
+      name='PROBE_DATA', index=143, number=1021,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='CHECK_PHOTOBOMB', index=144, number=1101,
+      name='COMBAT_DATA', index=144, number=1022,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='CONFIRM_PHOTOBOMB', index=145, number=1102,
+      name='COMBAT_CHALLENGE_DATA', index=145, number=1023,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='GET_PHOTOBOMB', index=146, number=1103,
+      name='CHECK_PHOTOBOMB', index=146, number=1101,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='ENCOUNTER_PHOTOBOMB', index=147, number=1104,
+      name='CONFIRM_PHOTOBOMB', index=147, number=1102,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='GET_SIGNED_GMAP_URL_DEPRECATED', index=148, number=1105,
+      name='GET_PHOTOBOMB', index=148, number=1103,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='CHANGE_TEAM', index=149, number=1106,
+      name='ENCOUNTER_PHOTOBOMB', index=149, number=1104,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='GET_WEB_TOKEN', index=150, number=1107,
+      name='GET_SIGNED_GMAP_URL_DEPRECATED', index=150, number=1105,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='COMPLETE_SNAPSHOT_SESSION', index=151, number=1110,
+      name='CHANGE_TEAM', index=151, number=1106,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='START_INCIDENT', index=152, number=1200,
+      name='GET_WEB_TOKEN', index=152, number=1107,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='INVASION_COMPLETE_DIALOGUE', index=153, number=1201,
+      name='COMPLETE_SNAPSHOT_SESSION', index=153, number=1110,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='INVASION_OPEN_COMBAT_SESSION', index=154, number=1202,
+      name='START_INCIDENT', index=154, number=1200,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='INVASION_BATTLE_UPDATE', index=155, number=1203,
+      name='INVASION_COMPLETE_DIALOGUE', index=155, number=1201,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='INVASION_ENCOUNTER', index=156, number=1204,
+      name='INVASION_OPEN_COMBAT_SESSION', index=156, number=1202,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='PURIFY_POKEMON', index=157, number=1205,
+      name='INVASION_BATTLE_UPDATE', index=157, number=1203,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='REGISTER_PUSH_NOTIFICATION', index=158, number=5000,
+      name='INVASION_ENCOUNTER', index=158, number=1204,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='UNREGISTER_PUSH_NOTIFICATION', index=159, number=5001,
+      name='PURIFY_POKEMON', index=159, number=1205,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='UPDATE_NOTIFICATION_STATUS', index=160, number=5002,
+      name='REGISTER_PUSH_NOTIFICATION', index=160, number=5000,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='OPT_OUT_PUSH_NOTIFICATION_CATEGORY', index=161, number=5003,
+      name='UNREGISTER_PUSH_NOTIFICATION', index=161, number=5001,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='DOWNLOAD_GAME_MASTER_TEMPLATES', index=162, number=5004,
+      name='UPDATE_NOTIFICATION_STATUS', index=162, number=5002,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='GET_INVENTORY', index=163, number=5005,
+      name='OPT_OUT_PUSH_NOTIFICATION_CATEGORY', index=163, number=5003,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='REDEEM_PASSCODE', index=164, number=5006,
+      name='DOWNLOAD_GAME_MASTER_TEMPLATES', index=164, number=5004,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='PING', index=165, number=5007,
+      name='GET_INVENTORY', index=165, number=5005,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='ADD_LOGIN_ACTION', index=166, number=5008,
+      name='REDEEM_PASSCODE', index=166, number=5006,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='REMOVE_LOGIN_ACTION', index=167, number=5009,
+      name='PING', index=167, number=5007,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='LIST_LOGIN_ACTION', index=168, number=5010,
+      name='ADD_LOGIN_ACTION', index=168, number=5008,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='ADD_NEW_POI', index=169, number=5011,
+      name='REMOVE_LOGIN_ACTION', index=169, number=5009,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='PROXY_SOCIAL_ACTION', index=170, number=5012,
+      name='LIST_LOGIN_ACTION', index=170, number=5010,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='CLIENT_TELEMETRY', index=171, number=5013,
+      name='ADD_NEW_POI', index=171, number=5011,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='GET_AVAILABLE_SUBMISSIONS', index=172, number=5014,
+      name='PROXY_SOCIAL_ACTION', index=172, number=5012,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='GET_SIGNED_URL_FOR_PHOTO_UPLOAD', index=173, number=5015,
+      name='CLIENT_TELEMETRY', index=173, number=5013,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='REPLACE_LOGIN_ACTION', index=174, number=5016,
+      name='GET_AVAILABLE_SUBMISSIONS', index=174, number=5014,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='PROXY_SOCIAL_SIDE_CHANNEL_ACTION', index=175, number=5017,
+      name='GET_SIGNED_URL_FOR_PHOTO_UPLOAD', index=175, number=5015,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='COLLECT_CLIENT_TELEMETRY', index=176, number=5018,
+      name='REPLACE_LOGIN_ACTION', index=176, number=5016,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='PURCHASE_SKU', index=177, number=5019,
+      name='PROXY_SOCIAL_SIDE_CHANNEL_ACTION', index=177, number=5017,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='GET_AVAILABLE_SKUS_AND_BALANCES', index=178, number=5020,
+      name='COLLECT_CLIENT_TELEMETRY', index=178, number=5018,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='REDEEM_GOOGLE_RECEIPT', index=179, number=5021,
+      name='PURCHASE_SKU', index=179, number=5019,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='REDEEM_APPLE_RECEIPT', index=180, number=5022,
+      name='GET_AVAILABLE_SKUS_AND_BALANCES', index=180, number=5020,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='REDEEM_DESKTOP_RECEIPT', index=181, number=5023,
+      name='REDEEM_GOOGLE_RECEIPT', index=181, number=5021,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='UPDATE_FITNESS_METRICS', index=182, number=5024,
+      name='REDEEM_APPLE_RECEIPT', index=182, number=5022,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='GET_FITNESS_REPORT', index=183, number=5025,
+      name='REDEEM_DESKTOP_RECEIPT', index=183, number=5023,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='GET_CLIENT_TELEMETRY_SETTINGS', index=184, number=5026,
+      name='UPDATE_FITNESS_METRICS', index=184, number=5024,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='REGISTER_BACKGROUND_SERVICE', index=185, number=5028,
+      name='GET_FITNESS_REPORT', index=185, number=5025,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='GET_CLIENT_BGMODE_SETTINGS', index=186, number=5029,
+      name='GET_CLIENT_TELEMETRY_SETTINGS', index=186, number=5026,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='PING_ASYNC', index=187, number=5027,
+      name='REGISTER_BACKGROUND_SERVICE', index=187, number=5028,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='PING_DOWNSTREAM', index=188, number=5030,
+      name='GET_CLIENT_BGMODE_SETTINGS', index=188, number=5029,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='SET_IN_GAME_CURRENCY_EXCHANGE_RATE', index=189, number=5032,
+      name='PING_ASYNC', index=189, number=5027,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='REQUEST_GEOFENCE_UPDATES', index=190, number=5033,
+      name='PING_DOWNSTREAM', index=190, number=5030,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='UPDATE_PLAYER_LOCATION', index=191, number=5034,
+      name='SET_IN_GAME_CURRENCY_EXCHANGE_RATE', index=191, number=5032,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='GENERATE_GMAP_SIGNED_URL', index=192, number=5035,
+      name='REQUEST_GEOFENCE_UPDATES', index=192, number=5033,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='GET_GMAP_SETTINGS', index=193, number=5036,
+      name='UPDATE_PLAYER_LOCATION', index=193, number=5034,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='GENERATE_GMAP_SIGNED_URL', index=194, number=5035,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='GET_GMAP_SETTINGS', index=195, number=5036,
       serialized_options=None,
       type=None),
   ],
   containing_type=None,
   serialized_options=None,
   serialized_start=86,
-  serialized_end=4990,
+  serialized_end=5040,
 )
 _sym_db.RegisterEnumDescriptor(_REQUESTTYPE)
 
@@ -880,8 +888,10 @@ ATTACK_RAID = 166
 AWARD_POKECOIN = 167
 USE_ITEM_STARDUST_BOOST = 168
 REASSIGN_PLAYER = 169
+REDEEM_POI_PASSCODE = 170
 GET_ASSET_DIGEST = 300
 GET_DOWNLOAD_URLS = 301
+GET_ASSET_VERSION = 302
 CLAIM_CODENAME = 403
 SET_AVATAR = 404
 SET_PLAYER_TEAM = 405

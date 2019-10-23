@@ -20,7 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='pogoprotos.data',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n%pogoprotos/data/invasion_status.proto\x12\x0fpogoprotos.data\"\x82\x03\n\x0eInvasionStatus\"\xef\x02\n\x06Status\x12\t\n\x05UNSET\x10\x00\x12\x0b\n\x07SUCCESS\x10\x01\x12\t\n\x05\x45RROR\x10\x02\x12\x18\n\x14\x45RROR_FORT_NOT_FOUND\x10\x03\x12\x1c\n\x18\x45RROR_INCIDENT_NOT_FOUND\x10\x04\x12 \n\x1c\x45RROR_STEP_ALREADY_COMPLETED\x10\x05\x12\x14\n\x10\x45RROR_WRONG_STEP\x10\x06\x12 \n\x1c\x45RROR_PLAYER_BELOW_MIN_LEVEL\x10\x07\x12\x1a\n\x16\x45RROR_INCIDENT_EXPIRED\x10\x08\x12!\n\x1d\x45RROR_MISSING_INCIDENT_TICKET\x10\t\x12*\n&ERROR_ENCOUNTER_POKEMON_INVENTORY_FULL\x10\n\x12 \n\x1c\x45RROR_INVALID_HEALTH_UPDATES\x10\x14\x12#\n\x1f\x45RROR_ATTACKING_POKEMON_INVALID\x10\x1e\x62\x06proto3')
+  serialized_pb=_b('\n%pogoprotos/data/invasion_status.proto\x12\x0fpogoprotos.data\"\xa7\x03\n\x0eInvasionStatus\"\x94\x03\n\x06Status\x12\t\n\x05UNSET\x10\x00\x12\x0b\n\x07SUCCESS\x10\x01\x12\t\n\x05\x45RROR\x10\x02\x12\x18\n\x14\x45RROR_FORT_NOT_FOUND\x10\x03\x12\x1c\n\x18\x45RROR_INCIDENT_NOT_FOUND\x10\x04\x12 \n\x1c\x45RROR_STEP_ALREADY_COMPLETED\x10\x05\x12\x14\n\x10\x45RROR_WRONG_STEP\x10\x06\x12 \n\x1c\x45RROR_PLAYER_BELOW_MIN_LEVEL\x10\x07\x12\x1a\n\x16\x45RROR_INCIDENT_EXPIRED\x10\x08\x12!\n\x1d\x45RROR_MISSING_INCIDENT_TICKET\x10\t\x12*\n&ERROR_ENCOUNTER_POKEMON_INVENTORY_FULL\x10\n\x12#\n\x1f\x45RROR_PLAYER_BELOW_V2_MIN_LEVEL\x10\x0b\x12 \n\x1c\x45RROR_INVALID_HEALTH_UPDATES\x10\x14\x12#\n\x1f\x45RROR_ATTACKING_POKEMON_INVALID\x10\x1e\x62\x06proto3')
 )
 
 
@@ -76,18 +76,22 @@ _INVASIONSTATUS_STATUS = _descriptor.EnumDescriptor(
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='ERROR_INVALID_HEALTH_UPDATES', index=11, number=20,
+      name='ERROR_PLAYER_BELOW_V2_MIN_LEVEL', index=11, number=11,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='ERROR_ATTACKING_POKEMON_INVALID', index=12, number=30,
+      name='ERROR_INVALID_HEALTH_UPDATES', index=12, number=20,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='ERROR_ATTACKING_POKEMON_INVALID', index=13, number=30,
       serialized_options=None,
       type=None),
   ],
   containing_type=None,
   serialized_options=None,
   serialized_start=78,
-  serialized_end=445,
+  serialized_end=482,
 )
 _sym_db.RegisterEnumDescriptor(_INVASIONSTATUS_STATUS)
 
@@ -113,7 +117,7 @@ _INVASIONSTATUS = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=59,
-  serialized_end=445,
+  serialized_end=482,
 )
 
 _INVASIONSTATUS_STATUS.containing_type = _INVASIONSTATUS

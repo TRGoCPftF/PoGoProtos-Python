@@ -31,11 +31,41 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='pogoprotos.map.fort',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n#pogoprotos/map/fort/fort_data.proto\x12\x13pogoprotos.map.fort\x1a%pogoprotos/data/pokemon_display.proto\x1a$pogoprotos/data/raid/raid_info.proto\x1a!pogoprotos/enums/pokemon_id.proto\x1a!pogoprotos/enums/team_color.proto\x1a\'pogoprotos/inventory/item/item_id.proto\x1a%pogoprotos/map/fort/gym_display.proto\x1a#pogoprotos/map/fort/fort_type.proto\x1a&pogoprotos/map/fort/fort_sponsor.proto\x1a-pogoprotos/map/fort/fort_rendering_type.proto\x1a(pogoprotos/map/pokemon/map_pokemon.proto\x1a\"pogoprotos/data/enum_wrapper.proto\"\xcb\r\n\x08\x46ortData\x12\n\n\x02id\x18\x01 \x01(\t\x12\"\n\x1alast_modified_timestamp_ms\x18\x02 \x01(\x03\x12\x10\n\x08latitude\x18\x03 \x01(\x01\x12\x11\n\tlongitude\x18\x04 \x01(\x01\x12\x32\n\rowned_by_team\x18\x05 \x01(\x0e\x32\x1b.pogoprotos.enums.TeamColor\x12\x35\n\x10guard_pokemon_id\x18\x06 \x01(\x0e\x32\x1b.pogoprotos.enums.PokemonId\x12\x1b\n\x13guard_pokemon_level\x18\x07 \x01(\x05\x12\x0f\n\x07\x65nabled\x18\x08 \x01(\x08\x12+\n\x04type\x18\t \x01(\x0e\x32\x1d.pogoprotos.map.fort.FortType\x12\x12\n\ngym_points\x18\n \x01(\x03\x12\x14\n\x0cis_in_battle\x18\x0b \x01(\x08\x12?\n\x14\x61\x63tive_fort_modifier\x18\x0c \x03(\x0e\x32!.pogoprotos.inventory.item.ItemId\x12:\n\x0e\x61\x63tive_pokemon\x18\r \x01(\x0b\x32\".pogoprotos.map.pokemon.MapPokemon\x12\x1c\n\x14\x63ooldown_complete_ms\x18\x0e \x01(\x03\x12\x31\n\x07sponsor\x18\x0f \x01(\x0e\x32 .pogoprotos.map.fort.FortSponsor\x12>\n\x0erendering_type\x18\x10 \x01(\x0e\x32&.pogoprotos.map.fort.FortRenderingType\x12\x1d\n\x15\x64\x65ploy_lockout_end_ms\x18\x11 \x01(\x03\x12>\n\x15guard_pokemon_display\x18\x12 \x01(\x0b\x32\x1f.pogoprotos.data.PokemonDisplay\x12\x0e\n\x06\x63losed\x18\x13 \x01(\x08\x12\x31\n\traid_info\x18\x14 \x01(\x0b\x32\x1e.pogoprotos.data.raid.RaidInfo\x12\x34\n\x0bgym_display\x18\x15 \x01(\x0b\x32\x1f.pogoprotos.map.fort.GymDisplay\x12\x0f\n\x07visited\x18\x16 \x01(\x08\x12\'\n\x1fsame_team_deploy_lockout_end_ms\x18\x17 \x01(\x03\x12\x15\n\rallow_checkin\x18\x18 \x01(\x08\x12\x11\n\timage_url\x18\x19 \x01(\t\x12\x10\n\x08in_event\x18\x1a \x01(\x08\x12\x12\n\nbanner_url\x18\x1b \x01(\t\x12\x12\n\npartner_id\x18\x1c \x01(\t\x12!\n\x19\x63hallenge_quest_completed\x18\x1e \x01(\x08\x12\x1b\n\x13is_ex_raid_eligible\x18\x1f \x01(\x08\x12O\n\x10pokestop_display\x18  \x01(\x0b\x32\x35.pogoprotos.map.fort.FortData.PokestopIncidentDisplay\x1a\xe4\x04\n\x17PokestopIncidentDisplay\x12\x13\n\x0bincident_id\x18\x01 \x01(\t\x12\x19\n\x11incident_start_ms\x18\x02 \x01(\x03\x12\x1e\n\x16incident_expiration_ms\x18\x03 \x01(\x03\x12\x15\n\rhide_incident\x18\x04 \x01(\x08\x12\x1a\n\x12incident_completed\x18\x05 \x01(\x08\x12\x63\n\x11\x63haracter_display\x18\n \x01(\x0b\x32\x46.pogoprotos.map.fort.FortData.PokestopIncidentDisplay.CharacterDisplayH\x00\x12j\n\x11invasion_finished\x18\x0b \x01(\x0b\x32M.pogoprotos.map.fort.FortData.PokestopIncidentDisplay.InvasionFinishedDisplayH\x00\x1a\x90\x01\n\x10\x43haracterDisplay\x12\x39\n\x05style\x18\x01 \x01(\x0e\x32*.pogoprotos.data.EnumWrapper.PokestopStyle\x12\x41\n\tcharacter\x18\x02 \x01(\x0e\x32..pogoprotos.data.EnumWrapper.InvasionCharacter\x1aT\n\x17InvasionFinishedDisplay\x12\x39\n\x05style\x18\x01 \x01(\x0e\x32*.pogoprotos.data.EnumWrapper.PokestopStyleB\x0c\n\nMapDisplayb\x06proto3')
+  serialized_pb=_b('\n#pogoprotos/map/fort/fort_data.proto\x12\x13pogoprotos.map.fort\x1a%pogoprotos/data/pokemon_display.proto\x1a$pogoprotos/data/raid/raid_info.proto\x1a!pogoprotos/enums/pokemon_id.proto\x1a!pogoprotos/enums/team_color.proto\x1a\'pogoprotos/inventory/item/item_id.proto\x1a%pogoprotos/map/fort/gym_display.proto\x1a#pogoprotos/map/fort/fort_type.proto\x1a&pogoprotos/map/fort/fort_sponsor.proto\x1a-pogoprotos/map/fort/fort_rendering_type.proto\x1a(pogoprotos/map/pokemon/map_pokemon.proto\x1a\"pogoprotos/data/enum_wrapper.proto\"\xb7\x10\n\x08\x46ortData\x12\n\n\x02id\x18\x01 \x01(\t\x12\"\n\x1alast_modified_timestamp_ms\x18\x02 \x01(\x03\x12\x10\n\x08latitude\x18\x03 \x01(\x01\x12\x11\n\tlongitude\x18\x04 \x01(\x01\x12\x32\n\rowned_by_team\x18\x05 \x01(\x0e\x32\x1b.pogoprotos.enums.TeamColor\x12\x35\n\x10guard_pokemon_id\x18\x06 \x01(\x0e\x32\x1b.pogoprotos.enums.PokemonId\x12\x1b\n\x13guard_pokemon_level\x18\x07 \x01(\x05\x12\x0f\n\x07\x65nabled\x18\x08 \x01(\x08\x12+\n\x04type\x18\t \x01(\x0e\x32\x1d.pogoprotos.map.fort.FortType\x12\x12\n\ngym_points\x18\n \x01(\x03\x12\x14\n\x0cis_in_battle\x18\x0b \x01(\x08\x12?\n\x14\x61\x63tive_fort_modifier\x18\x0c \x03(\x0e\x32!.pogoprotos.inventory.item.ItemId\x12:\n\x0e\x61\x63tive_pokemon\x18\r \x01(\x0b\x32\".pogoprotos.map.pokemon.MapPokemon\x12\x1c\n\x14\x63ooldown_complete_ms\x18\x0e \x01(\x03\x12\x31\n\x07sponsor\x18\x0f \x01(\x0e\x32 .pogoprotos.map.fort.FortSponsor\x12>\n\x0erendering_type\x18\x10 \x01(\x0e\x32&.pogoprotos.map.fort.FortRenderingType\x12\x1d\n\x15\x64\x65ploy_lockout_end_ms\x18\x11 \x01(\x03\x12>\n\x15guard_pokemon_display\x18\x12 \x01(\x0b\x32\x1f.pogoprotos.data.PokemonDisplay\x12\x0e\n\x06\x63losed\x18\x13 \x01(\x08\x12\x31\n\traid_info\x18\x14 \x01(\x0b\x32\x1e.pogoprotos.data.raid.RaidInfo\x12\x34\n\x0bgym_display\x18\x15 \x01(\x0b\x32\x1f.pogoprotos.map.fort.GymDisplay\x12\x0f\n\x07visited\x18\x16 \x01(\x08\x12\'\n\x1fsame_team_deploy_lockout_end_ms\x18\x17 \x01(\x03\x12\x15\n\rallow_checkin\x18\x18 \x01(\x08\x12\x11\n\timage_url\x18\x19 \x01(\t\x12\x10\n\x08in_event\x18\x1a \x01(\x08\x12\x12\n\nbanner_url\x18\x1b \x01(\t\x12\x12\n\npartner_id\x18\x1c \x01(\t\x12!\n\x19\x63hallenge_quest_completed\x18\x1e \x01(\x08\x12\x1b\n\x13is_ex_raid_eligible\x18\x1f \x01(\x08\x12O\n\x10pokestop_display\x18  \x01(\x0b\x32\x35.pogoprotos.map.fort.FortData.PokestopIncidentDisplay\x12P\n\x11pokestop_displays\x18! \x03(\x0b\x32\x35.pogoprotos.map.fort.FortData.PokestopIncidentDisplay\x1a\xfe\x06\n\x17PokestopIncidentDisplay\x12\x13\n\x0bincident_id\x18\x01 \x01(\t\x12\x19\n\x11incident_start_ms\x18\x02 \x01(\x03\x12\x1e\n\x16incident_expiration_ms\x18\x03 \x01(\x03\x12\x15\n\rhide_incident\x18\x04 \x01(\x08\x12\x1a\n\x12incident_completed\x18\x05 \x01(\x08\x12h\n\x15incident_display_type\x18\x06 \x01(\x0e\x32I.pogoprotos.map.fort.FortData.PokestopIncidentDisplay.IncidentDisplayType\x12\'\n\x1fincident_display_order_priority\x18\x07 \x01(\x05\x12$\n\x1c\x63ontinue_displaying_incident\x18\x08 \x01(\x08\x12\x63\n\x11\x63haracter_display\x18\n \x01(\x0b\x32\x46.pogoprotos.map.fort.FortData.PokestopIncidentDisplay.CharacterDisplayH\x00\x12j\n\x11invasion_finished\x18\x0b \x01(\x0b\x32M.pogoprotos.map.fort.FortData.PokestopIncidentDisplay.InvasionFinishedDisplayH\x00\x1a\x90\x01\n\x10\x43haracterDisplay\x12\x39\n\x05style\x18\x01 \x01(\x0e\x32*.pogoprotos.data.EnumWrapper.PokestopStyle\x12\x41\n\tcharacter\x18\x02 \x01(\x0e\x32..pogoprotos.data.EnumWrapper.InvasionCharacter\x1aT\n\x17InvasionFinishedDisplay\x12\x39\n\x05style\x18\x01 \x01(\x0e\x32*.pogoprotos.data.EnumWrapper.PokestopStyle\"_\n\x13IncidentDisplayType\x12\x08\n\x04NONE\x10\x00\x12\x12\n\x0eINVASION_GRUNT\x10\x01\x12\x13\n\x0fINVASION_LEADER\x10\x02\x12\x15\n\x11INVASION_GIOVANNI\x10\x03\x42\x0c\n\nMapDisplayb\x06proto3')
   ,
   dependencies=[pogoprotos_dot_data_dot_pokemon__display__pb2.DESCRIPTOR,pogoprotos_dot_data_dot_raid_dot_raid__info__pb2.DESCRIPTOR,pogoprotos_dot_enums_dot_pokemon__id__pb2.DESCRIPTOR,pogoprotos_dot_enums_dot_team__color__pb2.DESCRIPTOR,pogoprotos_dot_inventory_dot_item_dot_item__id__pb2.DESCRIPTOR,pogoprotos_dot_map_dot_fort_dot_gym__display__pb2.DESCRIPTOR,pogoprotos_dot_map_dot_fort_dot_fort__type__pb2.DESCRIPTOR,pogoprotos_dot_map_dot_fort_dot_fort__sponsor__pb2.DESCRIPTOR,pogoprotos_dot_map_dot_fort_dot_fort__rendering__type__pb2.DESCRIPTOR,pogoprotos_dot_map_dot_pokemon_dot_map__pokemon__pb2.DESCRIPTOR,pogoprotos_dot_data_dot_enum__wrapper__pb2.DESCRIPTOR,])
 
 
+
+_FORTDATA_POKESTOPINCIDENTDISPLAY_INCIDENTDISPLAYTYPE = _descriptor.EnumDescriptor(
+  name='IncidentDisplayType',
+  full_name='pogoprotos.map.fort.FortData.PokestopIncidentDisplay.IncidentDisplayType',
+  filename=None,
+  file=DESCRIPTOR,
+  values=[
+    _descriptor.EnumValueDescriptor(
+      name='NONE', index=0, number=0,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='INVASION_GRUNT', index=1, number=1,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='INVASION_LEADER', index=2, number=2,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='INVASION_GIOVANNI', index=3, number=3,
+      serialized_options=None,
+      type=None),
+  ],
+  containing_type=None,
+  serialized_options=None,
+  serialized_start=2484,
+  serialized_end=2579,
+)
+_sym_db.RegisterEnumDescriptor(_FORTDATA_POKESTOPINCIDENTDISPLAY_INCIDENTDISPLAYTYPE)
 
 
 _FORTDATA_POKESTOPINCIDENTDISPLAY_CHARACTERDISPLAY = _descriptor.Descriptor(
@@ -71,8 +101,8 @@ _FORTDATA_POKESTOPINCIDENTDISPLAY_CHARACTERDISPLAY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1985,
-  serialized_end=2129,
+  serialized_start=2252,
+  serialized_end=2396,
 )
 
 _FORTDATA_POKESTOPINCIDENTDISPLAY_INVASIONFINISHEDDISPLAY = _descriptor.Descriptor(
@@ -101,8 +131,8 @@ _FORTDATA_POKESTOPINCIDENTDISPLAY_INVASIONFINISHEDDISPLAY = _descriptor.Descript
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=2131,
-  serialized_end=2215,
+  serialized_start=2398,
+  serialized_end=2482,
 )
 
 _FORTDATA_POKESTOPINCIDENTDISPLAY = _descriptor.Descriptor(
@@ -148,14 +178,35 @@ _FORTDATA_POKESTOPINCIDENTDISPLAY = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='character_display', full_name='pogoprotos.map.fort.FortData.PokestopIncidentDisplay.character_display', index=5,
+      name='incident_display_type', full_name='pogoprotos.map.fort.FortData.PokestopIncidentDisplay.incident_display_type', index=5,
+      number=6, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='incident_display_order_priority', full_name='pogoprotos.map.fort.FortData.PokestopIncidentDisplay.incident_display_order_priority', index=6,
+      number=7, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='continue_displaying_incident', full_name='pogoprotos.map.fort.FortData.PokestopIncidentDisplay.continue_displaying_incident', index=7,
+      number=8, type=8, cpp_type=7, label=1,
+      has_default_value=False, default_value=False,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='character_display', full_name='pogoprotos.map.fort.FortData.PokestopIncidentDisplay.character_display', index=8,
       number=10, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='invasion_finished', full_name='pogoprotos.map.fort.FortData.PokestopIncidentDisplay.invasion_finished', index=6,
+      name='invasion_finished', full_name='pogoprotos.map.fort.FortData.PokestopIncidentDisplay.invasion_finished', index=9,
       number=11, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
@@ -166,6 +217,7 @@ _FORTDATA_POKESTOPINCIDENTDISPLAY = _descriptor.Descriptor(
   ],
   nested_types=[_FORTDATA_POKESTOPINCIDENTDISPLAY_CHARACTERDISPLAY, _FORTDATA_POKESTOPINCIDENTDISPLAY_INVASIONFINISHEDDISPLAY, ],
   enum_types=[
+    _FORTDATA_POKESTOPINCIDENTDISPLAY_INCIDENTDISPLAYTYPE,
   ],
   serialized_options=None,
   is_extendable=False,
@@ -176,8 +228,8 @@ _FORTDATA_POKESTOPINCIDENTDISPLAY = _descriptor.Descriptor(
       name='MapDisplay', full_name='pogoprotos.map.fort.FortData.PokestopIncidentDisplay.MapDisplay',
       index=0, containing_type=None, fields=[]),
   ],
-  serialized_start=1617,
-  serialized_end=2229,
+  serialized_start=1699,
+  serialized_end=2593,
 )
 
 _FORTDATA = _descriptor.Descriptor(
@@ -404,6 +456,13 @@ _FORTDATA = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='pokestop_displays', full_name='pogoprotos.map.fort.FortData.pokestop_displays', index=31,
+      number=33, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
   ],
   extensions=[
   ],
@@ -417,7 +476,7 @@ _FORTDATA = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=490,
-  serialized_end=2229,
+  serialized_end=2593,
 )
 
 _FORTDATA_POKESTOPINCIDENTDISPLAY_CHARACTERDISPLAY.fields_by_name['style'].enum_type = pogoprotos_dot_data_dot_enum__wrapper__pb2._ENUMWRAPPER_POKESTOPSTYLE
@@ -425,9 +484,11 @@ _FORTDATA_POKESTOPINCIDENTDISPLAY_CHARACTERDISPLAY.fields_by_name['character'].e
 _FORTDATA_POKESTOPINCIDENTDISPLAY_CHARACTERDISPLAY.containing_type = _FORTDATA_POKESTOPINCIDENTDISPLAY
 _FORTDATA_POKESTOPINCIDENTDISPLAY_INVASIONFINISHEDDISPLAY.fields_by_name['style'].enum_type = pogoprotos_dot_data_dot_enum__wrapper__pb2._ENUMWRAPPER_POKESTOPSTYLE
 _FORTDATA_POKESTOPINCIDENTDISPLAY_INVASIONFINISHEDDISPLAY.containing_type = _FORTDATA_POKESTOPINCIDENTDISPLAY
+_FORTDATA_POKESTOPINCIDENTDISPLAY.fields_by_name['incident_display_type'].enum_type = _FORTDATA_POKESTOPINCIDENTDISPLAY_INCIDENTDISPLAYTYPE
 _FORTDATA_POKESTOPINCIDENTDISPLAY.fields_by_name['character_display'].message_type = _FORTDATA_POKESTOPINCIDENTDISPLAY_CHARACTERDISPLAY
 _FORTDATA_POKESTOPINCIDENTDISPLAY.fields_by_name['invasion_finished'].message_type = _FORTDATA_POKESTOPINCIDENTDISPLAY_INVASIONFINISHEDDISPLAY
 _FORTDATA_POKESTOPINCIDENTDISPLAY.containing_type = _FORTDATA
+_FORTDATA_POKESTOPINCIDENTDISPLAY_INCIDENTDISPLAYTYPE.containing_type = _FORTDATA_POKESTOPINCIDENTDISPLAY
 _FORTDATA_POKESTOPINCIDENTDISPLAY.oneofs_by_name['MapDisplay'].fields.append(
   _FORTDATA_POKESTOPINCIDENTDISPLAY.fields_by_name['character_display'])
 _FORTDATA_POKESTOPINCIDENTDISPLAY.fields_by_name['character_display'].containing_oneof = _FORTDATA_POKESTOPINCIDENTDISPLAY.oneofs_by_name['MapDisplay']
@@ -445,6 +506,7 @@ _FORTDATA.fields_by_name['guard_pokemon_display'].message_type = pogoprotos_dot_
 _FORTDATA.fields_by_name['raid_info'].message_type = pogoprotos_dot_data_dot_raid_dot_raid__info__pb2._RAIDINFO
 _FORTDATA.fields_by_name['gym_display'].message_type = pogoprotos_dot_map_dot_fort_dot_gym__display__pb2._GYMDISPLAY
 _FORTDATA.fields_by_name['pokestop_display'].message_type = _FORTDATA_POKESTOPINCIDENTDISPLAY
+_FORTDATA.fields_by_name['pokestop_displays'].message_type = _FORTDATA_POKESTOPINCIDENTDISPLAY
 DESCRIPTOR.message_types_by_name['FortData'] = _FORTDATA
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 

@@ -20,7 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='pogoprotos.settings.master.quest',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n;pogoprotos/settings/master/quest/daily_quest_settings.proto\x12 pogoprotos.settings.master.quest\"\x7f\n\x12\x44\x61ilyQuestSettings\x12\x17\n\x0f\x62uckets_per_day\x18\x01 \x01(\x05\x12\x15\n\rstreak_length\x18\x02 \x01(\x05\x12\x18\n\x10\x62onus_multiplier\x18\x03 \x01(\x02\x12\x1f\n\x17streak_bonus_multiplier\x18\x04 \x01(\x02\x62\x06proto3')
+  serialized_pb=_b('\n;pogoprotos/settings/master/quest/daily_quest_settings.proto\x12 pogoprotos.settings.master.quest\"\x90\x01\n\x12\x44\x61ilyQuestSettings\x12\x17\n\x0f\x62uckets_per_day\x18\x01 \x01(\x05\x12\x15\n\rstreak_length\x18\x02 \x01(\x05\x12\x18\n\x10\x62onus_multiplier\x18\x03 \x01(\x02\x12\x1f\n\x17streak_bonus_multiplier\x18\x04 \x01(\x02\x12\x0f\n\x07\x64isable\x18\x05 \x01(\x08\x62\x06proto3')
 )
 
 
@@ -61,6 +61,13 @@ _DAILYQUESTSETTINGS = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='disable', full_name='pogoprotos.settings.master.quest.DailyQuestSettings.disable', index=4,
+      number=5, type=8, cpp_type=7, label=1,
+      has_default_value=False, default_value=False,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
   ],
   extensions=[
   ],
@@ -73,8 +80,8 @@ _DAILYQUESTSETTINGS = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=97,
-  serialized_end=224,
+  serialized_start=98,
+  serialized_end=242,
 )
 
 DESCRIPTOR.message_types_by_name['DailyQuestSettings'] = _DAILYQUESTSETTINGS

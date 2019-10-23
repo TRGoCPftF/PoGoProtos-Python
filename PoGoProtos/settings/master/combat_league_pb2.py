@@ -24,7 +24,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='pogoprotos.settings.master',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n.pogoprotos/settings/master/combat_league.proto\x12\x1apogoprotos.settings.master\x1a!pogoprotos/enums/pokemon_id.proto\x1a!pogoprotos/enums/badge_type.proto\x1a-pogoprotos/data/combat/unlock_condition.proto\x1a.pogoprotos/data/combat/pokemon_condition.proto\"\xec\x02\n\x0c\x43ombatLeague\x12\r\n\x05title\x18\x01 \x01(\t\x12\x0f\n\x07\x65nabled\x18\x02 \x01(\x08\x12\x41\n\x10unlock_condition\x18\x03 \x03(\x0b\x32\'.pogoprotos.data.combat.UnlockCondition\x12\x43\n\x11pokemon_condition\x18\x04 \x03(\x0b\x32(.pogoprotos.data.combat.PokemonCondition\x12\x10\n\x08icon_url\x18\x05 \x01(\t\x12\x15\n\rpokemon_count\x18\x06 \x01(\x05\x12\x33\n\x0e\x62\x61nned_pokemon\x18\x07 \x03(\x0e\x32\x1b.pogoprotos.enums.PokemonId\x12/\n\nbadge_type\x18\x08 \x01(\x0e\x32\x1b.pogoprotos.enums.BadgeType\x12%\n\x1dminigame_defense_chance_limit\x18\t \x01(\x05\x62\x06proto3')
+  serialized_pb=_b('\n.pogoprotos/settings/master/combat_league.proto\x12\x1apogoprotos.settings.master\x1a!pogoprotos/enums/pokemon_id.proto\x1a!pogoprotos/enums/badge_type.proto\x1a-pogoprotos/data/combat/unlock_condition.proto\x1a.pogoprotos/data/combat/pokemon_condition.proto\"\x9c\x03\n\x0c\x43ombatLeague\x12\r\n\x05title\x18\x01 \x01(\t\x12\x0f\n\x07\x65nabled\x18\x02 \x01(\x08\x12\x41\n\x10unlock_condition\x18\x03 \x03(\x0b\x32\'.pogoprotos.data.combat.UnlockCondition\x12\x43\n\x11pokemon_condition\x18\x04 \x03(\x0b\x32(.pogoprotos.data.combat.PokemonCondition\x12\x10\n\x08icon_url\x18\x05 \x01(\t\x12\x15\n\rpokemon_count\x18\x06 \x01(\x05\x12\x33\n\x0e\x62\x61nned_pokemon\x18\x07 \x03(\x0e\x32\x1b.pogoprotos.enums.PokemonId\x12/\n\nbadge_type\x18\x08 \x01(\x0e\x32\x1b.pogoprotos.enums.BadgeType\x12%\n\x1dminigame_defense_chance_limit\x18\t \x01(\x05\x12.\n&battle_party_combat_league_template_id\x18\n \x01(\tb\x06proto3')
   ,
   dependencies=[pogoprotos_dot_enums_dot_pokemon__id__pb2.DESCRIPTOR,pogoprotos_dot_enums_dot_badge__type__pb2.DESCRIPTOR,pogoprotos_dot_data_dot_combat_dot_unlock__condition__pb2.DESCRIPTOR,pogoprotos_dot_data_dot_combat_dot_pokemon__condition__pb2.DESCRIPTOR,])
 
@@ -101,6 +101,13 @@ _COMBATLEAGUE = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='battle_party_combat_league_template_id', full_name='pogoprotos.settings.master.CombatLeague.battle_party_combat_league_template_id', index=9,
+      number=10, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
   ],
   extensions=[
   ],
@@ -114,7 +121,7 @@ _COMBATLEAGUE = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=244,
-  serialized_end=608,
+  serialized_end=656,
 )
 
 _COMBATLEAGUE.fields_by_name['unlock_condition'].message_type = pogoprotos_dot_data_dot_combat_dot_unlock__condition__pb2._UNLOCKCONDITION
