@@ -20,7 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='pogoprotos.settings.master',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n6pogoprotos/settings/master/player_level_settings.proto\x12\x1apogoprotos.settings.master\"\xf0\x01\n\x13PlayerLevelSettings\x12\x10\n\x08rank_num\x18\x01 \x03(\x05\x12\x1b\n\x13required_experience\x18\x02 \x03(\x05\x12\x15\n\rcp_multiplier\x18\x03 \x03(\x02\x12\x1c\n\x14max_egg_player_level\x18\x04 \x01(\x05\x12\"\n\x1amax_encounter_player_level\x18\x05 \x01(\x05\x12\'\n\x1fmax_raid_encounter_player_level\x18\x06 \x01(\x05\x12(\n max_quest_encounter_player_level\x18\x07 \x01(\x05\x62\x06proto3')
+  serialized_pb=_b('\n6pogoprotos/settings/master/player_level_settings.proto\x12\x1apogoprotos.settings.master\"\x9e\x02\n\x13PlayerLevelSettings\x12\x10\n\x08rank_num\x18\x01 \x03(\x05\x12\x1b\n\x13required_experience\x18\x02 \x03(\x05\x12\x15\n\rcp_multiplier\x18\x03 \x03(\x02\x12\x1c\n\x14max_egg_player_level\x18\x04 \x01(\x05\x12\"\n\x1amax_encounter_player_level\x18\x05 \x01(\x05\x12\'\n\x1fmax_raid_encounter_player_level\x18\x06 \x01(\x05\x12(\n max_quest_encounter_player_level\x18\x07 \x01(\x05\x12,\n$max_vs_seeker_encounter_player_level\x18\x08 \x01(\x05\x62\x06proto3')
 )
 
 
@@ -82,6 +82,13 @@ _PLAYERLEVELSETTINGS = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='max_vs_seeker_encounter_player_level', full_name='pogoprotos.settings.master.PlayerLevelSettings.max_vs_seeker_encounter_player_level', index=7,
+      number=8, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
   ],
   extensions=[
   ],
@@ -95,7 +102,7 @@ _PLAYERLEVELSETTINGS = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=87,
-  serialized_end=327,
+  serialized_end=373,
 )
 
 DESCRIPTOR.message_types_by_name['PlayerLevelSettings'] = _PLAYERLEVELSETTINGS

@@ -21,7 +21,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='pogoprotos.enums',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n%pogoprotos/enums/encounter_type.proto\x12\x10pogoprotos.enums*\x9f\x01\n\rEncounterType\x12\x0f\n\x0bSPAWN_POINT\x10\x00\x12\x0b\n\x07INCENSE\x10\x01\x12\x08\n\x04\x44ISK\x10\x02\x12\r\n\tPOST_RAID\x10\x03\x12\x0f\n\x0bSTORY_QUEST\x10\x04\x12\x14\n\x10QUEST_STAMP_CARD\x10\x05\x12\x13\n\x0f\x43HALLENGE_QUEST\x10\x06\x12\r\n\tPHOTOBOMB\x10\x07\x12\x0c\n\x08INVASION\x10\x08\x62\x06proto3')
+  serialized_pb=_b('\n%pogoprotos/enums/encounter_type.proto\x12\x10pogoprotos.enums*\xb5\x01\n\rEncounterType\x12\x0f\n\x0bSPAWN_POINT\x10\x00\x12\x0b\n\x07INCENSE\x10\x01\x12\x08\n\x04\x44ISK\x10\x02\x12\r\n\tPOST_RAID\x10\x03\x12\x0f\n\x0bSTORY_QUEST\x10\x04\x12\x14\n\x10QUEST_STAMP_CARD\x10\x05\x12\x13\n\x0f\x43HALLENGE_QUEST\x10\x06\x12\r\n\tPHOTOBOMB\x10\x07\x12\x0c\n\x08INVASION\x10\x08\x12\x14\n\x10VS_SEEKER_REWARD\x10\tb\x06proto3')
 )
 
 _ENCOUNTERTYPE = _descriptor.EnumDescriptor(
@@ -66,11 +66,15 @@ _ENCOUNTERTYPE = _descriptor.EnumDescriptor(
       name='INVASION', index=8, number=8,
       serialized_options=None,
       type=None),
+    _descriptor.EnumValueDescriptor(
+      name='VS_SEEKER_REWARD', index=9, number=9,
+      serialized_options=None,
+      type=None),
   ],
   containing_type=None,
   serialized_options=None,
   serialized_start=60,
-  serialized_end=219,
+  serialized_end=241,
 )
 _sym_db.RegisterEnumDescriptor(_ENCOUNTERTYPE)
 
@@ -84,6 +88,7 @@ QUEST_STAMP_CARD = 5
 CHALLENGE_QUEST = 6
 PHOTOBOMB = 7
 INVASION = 8
+VS_SEEKER_REWARD = 9
 
 
 DESCRIPTOR.enum_types_by_name['EncounterType'] = _ENCOUNTERTYPE

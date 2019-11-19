@@ -21,7 +21,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='pogoprotos.enums',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n$pogoprotos/enums/item_category.proto\x12\x10pogoprotos.enums*\x84\x05\n\x0cItemCategory\x12\x16\n\x12ITEM_CATEGORY_NONE\x10\x00\x12\x1a\n\x16ITEM_CATEGORY_POKEBALL\x10\x01\x12\x16\n\x12ITEM_CATEGORY_FOOD\x10\x02\x12\x1a\n\x16ITEM_CATEGORY_MEDICINE\x10\x03\x12\x17\n\x13ITEM_CATEGORY_BOOST\x10\x04\x12\x1a\n\x16ITEM_CATEGORY_UTILITES\x10\x05\x12\x18\n\x14ITEM_CATEGORY_CAMERA\x10\x06\x12\x16\n\x12ITEM_CATEGORY_DISK\x10\x07\x12\x1b\n\x17ITEM_CATEGORY_INCUBATOR\x10\x08\x12\x19\n\x15ITEM_CATEGORY_INCENSE\x10\t\x12\x1a\n\x16ITEM_CATEGORY_XP_BOOST\x10\n\x12#\n\x1fITEM_CATEGORY_INVENTORY_UPGRADE\x10\x0b\x12\'\n#ITEM_CATEGORY_EVOLUTION_REQUIREMENT\x10\x0c\x12\x1d\n\x19ITEM_CATEGORY_MOVE_REROLL\x10\r\x12\x17\n\x13ITEM_CATEGORY_CANDY\x10\x0e\x12\x1d\n\x19ITEM_CATEGORY_RAID_TICKET\x10\x0f\x12 \n\x1cITEM_CATEGORY_STARDUST_BOOST\x10\x10\x12!\n\x1dITEM_CATEGORY_FRIEND_GIFT_BOX\x10\x11\x12\x1d\n\x19ITEM_CATEGORY_TEAM_CHANGE\x10\x12\x12!\n\x1dITEM_CATEGORY_INCIDENT_TICKET\x10\x15\x12%\n!ITEM_CATEGORY_GLOBAL_EVENT_TICKET\x10\x16\x62\x06proto3')
+  serialized_pb=_b('\n$pogoprotos/enums/item_category.proto\x12\x10pogoprotos.enums*\xa1\x05\n\x0cItemCategory\x12\x16\n\x12ITEM_CATEGORY_NONE\x10\x00\x12\x1a\n\x16ITEM_CATEGORY_POKEBALL\x10\x01\x12\x16\n\x12ITEM_CATEGORY_FOOD\x10\x02\x12\x1a\n\x16ITEM_CATEGORY_MEDICINE\x10\x03\x12\x17\n\x13ITEM_CATEGORY_BOOST\x10\x04\x12\x1a\n\x16ITEM_CATEGORY_UTILITES\x10\x05\x12\x18\n\x14ITEM_CATEGORY_CAMERA\x10\x06\x12\x16\n\x12ITEM_CATEGORY_DISK\x10\x07\x12\x1b\n\x17ITEM_CATEGORY_INCUBATOR\x10\x08\x12\x19\n\x15ITEM_CATEGORY_INCENSE\x10\t\x12\x1a\n\x16ITEM_CATEGORY_XP_BOOST\x10\n\x12#\n\x1fITEM_CATEGORY_INVENTORY_UPGRADE\x10\x0b\x12\'\n#ITEM_CATEGORY_EVOLUTION_REQUIREMENT\x10\x0c\x12\x1d\n\x19ITEM_CATEGORY_MOVE_REROLL\x10\r\x12\x17\n\x13ITEM_CATEGORY_CANDY\x10\x0e\x12\x1d\n\x19ITEM_CATEGORY_RAID_TICKET\x10\x0f\x12 \n\x1cITEM_CATEGORY_STARDUST_BOOST\x10\x10\x12!\n\x1dITEM_CATEGORY_FRIEND_GIFT_BOX\x10\x11\x12\x1d\n\x19ITEM_CATEGORY_TEAM_CHANGE\x10\x12\x12\x1b\n\x17ITEM_CATEGORY_VS_SEEKER\x10\x14\x12!\n\x1dITEM_CATEGORY_INCIDENT_TICKET\x10\x15\x12%\n!ITEM_CATEGORY_GLOBAL_EVENT_TICKET\x10\x16\x62\x06proto3')
 )
 
 _ITEMCATEGORY = _descriptor.EnumDescriptor(
@@ -107,18 +107,22 @@ _ITEMCATEGORY = _descriptor.EnumDescriptor(
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='ITEM_CATEGORY_INCIDENT_TICKET', index=19, number=21,
+      name='ITEM_CATEGORY_VS_SEEKER', index=19, number=20,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='ITEM_CATEGORY_GLOBAL_EVENT_TICKET', index=20, number=22,
+      name='ITEM_CATEGORY_INCIDENT_TICKET', index=20, number=21,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='ITEM_CATEGORY_GLOBAL_EVENT_TICKET', index=21, number=22,
       serialized_options=None,
       type=None),
   ],
   containing_type=None,
   serialized_options=None,
   serialized_start=59,
-  serialized_end=703,
+  serialized_end=732,
 )
 _sym_db.RegisterEnumDescriptor(_ITEMCATEGORY)
 
@@ -142,6 +146,7 @@ ITEM_CATEGORY_RAID_TICKET = 15
 ITEM_CATEGORY_STARDUST_BOOST = 16
 ITEM_CATEGORY_FRIEND_GIFT_BOX = 17
 ITEM_CATEGORY_TEAM_CHANGE = 18
+ITEM_CATEGORY_VS_SEEKER = 20
 ITEM_CATEGORY_INCIDENT_TICKET = 21
 ITEM_CATEGORY_GLOBAL_EVENT_TICKET = 22
 

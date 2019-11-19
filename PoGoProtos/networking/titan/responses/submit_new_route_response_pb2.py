@@ -20,7 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='pogoprotos.networking.titan.responses',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\nEpogoprotos/networking/titan/responses/submit_new_route_response.proto\x12%pogoprotos.networking.titan.responses\"\xd6\x02\n\x16SubmitNewRouteResponse\x12T\n\x06status\x18\x01 \x01(\x0e\x32\x44.pogoprotos.networking.titan.responses.SubmitNewRouteResponse.Status\"\xe5\x01\n\x06Status\x12\x16\n\x12STATUS_UNSPECIFIED\x10\x00\x12\x0b\n\x07SUCCESS\x10\x01\x12\x12\n\x0eINTERNAL_ERROR\x10\x02\x12\x1f\n\x1bTOO_MANY_RECENT_SUBMISSIONS\x10\x03\x12\t\n\x05MINOR\x10\x04\x12\x11\n\rNOT_AVAILABLE\x10\x05\x12\x11\n\rINVALID_INPUT\x10\x06\x12\x11\n\rMISSING_IMAGE\x10\x07\x12\x0f\n\x0bINVALID_POI\x10\x08\x12\x18\n\x14INVALID_ROUTE_LENGTH\x10\t\x12\x12\n\x0e\x44UPLICATE_POIS\x10\nb\x06proto3')
+  serialized_pb=_b('\nEpogoprotos/networking/titan/responses/submit_new_route_response.proto\x12%pogoprotos.networking.titan.responses\"\xfb\x02\n\x16SubmitNewRouteResponse\x12T\n\x06status\x18\x01 \x01(\x0e\x32\x44.pogoprotos.networking.titan.responses.SubmitNewRouteResponse.Status\"\x8a\x02\n\x06Status\x12\x16\n\x12STATUS_UNSPECIFIED\x10\x00\x12\x0b\n\x07SUCCESS\x10\x01\x12\x12\n\x0eINTERNAL_ERROR\x10\x02\x12\x1f\n\x1bTOO_MANY_RECENT_SUBMISSIONS\x10\x03\x12\t\n\x05MINOR\x10\x04\x12\x11\n\rNOT_AVAILABLE\x10\x05\x12\x11\n\rINVALID_INPUT\x10\x06\x12\x11\n\rMISSING_IMAGE\x10\x07\x12\x16\n\x12INVALID_CHECKPOINT\x10\x08\x12\x18\n\x14INVALID_ROUTE_LENGTH\x10\t\x12\x19\n\x15\x44UPLICATE_CHECKPOINTS\x10\n\x12\x15\n\x11\x41LREADY_SUBMITTED\x10\x0b\x62\x06proto3')
 )
 
 
@@ -64,7 +64,7 @@ _SUBMITNEWROUTERESPONSE_STATUS = _descriptor.EnumDescriptor(
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='INVALID_POI', index=8, number=8,
+      name='INVALID_CHECKPOINT', index=8, number=8,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
@@ -72,14 +72,18 @@ _SUBMITNEWROUTERESPONSE_STATUS = _descriptor.EnumDescriptor(
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='DUPLICATE_POIS', index=10, number=10,
+      name='DUPLICATE_CHECKPOINTS', index=10, number=10,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='ALREADY_SUBMITTED', index=11, number=11,
       serialized_options=None,
       type=None),
   ],
   containing_type=None,
   serialized_options=None,
   serialized_start=226,
-  serialized_end=455,
+  serialized_end=492,
 )
 _sym_db.RegisterEnumDescriptor(_SUBMITNEWROUTERESPONSE_STATUS)
 
@@ -112,7 +116,7 @@ _SUBMITNEWROUTERESPONSE = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=113,
-  serialized_end=455,
+  serialized_end=492,
 )
 
 _SUBMITNEWROUTERESPONSE.fields_by_name['status'].enum_type = _SUBMITNEWROUTERESPONSE_STATUS

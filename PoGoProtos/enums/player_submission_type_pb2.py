@@ -21,7 +21,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='pogoprotos.enums',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n-pogoprotos/enums/player_submission_type.proto\x12\x10pogoprotos.enums*\xc1\x01\n\x14PlayerSubmissionType\x12\x14\n\x10TYPE_UNSPECIFIED\x10\x00\x12\x12\n\x0ePOI_SUBMISSION\x10\x01\x12\x14\n\x10ROUTE_SUBMISSION\x10\x02\x12\x18\n\x14POI_IMAGE_SUBMISSION\x10\x03\x12\x1c\n\x18POI_TEXT_METADATA_UPDATE\x10\x04\x12\x17\n\x13POI_LOCATION_UPDATE\x10\x05\x12\x18\n\x14POI_TAKEDOWN_REQUEST\x10\x06\x62\x06proto3')
+  serialized_pb=_b('\n-pogoprotos/enums/player_submission_type.proto\x12\x10pogoprotos.enums*\xde\x01\n\x14PlayerSubmissionType\x12\x14\n\x10TYPE_UNSPECIFIED\x10\x00\x12\x12\n\x0ePOI_SUBMISSION\x10\x01\x12\x14\n\x10ROUTE_SUBMISSION\x10\x02\x12\x18\n\x14POI_IMAGE_SUBMISSION\x10\x03\x12\x1c\n\x18POI_TEXT_METADATA_UPDATE\x10\x04\x12\x17\n\x13POI_LOCATION_UPDATE\x10\x05\x12\x18\n\x14POI_TAKEDOWN_REQUEST\x10\x06\x12\x1b\n\x17POI_AR_VIDEO_SUBMISSION\x10\x07\x62\x06proto3')
 )
 
 _PLAYERSUBMISSIONTYPE = _descriptor.EnumDescriptor(
@@ -58,11 +58,15 @@ _PLAYERSUBMISSIONTYPE = _descriptor.EnumDescriptor(
       name='POI_TAKEDOWN_REQUEST', index=6, number=6,
       serialized_options=None,
       type=None),
+    _descriptor.EnumValueDescriptor(
+      name='POI_AR_VIDEO_SUBMISSION', index=7, number=7,
+      serialized_options=None,
+      type=None),
   ],
   containing_type=None,
   serialized_options=None,
   serialized_start=68,
-  serialized_end=261,
+  serialized_end=290,
 )
 _sym_db.RegisterEnumDescriptor(_PLAYERSUBMISSIONTYPE)
 
@@ -74,6 +78,7 @@ POI_IMAGE_SUBMISSION = 3
 POI_TEXT_METADATA_UPDATE = 4
 POI_LOCATION_UPDATE = 5
 POI_TAKEDOWN_REQUEST = 6
+POI_AR_VIDEO_SUBMISSION = 7
 
 
 DESCRIPTOR.enum_types_by_name['PlayerSubmissionType'] = _PLAYERSUBMISSIONTYPE

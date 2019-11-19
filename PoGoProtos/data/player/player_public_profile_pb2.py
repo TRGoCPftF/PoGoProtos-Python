@@ -24,7 +24,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='pogoprotos.data.player',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n2pogoprotos/data/player/player_public_profile.proto\x12\x16pogoprotos.data.player\x1a*pogoprotos/data/player/player_avatar.proto\x1a)pogoprotos/data/player/player_badge.proto\x1a!pogoprotos/enums/team_color.proto\x1a%pogoprotos/enums/gym_badge_type.proto\"\xf6\x02\n\x13PlayerPublicProfile\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\r\n\x05level\x18\x02 \x01(\x05\x12\x34\n\x06\x61vatar\x18\x03 \x01(\x0b\x32$.pogoprotos.data.player.PlayerAvatar\x12/\n\nteam_color\x18\x04 \x01(\x0e\x32\x1b.pogoprotos.enums.TeamColor\x12\x13\n\x0b\x62\x61ttles_won\x18\x05 \x01(\x05\x12\x11\n\tkm_walked\x18\x06 \x01(\x02\x12\x16\n\x0e\x63\x61ught_pokemon\x18\x07 \x01(\x05\x12\x36\n\x0egym_badge_type\x18\x08 \x01(\x0e\x32\x1e.pogoprotos.enums.GymBadgeType\x12\x33\n\x06\x62\x61\x64ges\x18\t \x03(\x0b\x32#.pogoprotos.data.player.PlayerBadge\x12\x12\n\nexperience\x18\n \x01(\x03\x12\x1a\n\x12has_shared_ex_pass\x18\x0b \x01(\x08\x62\x06proto3')
+  serialized_pb=_b('\n2pogoprotos/data/player/player_public_profile.proto\x12\x16pogoprotos.data.player\x1a*pogoprotos/data/player/player_avatar.proto\x1a)pogoprotos/data/player/player_badge.proto\x1a!pogoprotos/enums/team_color.proto\x1a%pogoprotos/enums/gym_badge_type.proto\"\xa2\x03\n\x13PlayerPublicProfile\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\r\n\x05level\x18\x02 \x01(\x05\x12\x34\n\x06\x61vatar\x18\x03 \x01(\x0b\x32$.pogoprotos.data.player.PlayerAvatar\x12/\n\nteam_color\x18\x04 \x01(\x0e\x32\x1b.pogoprotos.enums.TeamColor\x12\x13\n\x0b\x62\x61ttles_won\x18\x05 \x01(\x05\x12\x11\n\tkm_walked\x18\x06 \x01(\x02\x12\x16\n\x0e\x63\x61ught_pokemon\x18\x07 \x01(\x05\x12\x36\n\x0egym_badge_type\x18\x08 \x01(\x0e\x32\x1e.pogoprotos.enums.GymBadgeType\x12\x33\n\x06\x62\x61\x64ges\x18\t \x03(\x0b\x32#.pogoprotos.data.player.PlayerBadge\x12\x12\n\nexperience\x18\n \x01(\x03\x12\x1a\n\x12has_shared_ex_pass\x18\x0b \x01(\x08\x12\x13\n\x0b\x63ombat_rank\x18\x0c \x01(\x05\x12\x15\n\rcombat_rating\x18\r \x01(\x02\x62\x06proto3')
   ,
   dependencies=[pogoprotos_dot_data_dot_player_dot_player__avatar__pb2.DESCRIPTOR,pogoprotos_dot_data_dot_player_dot_player__badge__pb2.DESCRIPTOR,pogoprotos_dot_enums_dot_team__color__pb2.DESCRIPTOR,pogoprotos_dot_enums_dot_gym__badge__type__pb2.DESCRIPTOR,])
 
@@ -115,6 +115,20 @@ _PLAYERPUBLICPROFILE = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='combat_rank', full_name='pogoprotos.data.player.PlayerPublicProfile.combat_rank', index=11,
+      number=12, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='combat_rating', full_name='pogoprotos.data.player.PlayerPublicProfile.combat_rating', index=12,
+      number=13, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
   ],
   extensions=[
   ],
@@ -128,7 +142,7 @@ _PLAYERPUBLICPROFILE = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=240,
-  serialized_end=614,
+  serialized_end=658,
 )
 
 _PLAYERPUBLICPROFILE.fields_by_name['avatar'].message_type = pogoprotos_dot_data_dot_player_dot_player__avatar__pb2._PLAYERAVATAR

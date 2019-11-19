@@ -25,6 +25,7 @@ from pogoprotos.data import buddy_pokemon_pb2 as pogoprotos_dot_data_dot_buddy__
 from pogoprotos.enums import team_color_pb2 as pogoprotos_dot_enums_dot_team__color__pb2
 from pogoprotos.data.combat import combat_player_preferences_pb2 as pogoprotos_dot_data_dot_combat_dot_combat__player__preferences__pb2
 from pogoprotos.enums import pokemon_id_pb2 as pogoprotos_dot_enums_dot_pokemon__id__pb2
+from pogoprotos.data.combat import combat_log_pb2 as pogoprotos_dot_data_dot_combat_dot_combat__log__pb2
 
 
 DESCRIPTOR = _descriptor.FileDescriptor(
@@ -32,9 +33,9 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='pogoprotos.data',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n!pogoprotos/data/player_data.proto\x12\x0fpogoprotos.data\x1a%pogoprotos/enums/tutorial_state.proto\x1a*pogoprotos/data/player/player_avatar.proto\x1a(pogoprotos/data/player/daily_bonus.proto\x1a+pogoprotos/data/player/equipped_badge.proto\x1a-pogoprotos/data/player/contact_settings.proto\x1a-pogoprotos/data/store/currency_quantity.proto\x1a\x33pogoprotos/data/player/social_player_settings.proto\x1a-pogoprotos/data/player/team_change_info.proto\x1a#pogoprotos/data/buddy_pokemon.proto\x1a!pogoprotos/enums/team_color.proto\x1a\x36pogoprotos/data/combat/combat_player_preferences.proto\x1a!pogoprotos/enums/pokemon_id.proto\"\xe4\x08\n\nPlayerData\x12\x1d\n\x15\x63reation_timestamp_ms\x18\x01 \x01(\x03\x12\x10\n\x08username\x18\x02 \x01(\t\x12)\n\x04team\x18\x05 \x01(\x0e\x32\x1b.pogoprotos.enums.TeamColor\x12;\n\x0etutorial_state\x18\x07 \x03(\x0e\x32\x1f.pogoprotos.enums.TutorialStateB\x02\x10\x01\x12\x34\n\x06\x61vatar\x18\x08 \x01(\x0b\x32$.pogoprotos.data.player.PlayerAvatar\x12\x1b\n\x13max_pokemon_storage\x18\t \x01(\x05\x12\x18\n\x10max_item_storage\x18\n \x01(\x05\x12\x37\n\x0b\x64\x61ily_bonus\x18\x0b \x01(\x0b\x32\".pogoprotos.data.player.DailyBonus\x12=\n\x0e\x65quipped_badge\x18\x0c \x01(\x0b\x32%.pogoprotos.data.player.EquippedBadge\x12\x41\n\x10\x63ontact_settings\x18\r \x01(\x0b\x32\'.pogoprotos.data.player.ContactSettings\x12\x41\n\x10\x63urrency_balance\x18\x0e \x03(\x0b\x32\'.pogoprotos.data.store.CurrencyQuantity\x12!\n\x19remaining_codename_claims\x18\x0f \x01(\x05\x12\x34\n\rbuddy_pokemon\x18\x10 \x01(\x0b\x32\x1d.pogoprotos.data.BuddyPokemon\x12\x1d\n\x15\x62\x61ttle_lockout_end_ms\x18\x11 \x01(\x03\x12\x45\n\x17secondary_player_avatar\x18\x12 \x01(\x0b\x32$.pogoprotos.data.player.PlayerAvatar\x12\x1b\n\x13name_is_blacklisted\x18\x13 \x01(\x08\x12L\n\x16social_player_settings\x18\x14 \x01(\x0b\x32,.pogoprotos.data.player.SocialPlayerSettings\x12R\n\x19\x63ombat_player_preferences\x18\x15 \x01(\x0b\x32/.pogoprotos.data.combat.CombatPlayerPreferences\x12\x19\n\x11player_support_id\x18\x16 \x01(\t\x12@\n\x10team_change_info\x18\x17 \x01(\x0b\x32&.pogoprotos.data.player.TeamChangeInfo\x12?\n\x1a\x63onsumed_eevee_easter_eggs\x18\x18 \x03(\x0e\x32\x1b.pogoprotos.enums.PokemonId\x12\x1b\n\x13time_zone_offset_ms\x18\x1a \x01(\x03\x12\x19\n\x11helpshift_user_id\x18\x1c \x01(\tb\x06proto3')
+  serialized_pb=_b('\n!pogoprotos/data/player_data.proto\x12\x0fpogoprotos.data\x1a%pogoprotos/enums/tutorial_state.proto\x1a*pogoprotos/data/player/player_avatar.proto\x1a(pogoprotos/data/player/daily_bonus.proto\x1a+pogoprotos/data/player/equipped_badge.proto\x1a-pogoprotos/data/player/contact_settings.proto\x1a-pogoprotos/data/store/currency_quantity.proto\x1a\x33pogoprotos/data/player/social_player_settings.proto\x1a-pogoprotos/data/player/team_change_info.proto\x1a#pogoprotos/data/buddy_pokemon.proto\x1a!pogoprotos/enums/team_color.proto\x1a\x36pogoprotos/data/combat/combat_player_preferences.proto\x1a!pogoprotos/enums/pokemon_id.proto\x1a\'pogoprotos/data/combat/combat_log.proto\"\x9b\t\n\nPlayerData\x12\x1d\n\x15\x63reation_timestamp_ms\x18\x01 \x01(\x03\x12\x10\n\x08username\x18\x02 \x01(\t\x12)\n\x04team\x18\x05 \x01(\x0e\x32\x1b.pogoprotos.enums.TeamColor\x12;\n\x0etutorial_state\x18\x07 \x03(\x0e\x32\x1f.pogoprotos.enums.TutorialStateB\x02\x10\x01\x12\x34\n\x06\x61vatar\x18\x08 \x01(\x0b\x32$.pogoprotos.data.player.PlayerAvatar\x12\x1b\n\x13max_pokemon_storage\x18\t \x01(\x05\x12\x18\n\x10max_item_storage\x18\n \x01(\x05\x12\x37\n\x0b\x64\x61ily_bonus\x18\x0b \x01(\x0b\x32\".pogoprotos.data.player.DailyBonus\x12=\n\x0e\x65quipped_badge\x18\x0c \x01(\x0b\x32%.pogoprotos.data.player.EquippedBadge\x12\x41\n\x10\x63ontact_settings\x18\r \x01(\x0b\x32\'.pogoprotos.data.player.ContactSettings\x12\x41\n\x10\x63urrency_balance\x18\x0e \x03(\x0b\x32\'.pogoprotos.data.store.CurrencyQuantity\x12!\n\x19remaining_codename_claims\x18\x0f \x01(\x05\x12\x34\n\rbuddy_pokemon\x18\x10 \x01(\x0b\x32\x1d.pogoprotos.data.BuddyPokemon\x12\x1d\n\x15\x62\x61ttle_lockout_end_ms\x18\x11 \x01(\x03\x12\x45\n\x17secondary_player_avatar\x18\x12 \x01(\x0b\x32$.pogoprotos.data.player.PlayerAvatar\x12\x1b\n\x13name_is_blacklisted\x18\x13 \x01(\x08\x12L\n\x16social_player_settings\x18\x14 \x01(\x0b\x32,.pogoprotos.data.player.SocialPlayerSettings\x12R\n\x19\x63ombat_player_preferences\x18\x15 \x01(\x0b\x32/.pogoprotos.data.combat.CombatPlayerPreferences\x12\x19\n\x11player_support_id\x18\x16 \x01(\t\x12@\n\x10team_change_info\x18\x17 \x01(\x0b\x32&.pogoprotos.data.player.TeamChangeInfo\x12?\n\x1a\x63onsumed_eevee_easter_eggs\x18\x18 \x03(\x0e\x32\x1b.pogoprotos.enums.PokemonId\x12\x35\n\ncombat_log\x18\x19 \x01(\x0b\x32!.pogoprotos.data.combat.CombatLog\x12\x1b\n\x13time_zone_offset_ms\x18\x1a \x01(\x03\x12\x19\n\x11helpshift_user_id\x18\x1c \x01(\tb\x06proto3')
   ,
-  dependencies=[pogoprotos_dot_enums_dot_tutorial__state__pb2.DESCRIPTOR,pogoprotos_dot_data_dot_player_dot_player__avatar__pb2.DESCRIPTOR,pogoprotos_dot_data_dot_player_dot_daily__bonus__pb2.DESCRIPTOR,pogoprotos_dot_data_dot_player_dot_equipped__badge__pb2.DESCRIPTOR,pogoprotos_dot_data_dot_player_dot_contact__settings__pb2.DESCRIPTOR,pogoprotos_dot_data_dot_store_dot_currency__quantity__pb2.DESCRIPTOR,pogoprotos_dot_data_dot_player_dot_social__player__settings__pb2.DESCRIPTOR,pogoprotos_dot_data_dot_player_dot_team__change__info__pb2.DESCRIPTOR,pogoprotos_dot_data_dot_buddy__pokemon__pb2.DESCRIPTOR,pogoprotos_dot_enums_dot_team__color__pb2.DESCRIPTOR,pogoprotos_dot_data_dot_combat_dot_combat__player__preferences__pb2.DESCRIPTOR,pogoprotos_dot_enums_dot_pokemon__id__pb2.DESCRIPTOR,])
+  dependencies=[pogoprotos_dot_enums_dot_tutorial__state__pb2.DESCRIPTOR,pogoprotos_dot_data_dot_player_dot_player__avatar__pb2.DESCRIPTOR,pogoprotos_dot_data_dot_player_dot_daily__bonus__pb2.DESCRIPTOR,pogoprotos_dot_data_dot_player_dot_equipped__badge__pb2.DESCRIPTOR,pogoprotos_dot_data_dot_player_dot_contact__settings__pb2.DESCRIPTOR,pogoprotos_dot_data_dot_store_dot_currency__quantity__pb2.DESCRIPTOR,pogoprotos_dot_data_dot_player_dot_social__player__settings__pb2.DESCRIPTOR,pogoprotos_dot_data_dot_player_dot_team__change__info__pb2.DESCRIPTOR,pogoprotos_dot_data_dot_buddy__pokemon__pb2.DESCRIPTOR,pogoprotos_dot_enums_dot_team__color__pb2.DESCRIPTOR,pogoprotos_dot_data_dot_combat_dot_combat__player__preferences__pb2.DESCRIPTOR,pogoprotos_dot_enums_dot_pokemon__id__pb2.DESCRIPTOR,pogoprotos_dot_data_dot_combat_dot_combat__log__pb2.DESCRIPTOR,])
 
 
 
@@ -194,14 +195,21 @@ _PLAYERDATA = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='time_zone_offset_ms', full_name='pogoprotos.data.PlayerData.time_zone_offset_ms', index=21,
+      name='combat_log', full_name='pogoprotos.data.PlayerData.combat_log', index=21,
+      number=25, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='time_zone_offset_ms', full_name='pogoprotos.data.PlayerData.time_zone_offset_ms', index=22,
       number=26, type=3, cpp_type=2, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='helpshift_user_id', full_name='pogoprotos.data.PlayerData.helpshift_user_id', index=22,
+      name='helpshift_user_id', full_name='pogoprotos.data.PlayerData.helpshift_user_id', index=23,
       number=28, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
@@ -219,8 +227,8 @@ _PLAYERDATA = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=582,
-  serialized_end=1706,
+  serialized_start=623,
+  serialized_end=1802,
 )
 
 _PLAYERDATA.fields_by_name['team'].enum_type = pogoprotos_dot_enums_dot_team__color__pb2._TEAMCOLOR
@@ -236,6 +244,7 @@ _PLAYERDATA.fields_by_name['social_player_settings'].message_type = pogoprotos_d
 _PLAYERDATA.fields_by_name['combat_player_preferences'].message_type = pogoprotos_dot_data_dot_combat_dot_combat__player__preferences__pb2._COMBATPLAYERPREFERENCES
 _PLAYERDATA.fields_by_name['team_change_info'].message_type = pogoprotos_dot_data_dot_player_dot_team__change__info__pb2._TEAMCHANGEINFO
 _PLAYERDATA.fields_by_name['consumed_eevee_easter_eggs'].enum_type = pogoprotos_dot_enums_dot_pokemon__id__pb2._POKEMONID
+_PLAYERDATA.fields_by_name['combat_log'].message_type = pogoprotos_dot_data_dot_combat_dot_combat__log__pb2._COMBATLOG
 DESCRIPTOR.message_types_by_name['PlayerData'] = _PLAYERDATA
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 

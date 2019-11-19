@@ -21,7 +21,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='pogoprotos.networking.responses',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\nBpogoprotos/networking/responses/open_combat_session_response.proto\x12\x1fpogoprotos.networking.responses\x1a#pogoprotos/data/combat/combat.proto\"\x8f\x04\n\x19OpenCombatSessionResponse\x12Q\n\x06result\x18\x01 \x01(\x0e\x32\x41.pogoprotos.networking.responses.OpenCombatSessionResponse.Result\x12.\n\x06\x63ombat\x18\x02 \x01(\x0b\x32\x1e.pogoprotos.data.combat.Combat\"\xee\x02\n\x06Result\x12\t\n\x05UNSET\x10\x00\x12\x0b\n\x07SUCCESS\x10\x01\x12\x1e\n\x1a\x45RROR_INVALID_COMBAT_STATE\x10\x02\x12\x1d\n\x19\x45RROR_COMBAT_SESSION_FULL\x10\x03\x12\"\n\x1e\x45RROR_POKEMON_NOT_IN_INVENTORY\x10\x04\x12\x1f\n\x1b\x45RROR_OPPONENT_NOT_IN_RANGE\x10\x05\x12\x1b\n\x17\x45RROR_CHALLENGE_EXPIRED\x10\x06\x12$\n ERROR_PLAYER_BELOW_MINIMUM_LEVEL\x10\x07\x12\x17\n\x13\x45RROR_OPPONENT_QUIT\x10\x08\x12.\n*ERROR_POKEMON_LINEUP_INELIGIBLE_FOR_LEAGUE\x10\t\x12#\n\x1f\x45RROR_COMBAT_LEAGUE_UNSPECIFIED\x10\n\x12\x17\n\x13\x45RROR_ACCESS_DENIED\x10\x0b\x62\x06proto3')
+  serialized_pb=_b('\nBpogoprotos/networking/responses/open_combat_session_response.proto\x12\x1fpogoprotos.networking.responses\x1a#pogoprotos/data/combat/combat.proto\"\xb6\x04\n\x19OpenCombatSessionResponse\x12Q\n\x06result\x18\x01 \x01(\x0e\x32\x41.pogoprotos.networking.responses.OpenCombatSessionResponse.Result\x12.\n\x06\x63ombat\x18\x02 \x01(\x0b\x32\x1e.pogoprotos.data.combat.Combat\"\x95\x03\n\x06Result\x12\t\n\x05UNSET\x10\x00\x12\x0b\n\x07SUCCESS\x10\x01\x12\x1e\n\x1a\x45RROR_INVALID_COMBAT_STATE\x10\x02\x12\x1d\n\x19\x45RROR_COMBAT_SESSION_FULL\x10\x03\x12\"\n\x1e\x45RROR_POKEMON_NOT_IN_INVENTORY\x10\x04\x12\x1f\n\x1b\x45RROR_OPPONENT_NOT_IN_RANGE\x10\x05\x12\x1b\n\x17\x45RROR_CHALLENGE_EXPIRED\x10\x06\x12$\n ERROR_PLAYER_BELOW_MINIMUM_LEVEL\x10\x07\x12\x17\n\x13\x45RROR_OPPONENT_QUIT\x10\x08\x12.\n*ERROR_POKEMON_LINEUP_INELIGIBLE_FOR_LEAGUE\x10\t\x12#\n\x1f\x45RROR_COMBAT_LEAGUE_UNSPECIFIED\x10\n\x12\x17\n\x13\x45RROR_ACCESS_DENIED\x10\x0b\x12%\n!ERROR_PLAYER_HAS_NO_BATTLE_PASSES\x10\x0c\x62\x06proto3')
   ,
   dependencies=[pogoprotos_dot_data_dot_combat_dot_combat__pb2.DESCRIPTOR,])
 
@@ -81,11 +81,15 @@ _OPENCOMBATSESSIONRESPONSE_RESULT = _descriptor.EnumDescriptor(
       name='ERROR_ACCESS_DENIED', index=11, number=11,
       serialized_options=None,
       type=None),
+    _descriptor.EnumValueDescriptor(
+      name='ERROR_PLAYER_HAS_NO_BATTLE_PASSES', index=12, number=12,
+      serialized_options=None,
+      type=None),
   ],
   containing_type=None,
   serialized_options=None,
   serialized_start=302,
-  serialized_end=668,
+  serialized_end=707,
 )
 _sym_db.RegisterEnumDescriptor(_OPENCOMBATSESSIONRESPONSE_RESULT)
 
@@ -125,7 +129,7 @@ _OPENCOMBATSESSIONRESPONSE = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=141,
-  serialized_end=668,
+  serialized_end=707,
 )
 
 _OPENCOMBATSESSIONRESPONSE.fields_by_name['result'].enum_type = _OPENCOMBATSESSIONRESPONSE_RESULT

@@ -20,7 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='pogoprotos.settings',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n-pogoprotos/settings/poi_global_settings.proto\x12\x13pogoprotos.settings\"\'\n\x11PoiGlobalSettings\x12\x12\n\nis_enabled\x18\x01 \x01(\x08\x62\x06proto3')
+  serialized_pb=_b('\n-pogoprotos/settings/poi_global_settings.proto\x12\x13pogoprotos.settings\"O\n\x11PoiGlobalSettings\x12\x12\n\nis_enabled\x18\x01 \x01(\x08\x12&\n\x1eplayer_submission_type_enabled\x18\x02 \x03(\tb\x06proto3')
 )
 
 
@@ -40,6 +40,13 @@ _POIGLOBALSETTINGS = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='player_submission_type_enabled', full_name='pogoprotos.settings.PoiGlobalSettings.player_submission_type_enabled', index=1,
+      number=2, type=9, cpp_type=9, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
   ],
   extensions=[
   ],
@@ -53,7 +60,7 @@ _POIGLOBALSETTINGS = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=70,
-  serialized_end=109,
+  serialized_end=149,
 )
 
 DESCRIPTOR.message_types_by_name['PoiGlobalSettings'] = _POIGLOBALSETTINGS

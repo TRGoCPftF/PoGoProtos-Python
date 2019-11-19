@@ -21,7 +21,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='pogoprotos.enums',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n(pogoprotos/enums/identity_provider.proto\x12\x10pogoprotos.enums*\x8e\x01\n\x10IdentityProvider\x12\x1b\n\x17UNSET_IDENTITY_PROVIDER\x10\x00\x12\n\n\x06GOOGLE\x10\x01\x12\x07\n\x03PTC\x10\x02\x12\x0c\n\x08\x46\x41\x43\x45\x42OOK\x10\x03\x12\x0e\n\nBACKGROUND\x10\x04\x12\x0c\n\x08INTERNAL\x10\x05\x12\t\n\x05SFIDA\x10\x06\x12\x11\n\rSUPER_AWESOME\x10\x07\x62\x06proto3')
+  serialized_pb=_b('\n(pogoprotos/enums/identity_provider.proto\x12\x10pogoprotos.enums*\xbe\x01\n\x10IdentityProvider\x12\x1b\n\x17UNSET_IDENTITY_PROVIDER\x10\x00\x12\n\n\x06GOOGLE\x10\x01\x12\x07\n\x03PTC\x10\x02\x12\x0c\n\x08\x46\x41\x43\x45\x42OOK\x10\x03\x12\x0e\n\nBACKGROUND\x10\x04\x12\x0c\n\x08INTERNAL\x10\x05\x12\t\n\x05SFIDA\x10\x06\x12\x11\n\rSUPER_AWESOME\x10\x07\x12\r\n\tDEVELOPER\x10\x08\x12\x11\n\rSHARED_SECRET\x10\t\x12\x0c\n\x08POSEIDON\x10\nb\x06proto3')
 )
 
 _IDENTITYPROVIDER = _descriptor.EnumDescriptor(
@@ -62,11 +62,23 @@ _IDENTITYPROVIDER = _descriptor.EnumDescriptor(
       name='SUPER_AWESOME', index=7, number=7,
       serialized_options=None,
       type=None),
+    _descriptor.EnumValueDescriptor(
+      name='DEVELOPER', index=8, number=8,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='SHARED_SECRET', index=9, number=9,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='POSEIDON', index=10, number=10,
+      serialized_options=None,
+      type=None),
   ],
   containing_type=None,
   serialized_options=None,
   serialized_start=63,
-  serialized_end=205,
+  serialized_end=253,
 )
 _sym_db.RegisterEnumDescriptor(_IDENTITYPROVIDER)
 
@@ -79,6 +91,9 @@ BACKGROUND = 4
 INTERNAL = 5
 SFIDA = 6
 SUPER_AWESOME = 7
+DEVELOPER = 8
+SHARED_SECRET = 9
+POSEIDON = 10
 
 
 DESCRIPTOR.enum_types_by_name['IdentityProvider'] = _IDENTITYPROVIDER

@@ -21,7 +21,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='pogoprotos.inventory.item',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n\'pogoprotos/inventory/item/item_id.proto\x12\x19pogoprotos.inventory.item*\xdf\x0b\n\x06ItemId\x12\x10\n\x0cITEM_UNKNOWN\x10\x00\x12\x12\n\x0eITEM_POKE_BALL\x10\x01\x12\x13\n\x0fITEM_GREAT_BALL\x10\x02\x12\x13\n\x0fITEM_ULTRA_BALL\x10\x03\x12\x14\n\x10ITEM_MASTER_BALL\x10\x04\x12\x15\n\x11ITEM_PREMIER_BALL\x10\x05\x12\x0f\n\x0bITEM_POTION\x10\x65\x12\x15\n\x11ITEM_SUPER_POTION\x10\x66\x12\x15\n\x11ITEM_HYPER_POTION\x10g\x12\x13\n\x0fITEM_MAX_POTION\x10h\x12\x10\n\x0bITEM_REVIVE\x10\xc9\x01\x12\x14\n\x0fITEM_MAX_REVIVE\x10\xca\x01\x12\x13\n\x0eITEM_LUCKY_EGG\x10\xad\x02\x12\x1a\n\x15ITEM_INCENSE_ORDINARY\x10\x91\x03\x12\x17\n\x12ITEM_INCENSE_SPICY\x10\x92\x03\x12\x16\n\x11ITEM_INCENSE_COOL\x10\x93\x03\x12\x18\n\x13ITEM_INCENSE_FLORAL\x10\x94\x03\x12\x1c\n\x17ITEM_INCENSE_BELUGA_BOX\x10\x95\x03\x12\x13\n\x0eITEM_TROY_DISK\x10\xf5\x03\x12\x1b\n\x16ITEM_TROY_DISK_GLACIAL\x10\xf6\x03\x12\x19\n\x14ITEM_TROY_DISK_MOSSY\x10\xf7\x03\x12\x1c\n\x17ITEM_TROY_DISK_MAGNETIC\x10\xf8\x03\x12\x12\n\rITEM_X_ATTACK\x10\xda\x04\x12\x13\n\x0eITEM_X_DEFENSE\x10\xdb\x04\x12\x13\n\x0eITEM_X_MIRACLE\x10\xdc\x04\x12\x14\n\x0fITEM_RAZZ_BERRY\x10\xbd\x05\x12\x14\n\x0fITEM_BLUK_BERRY\x10\xbe\x05\x12\x15\n\x10ITEM_NANAB_BERRY\x10\xbf\x05\x12\x15\n\x10ITEM_WEPAR_BERRY\x10\xc0\x05\x12\x15\n\x10ITEM_PINAP_BERRY\x10\xc1\x05\x12\x1b\n\x16ITEM_GOLDEN_RAZZ_BERRY\x10\xc2\x05\x12\x1c\n\x17ITEM_GOLDEN_NANAB_BERRY\x10\xc3\x05\x12\x1c\n\x17ITEM_GOLDEN_PINAP_BERRY\x10\xc4\x05\x12\x18\n\x13ITEM_SPECIAL_CAMERA\x10\xa1\x06\x12#\n\x1eITEM_INCUBATOR_BASIC_UNLIMITED\x10\x85\x07\x12\x19\n\x14ITEM_INCUBATOR_BASIC\x10\x86\x07\x12\x19\n\x14ITEM_INCUBATOR_SUPER\x10\x87\x07\x12!\n\x1cITEM_POKEMON_STORAGE_UPGRADE\x10\xe9\x07\x12\x1e\n\x19ITEM_ITEM_STORAGE_UPGRADE\x10\xea\x07\x12\x13\n\x0eITEM_SUN_STONE\x10\xcd\x08\x12\x14\n\x0fITEM_KINGS_ROCK\x10\xce\x08\x12\x14\n\x0fITEM_METAL_COAT\x10\xcf\x08\x12\x16\n\x11ITEM_DRAGON_SCALE\x10\xd0\x08\x12\x12\n\rITEM_UP_GRADE\x10\xd1\x08\x12\x1e\n\x19ITEM_GEN4_EVOLUTION_STONE\x10\xd2\x08\x12\x1e\n\x19ITEM_GEN5_EVOLUTION_STONE\x10\xd3\x08\x12!\n\x1cITEM_MOVE_REROLL_FAST_ATTACK\x10\xb1\t\x12$\n\x1fITEM_MOVE_REROLL_SPECIAL_ATTACK\x10\xb2\t\x12\x14\n\x0fITEM_RARE_CANDY\x10\x95\n\x12\x1a\n\x15ITEM_FREE_RAID_TICKET\x10\xf9\n\x12\x1a\n\x15ITEM_PAID_RAID_TICKET\x10\xfa\n\x12\x1f\n\x1aITEM_LEGENDARY_RAID_TICKET\x10\xfb\n\x12\x14\n\x0fITEM_STAR_PIECE\x10\xfc\n\x12\x19\n\x14ITEM_FRIEND_GIFT_BOX\x10\xfd\n\x12\x15\n\x10ITEM_TEAM_CHANGE\x10\xfe\n\x12\x1d\n\x18ITEM_LEADER_MAP_FRAGMENT\x10\xdd\x0b\x12\x14\n\x0fITEM_LEADER_MAP\x10\xde\x0b\x12\x16\n\x11ITEM_GIOVANNI_MAP\x10\xdf\x0b\x12\x1d\n\x18ITEM_GLOBAL_EVENT_TICKET\x10\xc0\x0c\x62\x06proto3')
+  serialized_pb=_b('\n\'pogoprotos/inventory/item/item_id.proto\x12\x19pogoprotos.inventory.item*\xff\x0b\n\x06ItemId\x12\x10\n\x0cITEM_UNKNOWN\x10\x00\x12\x12\n\x0eITEM_POKE_BALL\x10\x01\x12\x13\n\x0fITEM_GREAT_BALL\x10\x02\x12\x13\n\x0fITEM_ULTRA_BALL\x10\x03\x12\x14\n\x10ITEM_MASTER_BALL\x10\x04\x12\x15\n\x11ITEM_PREMIER_BALL\x10\x05\x12\x0f\n\x0bITEM_POTION\x10\x65\x12\x15\n\x11ITEM_SUPER_POTION\x10\x66\x12\x15\n\x11ITEM_HYPER_POTION\x10g\x12\x13\n\x0fITEM_MAX_POTION\x10h\x12\x10\n\x0bITEM_REVIVE\x10\xc9\x01\x12\x14\n\x0fITEM_MAX_REVIVE\x10\xca\x01\x12\x13\n\x0eITEM_LUCKY_EGG\x10\xad\x02\x12\x1a\n\x15ITEM_INCENSE_ORDINARY\x10\x91\x03\x12\x17\n\x12ITEM_INCENSE_SPICY\x10\x92\x03\x12\x16\n\x11ITEM_INCENSE_COOL\x10\x93\x03\x12\x18\n\x13ITEM_INCENSE_FLORAL\x10\x94\x03\x12\x1c\n\x17ITEM_INCENSE_BELUGA_BOX\x10\x95\x03\x12\x13\n\x0eITEM_TROY_DISK\x10\xf5\x03\x12\x1b\n\x16ITEM_TROY_DISK_GLACIAL\x10\xf6\x03\x12\x19\n\x14ITEM_TROY_DISK_MOSSY\x10\xf7\x03\x12\x1c\n\x17ITEM_TROY_DISK_MAGNETIC\x10\xf8\x03\x12\x12\n\rITEM_X_ATTACK\x10\xda\x04\x12\x13\n\x0eITEM_X_DEFENSE\x10\xdb\x04\x12\x13\n\x0eITEM_X_MIRACLE\x10\xdc\x04\x12\x14\n\x0fITEM_RAZZ_BERRY\x10\xbd\x05\x12\x14\n\x0fITEM_BLUK_BERRY\x10\xbe\x05\x12\x15\n\x10ITEM_NANAB_BERRY\x10\xbf\x05\x12\x15\n\x10ITEM_WEPAR_BERRY\x10\xc0\x05\x12\x15\n\x10ITEM_PINAP_BERRY\x10\xc1\x05\x12\x1b\n\x16ITEM_GOLDEN_RAZZ_BERRY\x10\xc2\x05\x12\x1c\n\x17ITEM_GOLDEN_NANAB_BERRY\x10\xc3\x05\x12\x1c\n\x17ITEM_GOLDEN_PINAP_BERRY\x10\xc4\x05\x12\x18\n\x13ITEM_SPECIAL_CAMERA\x10\xa1\x06\x12#\n\x1eITEM_INCUBATOR_BASIC_UNLIMITED\x10\x85\x07\x12\x19\n\x14ITEM_INCUBATOR_BASIC\x10\x86\x07\x12\x19\n\x14ITEM_INCUBATOR_SUPER\x10\x87\x07\x12!\n\x1cITEM_POKEMON_STORAGE_UPGRADE\x10\xe9\x07\x12\x1e\n\x19ITEM_ITEM_STORAGE_UPGRADE\x10\xea\x07\x12\x13\n\x0eITEM_SUN_STONE\x10\xcd\x08\x12\x14\n\x0fITEM_KINGS_ROCK\x10\xce\x08\x12\x14\n\x0fITEM_METAL_COAT\x10\xcf\x08\x12\x16\n\x11ITEM_DRAGON_SCALE\x10\xd0\x08\x12\x12\n\rITEM_UP_GRADE\x10\xd1\x08\x12\x1e\n\x19ITEM_GEN4_EVOLUTION_STONE\x10\xd2\x08\x12\x1e\n\x19ITEM_GEN5_EVOLUTION_STONE\x10\xd3\x08\x12!\n\x1cITEM_MOVE_REROLL_FAST_ATTACK\x10\xb1\t\x12$\n\x1fITEM_MOVE_REROLL_SPECIAL_ATTACK\x10\xb2\t\x12\x14\n\x0fITEM_RARE_CANDY\x10\x95\n\x12\x1a\n\x15ITEM_FREE_RAID_TICKET\x10\xf9\n\x12\x1a\n\x15ITEM_PAID_RAID_TICKET\x10\xfa\n\x12\x1f\n\x1aITEM_LEGENDARY_RAID_TICKET\x10\xfb\n\x12\x14\n\x0fITEM_STAR_PIECE\x10\xfc\n\x12\x19\n\x14ITEM_FRIEND_GIFT_BOX\x10\xfd\n\x12\x15\n\x10ITEM_TEAM_CHANGE\x10\xfe\n\x12\x1e\n\x19ITEM_VS_SEEKER_BATTLE_NOW\x10\x80\x0b\x12\x1d\n\x18ITEM_LEADER_MAP_FRAGMENT\x10\xdd\x0b\x12\x14\n\x0fITEM_LEADER_MAP\x10\xde\x0b\x12\x16\n\x11ITEM_GIOVANNI_MAP\x10\xdf\x0b\x12\x1d\n\x18ITEM_GLOBAL_EVENT_TICKET\x10\xc0\x0c\x62\x06proto3')
 )
 
 _ITEMID = _descriptor.EnumDescriptor(
@@ -251,26 +251,30 @@ _ITEMID = _descriptor.EnumDescriptor(
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='ITEM_LEADER_MAP_FRAGMENT', index=55, number=1501,
+      name='ITEM_VS_SEEKER_BATTLE_NOW', index=55, number=1408,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='ITEM_LEADER_MAP', index=56, number=1502,
+      name='ITEM_LEADER_MAP_FRAGMENT', index=56, number=1501,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='ITEM_GIOVANNI_MAP', index=57, number=1503,
+      name='ITEM_LEADER_MAP', index=57, number=1502,
       serialized_options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='ITEM_GLOBAL_EVENT_TICKET', index=58, number=1600,
+      name='ITEM_GIOVANNI_MAP', index=58, number=1503,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='ITEM_GLOBAL_EVENT_TICKET', index=59, number=1600,
       serialized_options=None,
       type=None),
   ],
   containing_type=None,
   serialized_options=None,
   serialized_start=71,
-  serialized_end=1574,
+  serialized_end=1606,
 )
 _sym_db.RegisterEnumDescriptor(_ITEMID)
 
@@ -330,6 +334,7 @@ ITEM_LEGENDARY_RAID_TICKET = 1403
 ITEM_STAR_PIECE = 1404
 ITEM_FRIEND_GIFT_BOX = 1405
 ITEM_TEAM_CHANGE = 1406
+ITEM_VS_SEEKER_BATTLE_NOW = 1408
 ITEM_LEADER_MAP_FRAGMENT = 1501
 ITEM_LEADER_MAP = 1502
 ITEM_GIOVANNI_MAP = 1503

@@ -23,7 +23,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='pogoprotos.inventory',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n(pogoprotos/inventory/inventory_key.proto\x12\x14pogoprotos.inventory\x1a!pogoprotos/enums/quest_type.proto\x1a(pogoprotos/enums/pokemon_family_id.proto\x1a\'pogoprotos/inventory/item/item_id.proto\"\xae\x04\n\x0cInventoryKey\x12\x14\n\npokemon_id\x18\x01 \x01(\x06H\x00\x12\x31\n\x04item\x18\x02 \x01(\x0e\x32!.pogoprotos.inventory.item.ItemIdH\x00\x12\x1a\n\x10pokedex_entry_id\x18\x03 \x01(\x05H\x00\x12\x16\n\x0cplayer_stats\x18\x04 \x01(\x08H\x00\x12\x19\n\x0fplayer_currency\x18\x05 \x01(\x08H\x00\x12\x17\n\rplayer_camera\x18\x06 \x01(\x08H\x00\x12\x1c\n\x12inventory_upgrades\x18\x07 \x01(\x08H\x00\x12\x17\n\rapplied_items\x18\x08 \x01(\x08H\x00\x12\x18\n\x0e\x65gg_incubators\x18\t \x01(\x08H\x00\x12>\n\x11pokemon_family_id\x18\n \x01(\x0e\x32!.pogoprotos.enums.PokemonFamilyIdH\x00\x12\x31\n\nquest_type\x18\x0b \x01(\x0e\x32\x1b.pogoprotos.enums.QuestTypeH\x00\x12\x1c\n\x12\x61vatar_template_id\x18\x0c \x01(\tH\x00\x12\x16\n\x0craid_tickets\x18\r \x01(\x08H\x00\x12\x10\n\x06quests\x18\x0e \x01(\x08H\x00\x12\x14\n\ngift_boxes\x18\x0f \x01(\x08H\x00\x12\x1c\n\x12\x62\x65luga_incense_box\x18\x10 \x01(\x08H\x00\x12%\n\x1blimited_purchase_sku_record\x18\x13 \x01(\x08H\x00\x42\x06\n\x04Typeb\x06proto3')
+  serialized_pb=_b('\n(pogoprotos/inventory/inventory_key.proto\x12\x14pogoprotos.inventory\x1a!pogoprotos/enums/quest_type.proto\x1a(pogoprotos/enums/pokemon_family_id.proto\x1a\'pogoprotos/inventory/item/item_id.proto\"\xcc\x04\n\x0cInventoryKey\x12\x14\n\npokemon_id\x18\x01 \x01(\x06H\x00\x12\x31\n\x04item\x18\x02 \x01(\x0e\x32!.pogoprotos.inventory.item.ItemIdH\x00\x12\x1a\n\x10pokedex_entry_id\x18\x03 \x01(\x05H\x00\x12\x16\n\x0cplayer_stats\x18\x04 \x01(\x08H\x00\x12\x19\n\x0fplayer_currency\x18\x05 \x01(\x08H\x00\x12\x17\n\rplayer_camera\x18\x06 \x01(\x08H\x00\x12\x1c\n\x12inventory_upgrades\x18\x07 \x01(\x08H\x00\x12\x17\n\rapplied_items\x18\x08 \x01(\x08H\x00\x12\x18\n\x0e\x65gg_incubators\x18\t \x01(\x08H\x00\x12>\n\x11pokemon_family_id\x18\n \x01(\x0e\x32!.pogoprotos.enums.PokemonFamilyIdH\x00\x12\x31\n\nquest_type\x18\x0b \x01(\x0e\x32\x1b.pogoprotos.enums.QuestTypeH\x00\x12\x1c\n\x12\x61vatar_template_id\x18\x0c \x01(\tH\x00\x12\x16\n\x0craid_tickets\x18\r \x01(\x08H\x00\x12\x10\n\x06quests\x18\x0e \x01(\x08H\x00\x12\x14\n\ngift_boxes\x18\x0f \x01(\x08H\x00\x12\x1c\n\x12\x62\x65luga_incense_box\x18\x10 \x01(\x08H\x00\x12\x1c\n\x12vs_seeker_upgrades\x18\x11 \x01(\x08H\x00\x12%\n\x1blimited_purchase_sku_record\x18\x13 \x01(\x08H\x00\x42\x06\n\x04Typeb\x06proto3')
   ,
   dependencies=[pogoprotos_dot_enums_dot_quest__type__pb2.DESCRIPTOR,pogoprotos_dot_enums_dot_pokemon__family__id__pb2.DESCRIPTOR,pogoprotos_dot_inventory_dot_item_dot_item__id__pb2.DESCRIPTOR,])
 
@@ -150,7 +150,14 @@ _INVENTORYKEY = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='limited_purchase_sku_record', full_name='pogoprotos.inventory.InventoryKey.limited_purchase_sku_record', index=16,
+      name='vs_seeker_upgrades', full_name='pogoprotos.inventory.InventoryKey.vs_seeker_upgrades', index=16,
+      number=17, type=8, cpp_type=7, label=1,
+      has_default_value=False, default_value=False,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='limited_purchase_sku_record', full_name='pogoprotos.inventory.InventoryKey.limited_purchase_sku_record', index=17,
       number=19, type=8, cpp_type=7, label=1,
       has_default_value=False, default_value=False,
       message_type=None, enum_type=None, containing_type=None,
@@ -172,7 +179,7 @@ _INVENTORYKEY = _descriptor.Descriptor(
       index=0, containing_type=None, fields=[]),
   ],
   serialized_start=185,
-  serialized_end=743,
+  serialized_end=773,
 )
 
 _INVENTORYKEY.fields_by_name['item'].enum_type = pogoprotos_dot_inventory_dot_item_dot_item__id__pb2._ITEMID
@@ -226,6 +233,9 @@ _INVENTORYKEY.fields_by_name['gift_boxes'].containing_oneof = _INVENTORYKEY.oneo
 _INVENTORYKEY.oneofs_by_name['Type'].fields.append(
   _INVENTORYKEY.fields_by_name['beluga_incense_box'])
 _INVENTORYKEY.fields_by_name['beluga_incense_box'].containing_oneof = _INVENTORYKEY.oneofs_by_name['Type']
+_INVENTORYKEY.oneofs_by_name['Type'].fields.append(
+  _INVENTORYKEY.fields_by_name['vs_seeker_upgrades'])
+_INVENTORYKEY.fields_by_name['vs_seeker_upgrades'].containing_oneof = _INVENTORYKEY.oneofs_by_name['Type']
 _INVENTORYKEY.oneofs_by_name['Type'].fields.append(
   _INVENTORYKEY.fields_by_name['limited_purchase_sku_record'])
 _INVENTORYKEY.fields_by_name['limited_purchase_sku_record'].containing_oneof = _INVENTORYKEY.oneofs_by_name['Type']

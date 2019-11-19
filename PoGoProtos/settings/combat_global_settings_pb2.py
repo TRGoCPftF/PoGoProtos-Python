@@ -20,7 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='pogoprotos.settings',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n0pogoprotos/settings/combat_global_settings.proto\x12\x13pogoprotos.settings\"\xa7\x04\n\x14\x43ombatGlobalSettings\x12\x15\n\renable_combat\x18\x01 \x01(\x08\x12&\n\x1emaximum_daily_rewarded_battles\x18\x02 \x01(\x05\x12!\n\x19\x65nable_combat_stat_stages\x18\x03 \x01(\x08\x12\x1c\n\x14minimum_player_level\x18\x04 \x01(\r\x12*\n\"maximum_daily_npc_rewarded_battles\x18\x05 \x01(\x05\x12(\n active_combat_update_interval_ms\x18\x06 \x01(\x05\x12-\n%waiting_for_player_update_interval_ms\x18\x07 \x01(\x05\x12+\n#ready_for_battle_update_interval_ms\x18\x08 \x01(\x05\x12!\n\x19pre_move_submit_window_ms\x18\t \x01(\x05\x12\"\n\x1apost_move_submit_window_ms\x18\n \x01(\x05\x12\x16\n\x0e\x65nable_sockets\x18\x0b \x01(\x08\x12\x1c\n\x14\x65nable_spin_minigame\x18\x0c \x01(\x08\x12\x1c\n\x14\x65nable_quick_swap_v2\x18\r \x01(\x08\x12 \n\x18\x65nable_particle_minigame\x18\x12 \x01(\x08\x12 \n\x18\x65nable_flyout_animations\x18\x14 \x01(\x08\x62\x06proto3')
+  serialized_pb=_b('\n0pogoprotos/settings/combat_global_settings.proto\x12\x13pogoprotos.settings\"\xb2\x06\n\x14\x43ombatGlobalSettings\x12\x15\n\renable_combat\x18\x01 \x01(\x08\x12&\n\x1emaximum_daily_rewarded_battles\x18\x02 \x01(\x05\x12!\n\x19\x65nable_combat_stat_stages\x18\x03 \x01(\x08\x12\x1c\n\x14minimum_player_level\x18\x04 \x01(\r\x12*\n\"maximum_daily_npc_rewarded_battles\x18\x05 \x01(\x05\x12(\n active_combat_update_interval_ms\x18\x06 \x01(\x05\x12-\n%waiting_for_player_update_interval_ms\x18\x07 \x01(\x05\x12+\n#ready_for_battle_update_interval_ms\x18\x08 \x01(\x05\x12!\n\x19pre_move_submit_window_ms\x18\t \x01(\x05\x12\"\n\x1apost_move_submit_window_ms\x18\n \x01(\x05\x12\x16\n\x0e\x65nable_sockets\x18\x0b \x01(\x08\x12\x1c\n\x14\x65nable_spin_minigame\x18\x0c \x01(\x08\x12\x1c\n\x14\x65nable_quick_swap_v2\x18\r \x01(\x08\x12$\n\x1c\x64\x65precated_vs_seeker_setting\x18\x0e \x01(\x08\x12/\n\'vs_seeker_walking_dist_poll_duration_ms\x18\x0f \x01(\x05\x12\"\n\x1avs_seeker_player_min_level\x18\x10 \x01(\x05\x12$\n\x1cmatchmaking_poll_duration_ms\x18\x11 \x01(\x05\x12 \n\x18\x65nable_particle_minigame\x18\x12 \x01(\x08\x12$\n\x1c\x65nable_vs_seeker_upgrade_iap\x18\x13 \x01(\x08\x12 \n\x18\x65nable_flyout_animations\x18\x14 \x01(\x08\x12\x19\n\x11\x65nable_battle_hub\x18\x15 \x01(\x08\x12\'\n\x1fmatchmaking_timeout_duration_ms\x18\x16 \x01(\x05\x62\x06proto3')
 )
 
 
@@ -125,16 +125,65 @@ _COMBATGLOBALSETTINGS = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='enable_particle_minigame', full_name='pogoprotos.settings.CombatGlobalSettings.enable_particle_minigame', index=13,
+      name='deprecated_vs_seeker_setting', full_name='pogoprotos.settings.CombatGlobalSettings.deprecated_vs_seeker_setting', index=13,
+      number=14, type=8, cpp_type=7, label=1,
+      has_default_value=False, default_value=False,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='vs_seeker_walking_dist_poll_duration_ms', full_name='pogoprotos.settings.CombatGlobalSettings.vs_seeker_walking_dist_poll_duration_ms', index=14,
+      number=15, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='vs_seeker_player_min_level', full_name='pogoprotos.settings.CombatGlobalSettings.vs_seeker_player_min_level', index=15,
+      number=16, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='matchmaking_poll_duration_ms', full_name='pogoprotos.settings.CombatGlobalSettings.matchmaking_poll_duration_ms', index=16,
+      number=17, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='enable_particle_minigame', full_name='pogoprotos.settings.CombatGlobalSettings.enable_particle_minigame', index=17,
       number=18, type=8, cpp_type=7, label=1,
       has_default_value=False, default_value=False,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='enable_flyout_animations', full_name='pogoprotos.settings.CombatGlobalSettings.enable_flyout_animations', index=14,
+      name='enable_vs_seeker_upgrade_iap', full_name='pogoprotos.settings.CombatGlobalSettings.enable_vs_seeker_upgrade_iap', index=18,
+      number=19, type=8, cpp_type=7, label=1,
+      has_default_value=False, default_value=False,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='enable_flyout_animations', full_name='pogoprotos.settings.CombatGlobalSettings.enable_flyout_animations', index=19,
       number=20, type=8, cpp_type=7, label=1,
       has_default_value=False, default_value=False,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='enable_battle_hub', full_name='pogoprotos.settings.CombatGlobalSettings.enable_battle_hub', index=20,
+      number=21, type=8, cpp_type=7, label=1,
+      has_default_value=False, default_value=False,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='matchmaking_timeout_duration_ms', full_name='pogoprotos.settings.CombatGlobalSettings.matchmaking_timeout_duration_ms', index=21,
+      number=22, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
@@ -151,7 +200,7 @@ _COMBATGLOBALSETTINGS = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=74,
-  serialized_end=625,
+  serialized_end=892,
 )
 
 DESCRIPTOR.message_types_by_name['CombatGlobalSettings'] = _COMBATGLOBALSETTINGS

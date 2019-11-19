@@ -21,7 +21,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='pogoprotos.enums',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n\"pogoprotos/enums/combat_type.proto\x12\x10pogoprotos.enums*m\n\nCombatType\x12\x15\n\x11\x43OMBAT_TYPE_UNSET\x10\x00\x12\x08\n\x04SOLO\x10\x01\x12\x0b\n\x07QR_CODE\x10\x02\x12\x0b\n\x07\x46RIENDS\x10\x03\x12\x11\n\rNEARBY_COMBAT\x10\x04\x12\x11\n\rSOLO_INVASION\x10\x05\x62\x06proto3')
+  serialized_pb=_b('\n\"pogoprotos/enums/combat_type.proto\x12\x10pogoprotos.enums*|\n\nCombatType\x12\x15\n\x11\x43OMBAT_TYPE_UNSET\x10\x00\x12\x08\n\x04SOLO\x10\x01\x12\x0b\n\x07QR_CODE\x10\x02\x12\x0b\n\x07\x46RIENDS\x10\x03\x12\x11\n\rNEARBY_COMBAT\x10\x04\x12\x11\n\rSOLO_INVASION\x10\x05\x12\r\n\tVS_SEEKER\x10\x06\x62\x06proto3')
 )
 
 _COMBATTYPE = _descriptor.EnumDescriptor(
@@ -54,11 +54,15 @@ _COMBATTYPE = _descriptor.EnumDescriptor(
       name='SOLO_INVASION', index=5, number=5,
       serialized_options=None,
       type=None),
+    _descriptor.EnumValueDescriptor(
+      name='VS_SEEKER', index=6, number=6,
+      serialized_options=None,
+      type=None),
   ],
   containing_type=None,
   serialized_options=None,
   serialized_start=56,
-  serialized_end=165,
+  serialized_end=180,
 )
 _sym_db.RegisterEnumDescriptor(_COMBATTYPE)
 
@@ -69,6 +73,7 @@ QR_CODE = 2
 FRIENDS = 3
 NEARBY_COMBAT = 4
 SOLO_INVASION = 5
+VS_SEEKER = 6
 
 
 DESCRIPTOR.enum_types_by_name['CombatType'] = _COMBATTYPE

@@ -21,7 +21,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='pogoprotos.networking.platform',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n:pogoprotos/networking/platform/platform_request_type.proto\x12\x1epogoprotos.networking.platform*\xc1\x08\n\x13PlatformRequestType\x12\"\n\x1eUNKNOWN_PLATFORM_CLIENT_ACTION\x10\x00\x12\x1f\n\x1aREGISTER_PUSH_NOTIFICATION\x10\x88\'\x12!\n\x1cUNREGISTER_PUSH_NOTIFICATION\x10\x89\'\x12\x1f\n\x1aUPDATE_NOTIFICATION_STATUS\x10\x8a\'\x12\'\n\"OPT_OUT_PUSH_NOTIFICATION_CATEGORY\x10\x8b\'\x12#\n\x1e\x44OWNLOAD_GAME_MASTER_TEMPLATES\x10\x8c\'\x12\x12\n\rGET_INVENTORY\x10\x8d\'\x12\x14\n\x0fREDEEM_PASSCODE\x10\x8e\'\x12\t\n\x04PING\x10\x8f\'\x12\x15\n\x10\x41\x44\x44_LOGIN_ACTION\x10\x90\'\x12\x18\n\x13REMOVE_LOGIN_ACTION\x10\x91\'\x12\x16\n\x11LIST_LOGIN_ACTION\x10\x92\'\x12\x10\n\x0b\x41\x44\x44_NEW_POI\x10\x93\'\x12\x18\n\x13PROXY_SOCIAL_ACTION\x10\x94\'\x12\x15\n\x10\x43LIENT_TELEMETRY\x10\x95\'\x12\x1e\n\x19GET_AVAILABLE_SUBMISSIONS\x10\x96\'\x12$\n\x1fGET_SIGNED_URL_FOR_PHOTO_UPLOAD\x10\x97\'\x12\x19\n\x14REPLACE_LOGIN_ACTION\x10\x98\'\x12%\n PROXY_SOCIAL_SIDE_CHANNEL_ACTION\x10\x99\'\x12\x1d\n\x18\x43OLLECT_CLIENT_TELEMETRY\x10\x9a\'\x12\x11\n\x0cPURCHASE_SKU\x10\x9b\'\x12$\n\x1fGET_AVAILABLE_SKUS_AND_BALANCES\x10\x9c\'\x12\x1a\n\x15REDEEM_GOOGLE_RECEIPT\x10\x9d\'\x12\x19\n\x14REDEEM_APPLE_RECEIPT\x10\x9e\'\x12\x1b\n\x16REDEEM_DESKTOP_RECEIPT\x10\x9f\'\x12\x1b\n\x16UPDATE_FITNESS_METRICS\x10\xa0\'\x12\x17\n\x12GET_FITNESS_REPORT\x10\xa1\'\x12\"\n\x1dGET_CLIENT_TELEMETRY_SETTINGS\x10\xa2\'\x12\x0f\n\nPING_ASYNC\x10\xa3\'\x12 \n\x1bREGISTER_BACKGROUND_SERVICE\x10\xa4\'\x12\x1f\n\x1aGET_CLIENT_BGMODE_SETTINGS\x10\xa5\'\x12\x14\n\x0fPING_DOWNSTREAM\x10\xa6\'\x12\'\n\"SET_IN_GAME_CURRENCY_EXCHANGE_RATE\x10\xa8\'\x12\x1d\n\x18REQUEST_GEOFENCE_UPDATES\x10\xa9\'\x12\x1b\n\x16UPDATE_PLAYER_LOCATION\x10\xaa\'\x12\x1d\n\x18GENERATE_GMAP_SIGNED_URL\x10\xab\'\x12\x16\n\x11GET_GMAP_SETTINGS\x10\xac\'b\x06proto3')
+  serialized_pb=_b('\n:pogoprotos/networking/platform/platform_request_type.proto\x12\x1epogoprotos.networking.platform*\xc7\n\n\x13PlatformRequestType\x12\"\n\x1eUNKNOWN_PLATFORM_CLIENT_ACTION\x10\x00\x12\x1f\n\x1aREGISTER_PUSH_NOTIFICATION\x10\x88\'\x12!\n\x1cUNREGISTER_PUSH_NOTIFICATION\x10\x89\'\x12\x1f\n\x1aUPDATE_NOTIFICATION_STATUS\x10\x8a\'\x12\'\n\"OPT_OUT_PUSH_NOTIFICATION_CATEGORY\x10\x8b\'\x12#\n\x1e\x44OWNLOAD_GAME_MASTER_TEMPLATES\x10\x8c\'\x12\x12\n\rGET_INVENTORY\x10\x8d\'\x12\x14\n\x0fREDEEM_PASSCODE\x10\x8e\'\x12\t\n\x04PING\x10\x8f\'\x12\x15\n\x10\x41\x44\x44_LOGIN_ACTION\x10\x90\'\x12\x18\n\x13REMOVE_LOGIN_ACTION\x10\x91\'\x12\x16\n\x11LIST_LOGIN_ACTION\x10\x92\'\x12\x10\n\x0b\x41\x44\x44_NEW_POI\x10\x93\'\x12\x18\n\x13PROXY_SOCIAL_ACTION\x10\x94\'\x12\x15\n\x10\x43LIENT_TELEMETRY\x10\x95\'\x12\x1e\n\x19GET_AVAILABLE_SUBMISSIONS\x10\x96\'\x12$\n\x1fGET_SIGNED_URL_FOR_PHOTO_UPLOAD\x10\x97\'\x12\x19\n\x14REPLACE_LOGIN_ACTION\x10\x98\'\x12%\n PROXY_SOCIAL_SIDE_CHANNEL_ACTION\x10\x99\'\x12\x1d\n\x18\x43OLLECT_CLIENT_TELEMETRY\x10\x9a\'\x12\x11\n\x0cPURCHASE_SKU\x10\x9b\'\x12$\n\x1fGET_AVAILABLE_SKUS_AND_BALANCES\x10\x9c\'\x12\x1a\n\x15REDEEM_GOOGLE_RECEIPT\x10\x9d\'\x12\x19\n\x14REDEEM_APPLE_RECEIPT\x10\x9e\'\x12\x1b\n\x16REDEEM_DESKTOP_RECEIPT\x10\x9f\'\x12\x1b\n\x16UPDATE_FITNESS_METRICS\x10\xa0\'\x12\x17\n\x12GET_FITNESS_REPORT\x10\xa1\'\x12\"\n\x1dGET_CLIENT_TELEMETRY_SETTINGS\x10\xa2\'\x12\x0f\n\nPING_ASYNC\x10\xa3\'\x12 \n\x1bREGISTER_BACKGROUND_SERVICE\x10\xa4\'\x12\x1f\n\x1aGET_CLIENT_BGMODE_SETTINGS\x10\xa5\'\x12\x14\n\x0fPING_DOWNSTREAM\x10\xa6\'\x12\'\n\"SET_IN_GAME_CURRENCY_EXCHANGE_RATE\x10\xa8\'\x12\x1d\n\x18REQUEST_GEOFENCE_UPDATES\x10\xa9\'\x12\x1b\n\x16UPDATE_PLAYER_LOCATION\x10\xaa\'\x12\x1d\n\x18GENERATE_GMAP_SIGNED_URL\x10\xab\'\x12\x16\n\x11GET_GMAP_SETTINGS\x10\xac\'\x12\x1b\n\x16REDEEM_SAMSUNG_RECEIPT\x10\xad\'\x12\x12\n\rADD_NEW_ROUTE\x10\xae\'\x12\x1d\n\x18GET_OUTSTANDING_WARNINGS\x10\xaf\'\x12\x19\n\x14\x41\x43KNOWLEDGE_WARNINGS\x10\xb0\'\x12\x15\n\x10SUBMIT_POI_IMAGE\x10\xb1\'\x12$\n\x1fSUBMIT_POI_TEXT_METADATA_UPDATE\x10\xb2\'\x12\x1f\n\x1aSUBMIT_POI_LOCATION_UPDATE\x10\xb3\'\x12 \n\x1bSUBMIT_POI_TAKEDOWN_REQUEST\x10\xb4\'\x12\x19\n\x14GET_WEB_TOKEN_ACTION\x10\xb5\'b\x06proto3')
 )
 
 _PLATFORMREQUESTTYPE = _descriptor.EnumDescriptor(
@@ -178,11 +178,47 @@ _PLATFORMREQUESTTYPE = _descriptor.EnumDescriptor(
       name='GET_GMAP_SETTINGS', index=36, number=5036,
       serialized_options=None,
       type=None),
+    _descriptor.EnumValueDescriptor(
+      name='REDEEM_SAMSUNG_RECEIPT', index=37, number=5037,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='ADD_NEW_ROUTE', index=38, number=5038,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='GET_OUTSTANDING_WARNINGS', index=39, number=5039,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='ACKNOWLEDGE_WARNINGS', index=40, number=5040,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='SUBMIT_POI_IMAGE', index=41, number=5041,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='SUBMIT_POI_TEXT_METADATA_UPDATE', index=42, number=5042,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='SUBMIT_POI_LOCATION_UPDATE', index=43, number=5043,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='SUBMIT_POI_TAKEDOWN_REQUEST', index=44, number=5044,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='GET_WEB_TOKEN_ACTION', index=45, number=5045,
+      serialized_options=None,
+      type=None),
   ],
   containing_type=None,
   serialized_options=None,
   serialized_start=95,
-  serialized_end=1184,
+  serialized_end=1446,
 )
 _sym_db.RegisterEnumDescriptor(_PLATFORMREQUESTTYPE)
 
@@ -224,6 +260,15 @@ REQUEST_GEOFENCE_UPDATES = 5033
 UPDATE_PLAYER_LOCATION = 5034
 GENERATE_GMAP_SIGNED_URL = 5035
 GET_GMAP_SETTINGS = 5036
+REDEEM_SAMSUNG_RECEIPT = 5037
+ADD_NEW_ROUTE = 5038
+GET_OUTSTANDING_WARNINGS = 5039
+ACKNOWLEDGE_WARNINGS = 5040
+SUBMIT_POI_IMAGE = 5041
+SUBMIT_POI_TEXT_METADATA_UPDATE = 5042
+SUBMIT_POI_LOCATION_UPDATE = 5043
+SUBMIT_POI_TAKEDOWN_REQUEST = 5044
+GET_WEB_TOKEN_ACTION = 5045
 
 
 DESCRIPTOR.enum_types_by_name['PlatformRequestType'] = _PLATFORMREQUESTTYPE

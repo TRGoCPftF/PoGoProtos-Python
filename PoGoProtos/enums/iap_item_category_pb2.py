@@ -21,7 +21,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='pogoprotos.enums',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n(pogoprotos/enums/iap_item_category.proto\x12\x10pogoprotos.enums*\x95\x02\n\x13HoloIapItemCategory\x12\x15\n\x11IAP_CATEGORY_NONE\x10\x00\x12\x17\n\x13IAP_CATEGORY_BUNDLE\x10\x01\x12\x16\n\x12IAP_CATEGORY_ITEMS\x10\x02\x12\x19\n\x15IAP_CATEGORY_UPGRADES\x10\x03\x12\x1a\n\x16IAP_CATEGORY_POKECOINS\x10\x04\x12\x17\n\x13IAP_CATEGORY_AVATAR\x10\x05\x12\"\n\x1eIAP_CATEGORY_AVATAR_STORE_LINK\x10\x06\x12\x1c\n\x18IAP_CATEGORY_TEAM_CHANGE\x10\x07\x12$\n IAP_CATEGORY_GLOBAL_EVENT_TICKET\x10\nb\x06proto3')
+  serialized_pb=_b('\n(pogoprotos/enums/iap_item_category.proto\x12\x10pogoprotos.enums*\xb1\x02\n\x13HoloIapItemCategory\x12\x15\n\x11IAP_CATEGORY_NONE\x10\x00\x12\x17\n\x13IAP_CATEGORY_BUNDLE\x10\x01\x12\x16\n\x12IAP_CATEGORY_ITEMS\x10\x02\x12\x19\n\x15IAP_CATEGORY_UPGRADES\x10\x03\x12\x1a\n\x16IAP_CATEGORY_POKECOINS\x10\x04\x12\x17\n\x13IAP_CATEGORY_AVATAR\x10\x05\x12\"\n\x1eIAP_CATEGORY_AVATAR_STORE_LINK\x10\x06\x12\x1c\n\x18IAP_CATEGORY_TEAM_CHANGE\x10\x07\x12$\n IAP_CATEGORY_GLOBAL_EVENT_TICKET\x10\n\x12\x1a\n\x16IAP_CATEGORY_VS_SEEKER\x10\x0b\x62\x06proto3')
 )
 
 _HOLOIAPITEMCATEGORY = _descriptor.EnumDescriptor(
@@ -66,11 +66,15 @@ _HOLOIAPITEMCATEGORY = _descriptor.EnumDescriptor(
       name='IAP_CATEGORY_GLOBAL_EVENT_TICKET', index=8, number=10,
       serialized_options=None,
       type=None),
+    _descriptor.EnumValueDescriptor(
+      name='IAP_CATEGORY_VS_SEEKER', index=9, number=11,
+      serialized_options=None,
+      type=None),
   ],
   containing_type=None,
   serialized_options=None,
   serialized_start=63,
-  serialized_end=340,
+  serialized_end=368,
 )
 _sym_db.RegisterEnumDescriptor(_HOLOIAPITEMCATEGORY)
 
@@ -84,6 +88,7 @@ IAP_CATEGORY_AVATAR = 5
 IAP_CATEGORY_AVATAR_STORE_LINK = 6
 IAP_CATEGORY_TEAM_CHANGE = 7
 IAP_CATEGORY_GLOBAL_EVENT_TICKET = 10
+IAP_CATEGORY_VS_SEEKER = 11
 
 
 DESCRIPTOR.enum_types_by_name['HoloIapItemCategory'] = _HOLOIAPITEMCATEGORY

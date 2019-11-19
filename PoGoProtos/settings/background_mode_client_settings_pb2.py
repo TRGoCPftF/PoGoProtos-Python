@@ -20,7 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='pogoprotos.settings',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n9pogoprotos/settings/background_mode_client_settings.proto\x12\x13pogoprotos.settings\"\x86\x02\n\x1c\x42\x61\x63kgroundModeClientSettings\x12\x1d\n\x15maximum_sample_age_ms\x18\x01 \x01(\x03\x12%\n\x1d\x61\x63\x63\x65pt_manual_fitness_samples\x18\x02 \x01(\x08\x12(\n minimum_location_accuracy_meters\x18\x03 \x01(\x01\x12+\n#background_wake_up_interval_minutes\x18\x04 \x01(\x05\x12 \n\x18max_upload_size_in_bytes\x18\x05 \x01(\x05\x12\'\n\x1fmin_enclosing_geofence_radius_m\x18\x06 \x01(\x01\x62\x06proto3')
+  serialized_pb=_b('\n9pogoprotos/settings/background_mode_client_settings.proto\x12\x13pogoprotos.settings\"\xb3\x02\n\x1c\x42\x61\x63kgroundModeClientSettings\x12\x1d\n\x15maximum_sample_age_ms\x18\x01 \x01(\x03\x12%\n\x1d\x61\x63\x63\x65pt_manual_fitness_samples\x18\x02 \x01(\x08\x12(\n minimum_location_accuracy_meters\x18\x03 \x01(\x01\x12+\n#background_wake_up_interval_minutes\x18\x04 \x01(\x05\x12 \n\x18max_upload_size_in_bytes\x18\x05 \x01(\x05\x12\'\n\x1fmin_enclosing_geofence_radius_m\x18\x06 \x01(\x01\x12+\n#background_token_refresh_interval_s\x18\x07 \x01(\x03\x62\x06proto3')
 )
 
 
@@ -75,6 +75,13 @@ _BACKGROUNDMODECLIENTSETTINGS = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='background_token_refresh_interval_s', full_name='pogoprotos.settings.BackgroundModeClientSettings.background_token_refresh_interval_s', index=6,
+      number=7, type=3, cpp_type=2, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
   ],
   extensions=[
   ],
@@ -88,7 +95,7 @@ _BACKGROUNDMODECLIENTSETTINGS = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=83,
-  serialized_end=345,
+  serialized_end=390,
 )
 
 DESCRIPTOR.message_types_by_name['BackgroundModeClientSettings'] = _BACKGROUNDMODECLIENTSETTINGS
