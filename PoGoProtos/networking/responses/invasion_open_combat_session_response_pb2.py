@@ -13,7 +13,7 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-from pogoprotos.data import invasion_status_pb2 as pogoprotos_dot_data_dot_invasion__status__pb2
+from pogoprotos.map.fort import invasion_status_pb2 as pogoprotos_dot_map_dot_fort_dot_invasion__status__pb2
 from pogoprotos.data.combat import combat_pb2 as pogoprotos_dot_data_dot_combat_dot_combat__pb2
 
 
@@ -22,9 +22,9 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='pogoprotos.networking.responses',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\nKpogoprotos/networking/responses/invasion_open_combat_session_response.proto\x12\x1fpogoprotos.networking.responses\x1a%pogoprotos/data/invasion_status.proto\x1a#pogoprotos/data/combat/combat.proto\"\x8b\x01\n!InvasionOpenCombatSessionResponse\x12\x36\n\x06status\x18\x01 \x01(\x0e\x32&.pogoprotos.data.InvasionStatus.Status\x12.\n\x06\x63ombat\x18\x02 \x01(\x0b\x32\x1e.pogoprotos.data.combat.Combatb\x06proto3')
+  serialized_pb=_b('\nKpogoprotos/networking/responses/invasion_open_combat_session_response.proto\x12\x1fpogoprotos.networking.responses\x1a)pogoprotos/map/fort/invasion_status.proto\x1a#pogoprotos/data/combat/combat.proto\"\x8f\x01\n!InvasionOpenCombatSessionResponse\x12:\n\x06status\x18\x01 \x01(\x0e\x32*.pogoprotos.map.fort.InvasionStatus.Status\x12.\n\x06\x63ombat\x18\x02 \x01(\x0b\x32\x1e.pogoprotos.data.combat.Combatb\x06proto3')
   ,
-  dependencies=[pogoprotos_dot_data_dot_invasion__status__pb2.DESCRIPTOR,pogoprotos_dot_data_dot_combat_dot_combat__pb2.DESCRIPTOR,])
+  dependencies=[pogoprotos_dot_map_dot_fort_dot_invasion__status__pb2.DESCRIPTOR,pogoprotos_dot_data_dot_combat_dot_combat__pb2.DESCRIPTOR,])
 
 
 
@@ -62,11 +62,11 @@ _INVASIONOPENCOMBATSESSIONRESPONSE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=189,
-  serialized_end=328,
+  serialized_start=193,
+  serialized_end=336,
 )
 
-_INVASIONOPENCOMBATSESSIONRESPONSE.fields_by_name['status'].enum_type = pogoprotos_dot_data_dot_invasion__status__pb2._INVASIONSTATUS_STATUS
+_INVASIONOPENCOMBATSESSIONRESPONSE.fields_by_name['status'].enum_type = pogoprotos_dot_map_dot_fort_dot_invasion__status__pb2._INVASIONSTATUS_STATUS
 _INVASIONOPENCOMBATSESSIONRESPONSE.fields_by_name['combat'].message_type = pogoprotos_dot_data_dot_combat_dot_combat__pb2._COMBAT
 DESCRIPTOR.message_types_by_name['InvasionOpenCombatSessionResponse'] = _INVASIONOPENCOMBATSESSIONRESPONSE
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)

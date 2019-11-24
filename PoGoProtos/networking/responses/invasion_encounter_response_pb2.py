@@ -13,7 +13,7 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-from pogoprotos.data import invasion_status_pb2 as pogoprotos_dot_data_dot_invasion__status__pb2
+from pogoprotos.map.fort import invasion_status_pb2 as pogoprotos_dot_map_dot_fort_dot_invasion__status__pb2
 from pogoprotos.data import pokemon_data_pb2 as pogoprotos_dot_data_dot_pokemon__data__pb2
 from pogoprotos.data.capture import capture_probability_pb2 as pogoprotos_dot_data_dot_capture_dot_capture__probability__pb2
 from pogoprotos.inventory.item import item_id_pb2 as pogoprotos_dot_inventory_dot_item_dot_item__id__pb2
@@ -24,9 +24,9 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='pogoprotos.networking.responses',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\nApogoprotos/networking/responses/invasion_encounter_response.proto\x12\x1fpogoprotos.networking.responses\x1a%pogoprotos/data/invasion_status.proto\x1a\"pogoprotos/data/pokemon_data.proto\x1a\x31pogoprotos/data/capture/capture_probability.proto\x1a\'pogoprotos/inventory/item/item_id.proto\"\xdb\x04\n\x19InvasionEncounterResponse\x12\x36\n\x06status\x18\x01 \x01(\x0e\x32&.pogoprotos.data.InvasionStatus.Status\x12\x37\n\x11\x65ncounter_pokemon\x18\x02 \x01(\x0b\x32\x1c.pogoprotos.data.PokemonData\x12H\n\x13\x63\x61pture_probability\x18\x03 \x01(\x0b\x32+.pogoprotos.data.capture.CaptureProbability\x12\x36\n\x0b\x61\x63tive_item\x18\x04 \x01(\x0e\x32!.pogoprotos.inventory.item.ItemId\x12\x18\n\x10throws_remaining\x18\x05 \x01(\x05\x12\x14\n\x0c\x65ncounter_id\x18\x06 \x01(\x06\x12\x18\n\x10spawn_point_guid\x18\x07 \x01(\t\x12\x65\n\rballs_display\x18\x08 \x01(\x0b\x32N.pogoprotos.networking.responses.InvasionEncounterResponse.PremierBallsDisplay\x1a\x99\x01\n\x13PremierBallsDisplay\x12\x16\n\x0e\x62\x61se_num_balls\x18\x01 \x01(\x05\x12\"\n\x1apokemon_purified_num_balls\x18\x02 \x01(\x05\x12!\n\x19grunts_defeated_num_balls\x18\x03 \x01(\x05\x12#\n\x1bpokemon_remaining_num_balls\x18\x04 \x01(\x05\x62\x06proto3')
+  serialized_pb=_b('\nApogoprotos/networking/responses/invasion_encounter_response.proto\x12\x1fpogoprotos.networking.responses\x1a)pogoprotos/map/fort/invasion_status.proto\x1a\"pogoprotos/data/pokemon_data.proto\x1a\x31pogoprotos/data/capture/capture_probability.proto\x1a\'pogoprotos/inventory/item/item_id.proto\"\xdf\x04\n\x19InvasionEncounterResponse\x12:\n\x06status\x18\x01 \x01(\x0e\x32*.pogoprotos.map.fort.InvasionStatus.Status\x12\x37\n\x11\x65ncounter_pokemon\x18\x02 \x01(\x0b\x32\x1c.pogoprotos.data.PokemonData\x12H\n\x13\x63\x61pture_probability\x18\x03 \x01(\x0b\x32+.pogoprotos.data.capture.CaptureProbability\x12\x36\n\x0b\x61\x63tive_item\x18\x04 \x01(\x0e\x32!.pogoprotos.inventory.item.ItemId\x12\x18\n\x10throws_remaining\x18\x05 \x01(\x05\x12\x14\n\x0c\x65ncounter_id\x18\x06 \x01(\x06\x12\x18\n\x10spawn_point_guid\x18\x07 \x01(\t\x12\x65\n\rballs_display\x18\x08 \x01(\x0b\x32N.pogoprotos.networking.responses.InvasionEncounterResponse.PremierBallsDisplay\x1a\x99\x01\n\x13PremierBallsDisplay\x12\x16\n\x0e\x62\x61se_num_balls\x18\x01 \x01(\x05\x12\"\n\x1apokemon_purified_num_balls\x18\x02 \x01(\x05\x12!\n\x19grunts_defeated_num_balls\x18\x03 \x01(\x05\x12#\n\x1bpokemon_remaining_num_balls\x18\x04 \x01(\x05\x62\x06proto3')
   ,
-  dependencies=[pogoprotos_dot_data_dot_invasion__status__pb2.DESCRIPTOR,pogoprotos_dot_data_dot_pokemon__data__pb2.DESCRIPTOR,pogoprotos_dot_data_dot_capture_dot_capture__probability__pb2.DESCRIPTOR,pogoprotos_dot_inventory_dot_item_dot_item__id__pb2.DESCRIPTOR,])
+  dependencies=[pogoprotos_dot_map_dot_fort_dot_invasion__status__pb2.DESCRIPTOR,pogoprotos_dot_data_dot_pokemon__data__pb2.DESCRIPTOR,pogoprotos_dot_data_dot_capture_dot_capture__probability__pb2.DESCRIPTOR,pogoprotos_dot_inventory_dot_item_dot_item__id__pb2.DESCRIPTOR,])
 
 
 
@@ -78,8 +78,8 @@ _INVASIONENCOUNTERRESPONSE_PREMIERBALLSDISPLAY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=720,
-  serialized_end=873,
+  serialized_start=728,
+  serialized_end=881,
 )
 
 _INVASIONENCOUNTERRESPONSE = _descriptor.Descriptor(
@@ -157,12 +157,12 @@ _INVASIONENCOUNTERRESPONSE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=270,
-  serialized_end=873,
+  serialized_start=274,
+  serialized_end=881,
 )
 
 _INVASIONENCOUNTERRESPONSE_PREMIERBALLSDISPLAY.containing_type = _INVASIONENCOUNTERRESPONSE
-_INVASIONENCOUNTERRESPONSE.fields_by_name['status'].enum_type = pogoprotos_dot_data_dot_invasion__status__pb2._INVASIONSTATUS_STATUS
+_INVASIONENCOUNTERRESPONSE.fields_by_name['status'].enum_type = pogoprotos_dot_map_dot_fort_dot_invasion__status__pb2._INVASIONSTATUS_STATUS
 _INVASIONENCOUNTERRESPONSE.fields_by_name['encounter_pokemon'].message_type = pogoprotos_dot_data_dot_pokemon__data__pb2._POKEMONDATA
 _INVASIONENCOUNTERRESPONSE.fields_by_name['capture_probability'].message_type = pogoprotos_dot_data_dot_capture_dot_capture__probability__pb2._CAPTUREPROBABILITY
 _INVASIONENCOUNTERRESPONSE.fields_by_name['active_item'].enum_type = pogoprotos_dot_inventory_dot_item_dot_item__id__pb2._ITEMID

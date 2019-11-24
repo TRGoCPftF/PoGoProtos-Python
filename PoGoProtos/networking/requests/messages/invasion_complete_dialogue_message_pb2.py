@@ -13,7 +13,7 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-from pogoprotos.data import incident_lookup_pb2 as pogoprotos_dot_data_dot_incident__lookup__pb2
+from pogoprotos.map.fort import incident_lookup_pb2 as pogoprotos_dot_map_dot_fort_dot_incident__lookup__pb2
 
 
 DESCRIPTOR = _descriptor.FileDescriptor(
@@ -21,9 +21,9 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='pogoprotos.networking.requests.messages',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\nPpogoprotos/networking/requests/messages/invasion_complete_dialogue_message.proto\x12\'pogoprotos.networking.requests.messages\x1a%pogoprotos/data/incident_lookup.proto\"i\n\x1fInvasionCompleteDialogueMessage\x12\x38\n\x0fincident_lookup\x18\x01 \x01(\x0b\x32\x1f.pogoprotos.data.IncidentLookup\x12\x0c\n\x04step\x18\x02 \x01(\x05\x62\x06proto3')
+  serialized_pb=_b('\nPpogoprotos/networking/requests/messages/invasion_complete_dialogue_message.proto\x12\'pogoprotos.networking.requests.messages\x1a)pogoprotos/map/fort/incident_lookup.proto\"m\n\x1fInvasionCompleteDialogueMessage\x12<\n\x0fincident_lookup\x18\x01 \x01(\x0b\x32#.pogoprotos.map.fort.IncidentLookup\x12\x0c\n\x04step\x18\x02 \x01(\x05\x62\x06proto3')
   ,
-  dependencies=[pogoprotos_dot_data_dot_incident__lookup__pb2.DESCRIPTOR,])
+  dependencies=[pogoprotos_dot_map_dot_fort_dot_incident__lookup__pb2.DESCRIPTOR,])
 
 
 
@@ -61,11 +61,11 @@ _INVASIONCOMPLETEDIALOGUEMESSAGE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=164,
-  serialized_end=269,
+  serialized_start=168,
+  serialized_end=277,
 )
 
-_INVASIONCOMPLETEDIALOGUEMESSAGE.fields_by_name['incident_lookup'].message_type = pogoprotos_dot_data_dot_incident__lookup__pb2._INCIDENTLOOKUP
+_INVASIONCOMPLETEDIALOGUEMESSAGE.fields_by_name['incident_lookup'].message_type = pogoprotos_dot_map_dot_fort_dot_incident__lookup__pb2._INCIDENTLOOKUP
 DESCRIPTOR.message_types_by_name['InvasionCompleteDialogueMessage'] = _INVASIONCOMPLETEDIALOGUEMESSAGE
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 

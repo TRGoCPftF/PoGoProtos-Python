@@ -13,7 +13,7 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-from pogoprotos.data.player import contact_settings_pb2 as pogoprotos_dot_data_dot_player_dot_contact__settings__pb2
+from pogoprotos.settings import contact_settings_pb2 as pogoprotos_dot_settings_dot_contact__settings__pb2
 
 
 DESCRIPTOR = _descriptor.FileDescriptor(
@@ -21,9 +21,9 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='pogoprotos.networking.requests.messages',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\nJpogoprotos/networking/requests/messages/set_contact_settings_message.proto\x12\'pogoprotos.networking.requests.messages\x1a-pogoprotos/data/player/contact_settings.proto\"^\n\x19SetContactSettingsMessage\x12\x41\n\x10\x63ontact_settings\x18\x01 \x01(\x0b\x32\'.pogoprotos.data.player.ContactSettingsb\x06proto3')
+  serialized_pb=_b('\nJpogoprotos/networking/requests/messages/set_contact_settings_message.proto\x12\'pogoprotos.networking.requests.messages\x1a*pogoprotos/settings/contact_settings.proto\"[\n\x19SetContactSettingsMessage\x12>\n\x10\x63ontact_settings\x18\x01 \x01(\x0b\x32$.pogoprotos.settings.ContactSettingsb\x06proto3')
   ,
-  dependencies=[pogoprotos_dot_data_dot_player_dot_contact__settings__pb2.DESCRIPTOR,])
+  dependencies=[pogoprotos_dot_settings_dot_contact__settings__pb2.DESCRIPTOR,])
 
 
 
@@ -54,11 +54,11 @@ _SETCONTACTSETTINGSMESSAGE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=166,
-  serialized_end=260,
+  serialized_start=163,
+  serialized_end=254,
 )
 
-_SETCONTACTSETTINGSMESSAGE.fields_by_name['contact_settings'].message_type = pogoprotos_dot_data_dot_player_dot_contact__settings__pb2._CONTACTSETTINGS
+_SETCONTACTSETTINGSMESSAGE.fields_by_name['contact_settings'].message_type = pogoprotos_dot_settings_dot_contact__settings__pb2._CONTACTSETTINGS
 DESCRIPTOR.message_types_by_name['SetContactSettingsMessage'] = _SETCONTACTSETTINGSMESSAGE
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 

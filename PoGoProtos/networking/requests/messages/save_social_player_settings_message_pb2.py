@@ -13,7 +13,7 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-from pogoprotos.data.player import social_player_settings_pb2 as pogoprotos_dot_data_dot_player_dot_social__player__settings__pb2
+from pogoprotos.settings import social_player_settings_pb2 as pogoprotos_dot_settings_dot_social__player__settings__pb2
 
 
 DESCRIPTOR = _descriptor.FileDescriptor(
@@ -21,9 +21,9 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='pogoprotos.networking.requests.messages',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\nQpogoprotos/networking/requests/messages/save_social_player_settings_message.proto\x12\'pogoprotos.networking.requests.messages\x1a\x33pogoprotos/data/player/social_player_settings.proto\"a\n\x1fSaveSocialPlayerSettingsMessage\x12>\n\x08settings\x18\x01 \x01(\x0b\x32,.pogoprotos.data.player.SocialPlayerSettingsb\x06proto3')
+  serialized_pb=_b('\nQpogoprotos/networking/requests/messages/save_social_player_settings_message.proto\x12\'pogoprotos.networking.requests.messages\x1a\x30pogoprotos/settings/social_player_settings.proto\"^\n\x1fSaveSocialPlayerSettingsMessage\x12;\n\x08settings\x18\x01 \x01(\x0b\x32).pogoprotos.settings.SocialPlayerSettingsb\x06proto3')
   ,
-  dependencies=[pogoprotos_dot_data_dot_player_dot_social__player__settings__pb2.DESCRIPTOR,])
+  dependencies=[pogoprotos_dot_settings_dot_social__player__settings__pb2.DESCRIPTOR,])
 
 
 
@@ -54,11 +54,11 @@ _SAVESOCIALPLAYERSETTINGSMESSAGE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=179,
-  serialized_end=276,
+  serialized_start=176,
+  serialized_end=270,
 )
 
-_SAVESOCIALPLAYERSETTINGSMESSAGE.fields_by_name['settings'].message_type = pogoprotos_dot_data_dot_player_dot_social__player__settings__pb2._SOCIALPLAYERSETTINGS
+_SAVESOCIALPLAYERSETTINGSMESSAGE.fields_by_name['settings'].message_type = pogoprotos_dot_settings_dot_social__player__settings__pb2._SOCIALPLAYERSETTINGS
 DESCRIPTOR.message_types_by_name['SaveSocialPlayerSettingsMessage'] = _SAVESOCIALPLAYERSETTINGSMESSAGE
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 

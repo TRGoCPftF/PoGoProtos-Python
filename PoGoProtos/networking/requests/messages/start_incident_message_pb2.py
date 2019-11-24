@@ -13,7 +13,7 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-from pogoprotos.data import incident_lookup_pb2 as pogoprotos_dot_data_dot_incident__lookup__pb2
+from pogoprotos.map.fort import incident_lookup_pb2 as pogoprotos_dot_map_dot_fort_dot_incident__lookup__pb2
 
 
 DESCRIPTOR = _descriptor.FileDescriptor(
@@ -21,9 +21,9 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='pogoprotos.networking.requests.messages',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\nDpogoprotos/networking/requests/messages/start_incident_message.proto\x12\'pogoprotos.networking.requests.messages\x1a%pogoprotos/data/incident_lookup.proto\"P\n\x14StartIncidentMessage\x12\x38\n\x0fincident_lookup\x18\x01 \x01(\x0b\x32\x1f.pogoprotos.data.IncidentLookupb\x06proto3')
+  serialized_pb=_b('\nDpogoprotos/networking/requests/messages/start_incident_message.proto\x12\'pogoprotos.networking.requests.messages\x1a)pogoprotos/map/fort/incident_lookup.proto\"T\n\x14StartIncidentMessage\x12<\n\x0fincident_lookup\x18\x01 \x01(\x0b\x32#.pogoprotos.map.fort.IncidentLookupb\x06proto3')
   ,
-  dependencies=[pogoprotos_dot_data_dot_incident__lookup__pb2.DESCRIPTOR,])
+  dependencies=[pogoprotos_dot_map_dot_fort_dot_incident__lookup__pb2.DESCRIPTOR,])
 
 
 
@@ -54,11 +54,11 @@ _STARTINCIDENTMESSAGE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=152,
-  serialized_end=232,
+  serialized_start=156,
+  serialized_end=240,
 )
 
-_STARTINCIDENTMESSAGE.fields_by_name['incident_lookup'].message_type = pogoprotos_dot_data_dot_incident__lookup__pb2._INCIDENTLOOKUP
+_STARTINCIDENTMESSAGE.fields_by_name['incident_lookup'].message_type = pogoprotos_dot_map_dot_fort_dot_incident__lookup__pb2._INCIDENTLOOKUP
 DESCRIPTOR.message_types_by_name['StartIncidentMessage'] = _STARTINCIDENTMESSAGE
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 

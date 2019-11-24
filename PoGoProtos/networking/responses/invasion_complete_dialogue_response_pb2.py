@@ -13,7 +13,7 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-from pogoprotos.data import invasion_status_pb2 as pogoprotos_dot_data_dot_invasion__status__pb2
+from pogoprotos.map.fort import invasion_status_pb2 as pogoprotos_dot_map_dot_fort_dot_invasion__status__pb2
 
 
 DESCRIPTOR = _descriptor.FileDescriptor(
@@ -21,9 +21,9 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='pogoprotos.networking.responses',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\nIpogoprotos/networking/responses/invasion_complete_dialogue_response.proto\x12\x1fpogoprotos.networking.responses\x1a%pogoprotos/data/invasion_status.proto\"Z\n InvasionCompleteDialogueResponse\x12\x36\n\x06status\x18\x01 \x01(\x0e\x32&.pogoprotos.data.InvasionStatus.Statusb\x06proto3')
+  serialized_pb=_b('\nIpogoprotos/networking/responses/invasion_complete_dialogue_response.proto\x12\x1fpogoprotos.networking.responses\x1a)pogoprotos/map/fort/invasion_status.proto\"^\n InvasionCompleteDialogueResponse\x12:\n\x06status\x18\x01 \x01(\x0e\x32*.pogoprotos.map.fort.InvasionStatus.Statusb\x06proto3')
   ,
-  dependencies=[pogoprotos_dot_data_dot_invasion__status__pb2.DESCRIPTOR,])
+  dependencies=[pogoprotos_dot_map_dot_fort_dot_invasion__status__pb2.DESCRIPTOR,])
 
 
 
@@ -54,11 +54,11 @@ _INVASIONCOMPLETEDIALOGUERESPONSE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=149,
-  serialized_end=239,
+  serialized_start=153,
+  serialized_end=247,
 )
 
-_INVASIONCOMPLETEDIALOGUERESPONSE.fields_by_name['status'].enum_type = pogoprotos_dot_data_dot_invasion__status__pb2._INVASIONSTATUS_STATUS
+_INVASIONCOMPLETEDIALOGUERESPONSE.fields_by_name['status'].enum_type = pogoprotos_dot_map_dot_fort_dot_invasion__status__pb2._INVASIONSTATUS_STATUS
 DESCRIPTOR.message_types_by_name['InvasionCompleteDialogueResponse'] = _INVASIONCOMPLETEDIALOGUERESPONSE
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
